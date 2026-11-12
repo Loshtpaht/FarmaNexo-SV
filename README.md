@@ -48,4 +48,26 @@ npm run build
 python -m http.server 8000 --directory dist
 ```
 
-GitHub Actions ejecuta las pruebas y publica dist en Pages con cada cambio a main.
+GitHub Actions ejecuta las pruebas y publica únicamente los archivos cifrados en `sealed/` con cada cambio a main.
+
+## Apartado exclusivo ISBM
+
+Los 109 medicamentos complementarios del Excel están marcados con `collection: isbm` y se muestran solo en Medicamentos ISBM. Primera y segunda fase tienen listas independientes, inicialmente vacías porque no se han proporcionado sus catálogos. Los medicamentos adicionales antiguos se conservan como Sin clasificar; no se asignan automáticamente a ISBM. Las consultas y filtros agrupan las opciones por apartado.
+
+La hoja de Google compartida devuelve acceso requerido al revisarla en esta actualización. Se ha comprobado el Excel adjunto completo. Según la aclaración del usuario, este archivo complementa el listado principal y puede tener coincidencias con nombres diferentes. La integración del listado principal y su conciliación quedan pendientes de recibir una copia legible; no se afirma haber comparado la versión actual de esa hoja. No se deben unir medicamentos solo por parecido del nombre: revisar código, principio activo, concentración, forma y presentación.
+
+## Acceso con contraseña
+
+La página publicada solicita una contraseña antes de descifrar y abrir el dashboard. AES-256-GCM protege el paquete publicado y PBKDF2-SHA256 deriva la clave con 600000 iteraciones y una sal aleatoria de 32 bytes. La contraseña no se guarda en el repositorio, el código ni el navegador. Al recargar o pulsar Bloquear vuelve a solicitarse.
+
+GitHub Pages continúa siendo alojamiento estático: esto no es autenticación de servidor ni convierte el repositorio público en privado. El código fuente, el catálogo inicial y el historial anterior del repositorio siguen siendo públicos. Los registros personales locales y sus respaldos no se cifran con este acceso y conservan el funcionamiento anterior. Para permisos multiusuario o datos confidenciales compartidos hace falta un backend con autenticación.
+
+Para cambiar código dentro del dashboard, vuelve a cifrar antes de publicar:
+
+```sh
+node scripts/seal.mjs
+npm test
+npm run build
+```
+
+`seal.mjs` recibe por stdin una línea JSON con el campo `password`, de al menos 24 caracteres. Usa una terminal con eco deshabilitado o una herramienta de secretos. El paquete cifrado se guarda en `sealed/dashboard.json`, sin contraseña. `build.mjs` comprueba que el paquete corresponde exactamente al código actual y publica solo la pantalla de acceso y el paquete cifrado. Nunca se debe copiar `public/` directamente a Pages.
