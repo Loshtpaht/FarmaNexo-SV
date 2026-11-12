@@ -1,37 +1,40 @@
-# Base compartida de FarmaNexo
+# Supabase: edición pública de existencias
 
-Proyecto configurado: https://bayocygoyhoddhiekccx.supabase.co. `public/sync-config.json` contiene únicamente la URL y la clave publishable, que es pública. Las claves administrativas y contraseñas no pertenecen al navegador ni al repositorio.
+Proyecto activo: `bayocygoyhoddhiekccx`. La página conserva únicamente la URL y la clave **publishable** pública en sync-config.json. Las claves administrativas permanecen en los servicios de Supabase.
 
-## Activación
+## Acceso e interacción
 
-La interfaz de sincronización está implementada. Para activar la base es necesario aplicar `shared-database.sql` en este proyecto mediante una conexión administrativa de Supabase o su SQL Editor. El script crea las tablas, índices, permisos RLS, funciones de administración y publicación Realtime. Requiere la confirmación de correo en Supabase Auth. Debe ejecutarse una sola vez en una base donde aún no existan estas tablas; una repetición falla sin borrar los datos existentes.
+- Todas las personas que abren la página ven la misma base y pueden registrar una cantidad nueva, sin cuenta ni inicio de sesión.
+- No existen usuarios de solo lectura para las existencias. Las cuentas que tenían ese permiso también pueden registrar recuentos en el modo público.
+- La columna de cantidad se actualiza mediante un registro nuevo: no se permite editar ni borrar el historial anterior desde el cliente.
+- Cada registro conserva nombre declarado, método, fecha, cantidad y un identificador de navegador. El nombre de un visitante no se considera identidad autenticada.
+- El catálogo ISBM continúa solicitando su contraseña. La edición pública no elimina ese acceso de la interfaz.
+- Realtime distribuye los cambios y una consulta periódica cada 15 segundos cubre desconexiones del canal mientras la página está visible. Un fallo de guardado se informa; no se presenta como un guardado local exitoso.
+- Los registros locales anteriores no se copian automáticamente. La acción Opciones → Copiar verificaciones locales a la página conserva los originales y omite IDs repetidos.
 
-Configurar también Site URL y Redirect URLs en Supabase Authentication:
+## Administración opcional
 
-```
-https://loshtpaht.github.io/FarmaNexo-SV/
-```
+Solo las reglas globales, los medicamentos adicionales del catálogo y los accesos de administración requieren una sesión autorizada. Esto no es un requisito para actualizar existencias.
 
-Los dos correos administradores autorizados por el usuario están representados mediante hashes en la función de alta inicial. Cada uno recibe su rol al iniciar una sesión con correo confirmado; no se publican sus direcciones en código. Los administradores pueden autorizar lectores, editores u otros administradores desde el botón Equipo, y bloquear personas. Se conserva al menos un administrador.
+La función Edge `farmanexo-team-access` permite a un administrador generar enlaces personales de un solo uso, que se intercambian mediante Supabase Auth verifyOtp. El enlace se limpia de la dirección del navegador después del intercambio y la sesión se conserva en ese navegador. Cada enlace sirve una vez; puede generarse otro para un nuevo dispositivo o si ha caducado. No se envían correos automáticamente ni se depende del Site URL/SMTP del proyecto.
 
-El envío de enlaces requiere configurar Supabase Auth y su servicio de correo. El proveedor de correo predeterminado de Supabase puede restringir destinatarios y frecuencia; configurar SMTP propio para las direcciones del equipo cuando el proyecto lo requiera. La aplicación no anuncia un envío exitoso si Supabase devuelve un error.
+La función valida cada JWT con Auth getUser y comprueba el rol real en la base antes de usar las capacidades administrativas del servidor. La verificación JWT del gateway está desactivada porque la función realiza esa autenticación explícitamente. La clave service_role nunca se devuelve al cliente. Solo el origen de la página publicada recibe permiso CORS.
 
-## Comportamiento
+Los helpers con privilegios están en `farmanexo_private`, con search_path vacío, comprobaciones del llamador y permisos restringidos. Las funciones RPC públicas son SECURITY INVOKER. Las direcciones de administración no están publicadas en código: los dos accesos iniciales autorizados se identifican mediante hashes y los correos reales se guardan solo en la base privada.
 
-- El dashboard continúa abierto sin contraseña. Solo el apartado ISBM mantiene su contraseña independiente.
-- «Conectar equipo» envía un enlace de acceso al correo que introduce la persona. Una sesión autorizada abre los datos compartidos; al salir, vuelve al conjunto local original.
-- Realtime actualiza las verificaciones, medicamentos adicionales y reglas. Hay una comprobación de respaldo cada 15 segundos cuando la página está visible.
-- Las consultas se insertan sin políticas de edición o borrado. El servidor registra el usuario y correo reales; «Verificado por» conserva la referencia de la llamada.
-- Los lectores no guardan registros. Editores y administradores pueden agregar consultas y medicamentos adicionales. Solo administradores cambian reglas globales o permisos.
-- Las reglas tienen revisión para detectar cambios simultáneos en vez de sobrescribirlos silenciosamente.
-- El botón «Copiar registros locales al equipo» es explícito, deduplica por ID y conserva los originales. Nunca reemplaza las reglas compartidas por las locales.
-- Un guardado compartido fallido se informa y no se presenta como guardado local exitoso. Los lotes confirmados son inmutables y pueden reintentarse sin duplicar identificadores.
-- El catálogo ISBM original continúa cifrado en Pages; la base registra sus identificadores. Las consultas del equipo no se cifran con la contraseña de ISBM: se protegen mediante las cuentas y RLS.
+## Tablas y permisos
+
+- 446 identificadores de sucursal y 364 registros de medicamentos/presentaciones, con claves foráneas para validar referencias.
+- Verificaciones públicas con restricciones de cantidad, disponibilidad, fecha, canal y texto. Los correos y UUID de cuentas tienen privilegios de columna separados y no se entregan a visitantes.
+- Reglas con revisión para detectar cambios concurrentes. Solo administradores pueden cambiarlas.
+- RLS en todas las tablas, incluida la tabla privada de administración. Las políticas públicas de inventario son intencionales por solicitud del propietario.
+
+El esquema inicial está en shared-database.sql. La ampliación de edición pública está en public-inventory.sql. Se aplicaron mediante migraciones administradas de Supabase; no volver a ejecutar estos scripts sobre las tablas existentes.
 
 ## Verificación
 
-`npm test` incluye ejecución del esquema en PostgreSQL embebido (PGlite), sin la sentencia de publicación Realtime, y comprueba acceso de administradores, editores, lectores, usuarios ajenos y solicitudes anónimas. También prueba la identidad del autor y las restricciones de reglas.
+`npm test` ejecuta el esquema en PostgreSQL embebido (PGlite) y comprueba el alta inicial, permisos privados y el modo final de edición pública: visitantes anónimos pueden leer y añadir recuentos; las columnas de cuentas, el borrado de historial y el cambio de reglas siguen protegidos.
 
-Se probaron tres navegadores independientes contra una API local respaldada por el mismo esquema PostgreSQL: propagación automática de consultas mediante la comprobación periódica, permisos de solo lectura, reglas compartidas y conservación/importación idempotente de los datos locales. Este ensayo no prueba la entrega de WebSocket ni el correo en el servicio Supabase remoto.
+También se comprobó el flujo real de Supabase desde navegadores independientes: escritura por API, distribución Realtime, enlaces personales de un uso y separación de ISBM. Las cuentas y los recuentos temporales de prueba se retiran antes de la entrega.
 
-La prueba final en Supabase requiere aplicar el script, configurar Auth, entrar con los correos autorizados y comprobar la propagación real entre dos dispositivos. No se debe anunciar esa validación remota como terminada antes de hacerla.
+Los índices nuevos pueden aparecer temporalmente como [índices sin uso](https://supabase.com/docs/guides/database/database-linter?lint=0005_unused_index) mientras la base comienza a utilizarse. El proveedor recomienda [protección frente a contraseñas filtradas](https://supabase.com/docs/guides/auth/password-security#password-strength-and-leaked-password-protection); la aplicación utiliza enlaces de acceso y no contraseñas de cuentas.

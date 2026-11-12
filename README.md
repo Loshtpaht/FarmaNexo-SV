@@ -8,7 +8,7 @@ Dashboard de farmacias con mapa, verificaciones de existencias, historial, semá
 
 El catálogo ISBM se publica como un paquete AES-256-GCM, con PBKDF2-SHA256 de 600000 iteraciones y una sal aleatoria de 32 bytes. Las opciones ISBM para consultas se habilitan al desbloquear ese apartado. Los registros anteriores se conservan al recargar; mientras ISBM está bloqueado se muestra un nombre genérico para esos medicamentos.
 
-Esta protección no convierte GitHub Pages en un servidor con autenticación. El repositorio público y su historial contienen los datos fuente; los registros locales y sus respaldos no se cifran. Para permisos multiusuario o información confidencial compartida se necesita un backend.
+El catálogo de ISBM está cifrado en la página, mientras que las verificaciones de existencias se comparten en Supabase. El repositorio público y su historial contienen los datos fuente del catálogo. Las verificaciones y sus respaldos no se cifran con la contraseña de ISBM.
 
 ## Fuentes y conciliación
 
@@ -44,9 +44,14 @@ Los datos son instantáneas; no hay sincronización automática con Google Sheet
 
 Reglas configurables en fechas de El Salvador. Los plazos son recordatorios de consulta, no predicciones de consumo ni garantía de disponibilidad. La última consulta de cada par sucursal/medicamento define el seguimiento, conservando el historial. Las variantes tienen identificadores separados.
 
-Hay dos modos de datos. Sin sesión del equipo, los registros permanecen en localStorage del navegador y origen actuales. Al conectar un correo autorizado, verificaciones, medicamentos adicionales y reglas se consultan y guardan en Supabase. Los cambios se reciben por Realtime, con comprobación de respaldo cada 15 segundos mientras la página está visible. La conexión requiere activar las tablas y Auth del proyecto; véase [configuración Supabase](supabase/README.md).
+**Todas las personas que abren la página pueden actualizar existencias sin iniciar sesión.** El cliente se conecta automáticamente a Supabase. Cada actualización crea una verificación nueva con cantidad, nombre indicado por la persona, fecha y método. El historial previo se conserva. Realtime distribuye los cambios y hay una comprobación adicional cada 15 segundos mientras la página está visible.
 
-El botón Equipo permite entrar por enlace de correo, administrar permisos y copiar los registros locales explícitamente. Los originales se conservan; salir vuelve al modo local. Los lectores no escriben y solo administradores cambian reglas. No hay avisos con la página cerrada. Exporta respaldos JSON frecuentemente. CSV permite revisar las consultas en hojas de cálculo. Borrar los datos del navegador puede eliminar los registros locales.
+La acción **Actualizar** abre el medicamento y cantidad actuales para registrar el nuevo recuento. Los nombres de visitantes son declarados por ellos; no se presentan como identidades verificadas. Los identificadores de cuenta y correos de administración no son públicos.
+
+Las reglas globales y la creación de nuevos medicamentos del catálogo se reservan a la administración. Esto no limita la edición pública de cantidades. El acceso de administración usa enlaces personales de un solo uso y no bloquea la entrada al dashboard. No depende de SMTP ni de redirecciones de correo: el administrador genera el enlace desde Opciones y lo entrega a la persona indicada.
+
+Los registros antiguos de localStorage permanecen intactos. **Opciones → Copiar verificaciones locales a la página** los incorpora explícitamente, sin duplicar identificadores ni reemplazar las reglas compartidas. Exporta respaldos JSON con frecuencia. No hay notificaciones con la página cerrada.
+
 
 ## Desarrollo
 

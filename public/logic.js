@@ -11,6 +11,6 @@ function status(v,r=defaults,now=Date.now()){
  if(age>=warn||v.availability==='unknown')return {key:'review',label:'En revisión',color:'amber',reason:low?'Pocas unidades: verificar nuevamente':v.availability==='unknown'?'Disponibilidad no confirmada':'Se recomienda consultar',rank:2,age,warn,due};
  return {key:'current',label:'Vigente',color:'green',reason:'Dentro del plazo de seguimiento',rank:1,age,warn,due};
 }
-function latest(records){const map=new Map();for(const v of records){const k=v.branch_id+'|'+v.medication_id,p=map.get(k);if(!p||v.checked_at>p.checked_at||v.checked_at===p.checked_at&&v.created_at>p.created_at)map.set(k,v)}return [...map.values()]}
+function latest(records){const map=new Map();for(const v of records){const k=v.branch_id+'|'+v.medication_id,p=map.get(k);if(!p||v.checked_at>p.checked_at||v.checked_at===p.checked_at&&((v.received_at||v.created_at)>(p.received_at||p.created_at)||(v.received_at||v.created_at)===(p.received_at||p.created_at)&&v.created_at>p.created_at))map.set(k,v)}return [...map.values()]}
 const api={defaults,day,status,latest};root.FarmaLogic=api;if(typeof module!=='undefined')module.exports=api;
 })(typeof window==='undefined'?globalThis:window);

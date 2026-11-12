@@ -2,22 +2,33 @@
 -- No modifica la página actual ni incorpora credenciales al repositorio.
 begin;
 
-create table public.farmanexo_team_access (
+create schema farmanexo_private;
+revoke all on schema farmanexo_private from public, anon;
+grant usage on schema farmanexo_private to authenticated;
+
+create table farmanexo_private.farmanexo_team_access (
   email text primary key check (email = lower(email) and email <> ''),
   role text not null check (role in ('viewer','editor','admin','blocked')),
   created_at timestamptz not null default now()
 );
-alter table public.farmanexo_team_access enable row level security;
-revoke all on public.farmanexo_team_access from anon, authenticated;
+alter table farmanexo_private.farmanexo_team_access enable row level security;
+revoke all on farmanexo_private.farmanexo_team_access from anon, authenticated;
+create policy team_access_deny_direct on farmanexo_private.farmanexo_team_access as restrictive for all to public using(false) with check(false);
 
-create function public.farmanexo_role() returns text
+create function farmanexo_private.farmanexo_role() returns text
 language sql stable security definer set search_path = '' as $$
-  select role from public.farmanexo_team_access
+  select role from farmanexo_private.farmanexo_team_access
   where email = lower(coalesce(auth.jwt()->>'email',''))
-    and auth.role() = 'authenticated'
+    and auth.uid() is not null
     and exists (select 1 from auth.users u where u.id = auth.uid() and u.email_confirmed_at is not null)
 $$;
-revoke all on function public.farmanexo_role() from public;
+revoke all on function farmanexo_private.farmanexo_role() from public, anon;
+grant execute on function farmanexo_private.farmanexo_role() to authenticated;
+create function public.farmanexo_role() returns text
+language sql stable security invoker set search_path = '' as $$
+  select farmanexo_private.farmanexo_role()
+$$;
+revoke all on function public.farmanexo_role() from public, anon;
 grant execute on function public.farmanexo_role() to authenticated;
 
 create table public.farmanexo_medications (
@@ -400,9 +411,9 @@ insert into public.farmanexo_medications (id,collection) values
 ('isbm:10000841', 'isbm');
 alter table public.farmanexo_medications enable row level security;
 create policy medications_read_team on public.farmanexo_medications for select to authenticated
-  using (public.farmanexo_role() in ('viewer','editor','admin'));
+  using ((select public.farmanexo_role()) in ('viewer','editor','admin'));
 create policy medications_add_team on public.farmanexo_medications for insert to authenticated
-  with check (public.farmanexo_role() in ('editor','admin') and created_by = auth.uid()
+  with check ((select public.farmanexo_role()) in ('editor','admin') and created_by = (select auth.uid())
     and custom_data is not null and custom_data->>'id' = id
     and custom_data->>'collection' = collection);
 
@@ -856,7 +867,7 @@ insert into public.farmanexo_branches (id) values
 ('E10F10841');
 alter table public.farmanexo_branches enable row level security;
 create policy branches_read_team on public.farmanexo_branches for select to authenticated
-  using (public.farmanexo_role() in ('viewer','editor','admin'));
+  using ((select public.farmanexo_role()) in ('viewer','editor','admin'));
 grant select on public.farmanexo_branches to authenticated;
 revoke all on public.farmanexo_branches from anon;
 
@@ -882,50 +893,68 @@ create table public.farmanexo_verifications (
 create index farmanexo_verification_pair on public.farmanexo_verifications (branch_id,medication_id,checked_at desc,created_at desc);
 alter table public.farmanexo_verifications enable row level security;
 create policy verifications_read_team on public.farmanexo_verifications for select to authenticated
-  using (public.farmanexo_role() in ('viewer','editor','admin'));
+  using ((select public.farmanexo_role()) in ('viewer','editor','admin'));
 create policy verifications_add_team on public.farmanexo_verifications for insert to authenticated
-  with check (public.farmanexo_role() in ('editor','admin') and created_by = auth.uid() and author_email = lower(auth.jwt()->>'email'));
+  with check ((select public.farmanexo_role()) in ('editor','admin') and created_by = (select auth.uid()) and author_email = lower((select auth.jwt())->>'email'));
 -- No se conceden políticas UPDATE/DELETE: las consultas se conservan en el historial.
 
 grant select, insert on public.farmanexo_medications, public.farmanexo_verifications to authenticated;
 revoke all on public.farmanexo_medications, public.farmanexo_verifications from anon;
 
 -- Alta inicial de los dos administradores autorizados: requiere correo confirmado.
-create function public.farmanexo_claim_admin() returns text
+create function farmanexo_private.farmanexo_claim_admin() returns text
 language plpgsql security definer set search_path = '' as $$
 declare e text; r text;
 begin
   select lower(email) into e from auth.users where id = auth.uid() and email_confirmed_at is not null;
   if e is null then raise exception 'Confirma tu correo para entrar al equipo'; end if;
-  select role into r from public.farmanexo_team_access where email = e;
+  select role into r from farmanexo_private.farmanexo_team_access where email = e;
   if r is not null then return r; end if;
   if encode(sha256(convert_to(e,'UTF8')),'hex') in ('a48e61ad492f9755b3b81365a93511e67ab01fdf3ce68456db1d2c1dee3389b1','74e78afd47e67e5347fa40cb1c1d09c6e8167ddb6d4c511e54bb4dfdae90a5bc') then
-    insert into public.farmanexo_team_access(email,role) values(e,'admin') on conflict do nothing;
+    insert into farmanexo_private.farmanexo_team_access(email,role) values(e,'admin') on conflict do nothing;
   end if;
   return public.farmanexo_role();
 end $$;
-revoke all on function public.farmanexo_claim_admin() from public;
+revoke all on function farmanexo_private.farmanexo_claim_admin() from public, anon;
+grant execute on function farmanexo_private.farmanexo_claim_admin() to authenticated;
+create function public.farmanexo_claim_admin() returns text
+language sql security invoker set search_path = '' as $$
+  select farmanexo_private.farmanexo_claim_admin()
+$$;
+revoke all on function public.farmanexo_claim_admin() from public, anon;
 grant execute on function public.farmanexo_claim_admin() to authenticated;
 
-create function public.farmanexo_manage_member(p_email text,p_role text) returns void
+create function farmanexo_private.farmanexo_manage_member(p_email text,p_role text) returns void
 language plpgsql security definer set search_path = '' as $$
 begin
   if public.farmanexo_role() <> 'admin' or public.farmanexo_role() is null then raise exception 'Solo administradores'; end if;
   if p_role not in ('viewer','editor','admin','blocked') or p_email is null or p_email !~ '^[^@[:space:]]+@[^@[:space:]]+\.[^@[:space:]]+$' then raise exception 'Correo o rol no válido'; end if;
-  lock table public.farmanexo_team_access in exclusive mode;
-  if p_role <> 'admin' and exists(select 1 from public.farmanexo_team_access where email=lower(trim(p_email)) and role='admin') and (select count(*) from public.farmanexo_team_access where role='admin') <= 1 then raise exception 'Debe conservarse al menos un administrador'; end if;
-  insert into public.farmanexo_team_access(email,role) values(lower(trim(p_email)),p_role) on conflict(email) do update set role=excluded.role;
+  lock table farmanexo_private.farmanexo_team_access in exclusive mode;
+  if p_role <> 'admin' and exists(select 1 from farmanexo_private.farmanexo_team_access where email=lower(trim(p_email)) and role='admin') and (select count(*) from farmanexo_private.farmanexo_team_access where role='admin') <= 1 then raise exception 'Debe conservarse al menos un administrador'; end if;
+  insert into farmanexo_private.farmanexo_team_access(email,role) values(lower(trim(p_email)),p_role) on conflict(email) do update set role=excluded.role;
 end $$;
-revoke all on function public.farmanexo_manage_member(text,text) from public;
+revoke all on function farmanexo_private.farmanexo_manage_member(text,text) from public, anon;
+grant execute on function farmanexo_private.farmanexo_manage_member(text,text) to authenticated;
+create function public.farmanexo_manage_member(p_email text,p_role text) returns void
+language sql security invoker set search_path = '' as $$
+  select farmanexo_private.farmanexo_manage_member(p_email,p_role)
+$$;
+revoke all on function public.farmanexo_manage_member(text,text) from public, anon;
 grant execute on function public.farmanexo_manage_member(text,text) to authenticated;
 
-create function public.farmanexo_members() returns table(email text,role text)
+create function farmanexo_private.farmanexo_members() returns table(email text,role text)
 language plpgsql stable security definer set search_path = '' as $$
 begin
   if public.farmanexo_role() <> 'admin' or public.farmanexo_role() is null then raise exception 'Solo administradores'; end if;
-  return query select a.email,a.role from public.farmanexo_team_access a order by a.email;
+  return query select a.email,a.role from farmanexo_private.farmanexo_team_access a order by a.email;
 end $$;
-revoke all on function public.farmanexo_members() from public;
+revoke all on function farmanexo_private.farmanexo_members() from public, anon;
+grant execute on function farmanexo_private.farmanexo_members() to authenticated;
+create function public.farmanexo_members() returns table(email text,role text)
+language sql stable security invoker set search_path = '' as $$
+  select * from farmanexo_private.farmanexo_members()
+$$;
+revoke all on function public.farmanexo_members() from public, anon;
 grant execute on function public.farmanexo_members() to authenticated;
 
 create function public.farmanexo_rules_valid(r jsonb) returns boolean
@@ -951,8 +980,8 @@ create table public.farmanexo_settings(
 );
 insert into public.farmanexo_settings(id,rules) values(1,'{"low":5,"high":20,"normalWarn":2,"normalDue":3,"highWarn":3,"highDue":4,"lowDue":1,"outWarn":1,"outDue":2}');
 alter table public.farmanexo_settings enable row level security;
-create policy settings_read_team on public.farmanexo_settings for select to authenticated using(public.farmanexo_role() in ('viewer','editor','admin'));
-create policy settings_update_admin on public.farmanexo_settings for update to authenticated using(public.farmanexo_role()='admin') with check(public.farmanexo_role()='admin' and updated_by=auth.uid());
+create policy settings_read_team on public.farmanexo_settings for select to authenticated using((select public.farmanexo_role()) in ('viewer','editor','admin'));
+create policy settings_update_admin on public.farmanexo_settings for update to authenticated using((select public.farmanexo_role())='admin') with check((select public.farmanexo_role())='admin' and updated_by=(select auth.uid()));
 grant select,update on public.farmanexo_settings to authenticated;
 revoke all on public.farmanexo_settings from anon;
 create function public.farmanexo_settings_revision() returns trigger language plpgsql set search_path='' as $$
@@ -962,7 +991,15 @@ begin
 end $$;
 create trigger farmanexo_settings_revision before update on public.farmanexo_settings for each row execute function public.farmanexo_settings_revision();
 
+
+create index farmanexo_medications_created_by_idx on public.farmanexo_medications(created_by);
+create index farmanexo_medications_received_idx on public.farmanexo_medications(received_at,id);
+create index farmanexo_verifications_medication_idx on public.farmanexo_verifications(medication_id);
+create index farmanexo_verifications_created_by_idx on public.farmanexo_verifications(created_by);
+create index farmanexo_verifications_received_idx on public.farmanexo_verifications(received_at,id);
+create index farmanexo_settings_updated_by_idx on public.farmanexo_settings(updated_by);
+
 -- Realtime: se conserva además una comprobación periódica del cliente.
-alter publication supabase_realtime add table public.farmanexo_verifications,public.farmanexo_medications,public.farmanexo_settings,public.farmanexo_team_access;
+alter publication supabase_realtime add table public.farmanexo_verifications,public.farmanexo_medications,public.farmanexo_settings;
 
 commit;
