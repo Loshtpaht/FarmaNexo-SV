@@ -36,7 +36,7 @@ GitHub Pages aloja archivos estáticos. Las verificaciones, medicamentos adicion
 
 El repositorio contiene el directorio y catálogo iniciales; las consultas no se envían a GitHub. Los respaldos exportados sí contienen los nombres y notas que registres. Se necesita un backend para compartir cambios entre personas o dispositivos.
 
-Mapa: Leaflet 1.9.4, CARTO/OpenStreetMap con atribuciones. Fuentes: Google Fonts. Los enlaces de llamada y WhatsApp se habilitan para teléfonos de ocho dígitos; no se presupone que admitan WhatsApp.
+Mapa: Leaflet 1.9.4, OpenStreetMap con atribuciones. Fuentes: Google Fonts. Los enlaces de llamada y WhatsApp se habilitan para teléfonos de ocho dígitos; no se presupone que admitan WhatsApp.
 
 ## Desarrollo
 
