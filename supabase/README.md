@@ -1,28 +1,37 @@
-# Preparación de sincronización compartida
+# Base compartida de FarmaNexo
 
-**Estado: preparada; no conectada ni activada.** La página publicada sigue usando almacenamiento local. Este SQL no se ha ejecutado contra una base remota.
+Proyecto configurado: https://bayocygoyhoddhiekccx.supabase.co. `public/sync-config.json` contiene únicamente la URL y la clave publishable, que es pública. Las claves administrativas y contraseñas no pertenecen al navegador ni al repositorio.
 
-La interfaz puede permanecer en GitHub Pages. Supabase proveería Postgres, autenticación y un canal de actualizaciones. El acceso inicial al dashboard continuaría sin contraseña; el personal autorizado accedería a las funciones compartidas mediante un enlace enviado por correo. La contraseña de ISBM conservaría su función de abrir ese apartado.
+## Activación
 
-## Información necesaria
+La interfaz de sincronización está implementada. Para activar la base es necesario aplicar `shared-database.sql` en este proyecto mediante una conexión administrativa de Supabase o su SQL Editor. El script crea las tablas, índices, permisos RLS, funciones de administración y publicación Realtime. Requiere la confirmación de correo en Supabase Auth. Debe ejecutarse una sola vez en una base donde aún no existan estas tablas; una repetición falla sin borrar los datos existentes.
 
-1. Un proyecto Supabase que pertenezca al usuario, con su plan y región elegidos en Supabase.
-2. La URL pública del proyecto y su clave **publishable** (o la clave legacy **anon**). Son identificadores de cliente; la protección de los registros se aplica con RLS. Nunca publicar service_role, secret keys, contraseña de Postgres ni cadenas de conexión.
-3. Los correos de las personas autorizadas. Los roles propuestos son viewer, editor y admin.
+Configurar también Site URL y Redirect URLs en Supabase Authentication:
 
-## Esquema propuesto
+```
+https://loshtpaht.github.io/FarmaNexo-SV/
+```
 
-`shared-database.sql` prepara una lista de acceso por correo verificado, el registro de identificadores de los 364 medicamentos/presentaciones existentes y verificaciones con historial de solo inserción. También registra las 446 sucursales y valida por clave foránea cada referencia. Las reglas de seguimiento permanecerían locales hasta definir y comprobar su edición compartida.
+Los dos correos administradores autorizados por el usuario están representados mediante hashes en la función de alta inicial. Cada uno recibe su rol al iniciar una sesión con correo confirmado; no se publican sus direcciones en código. Los administradores pueden autorizar lectores, editores u otros administradores desde el botón Equipo, y bloquear personas. Se conserva al menos un administrador.
 
-Las políticas RLS requieren una sesión autenticada y un correo incluido en el equipo. La clave pública por sí sola no concede acceso. El autor real se guarda con auth.uid(); el texto «Verificado por» continúa siendo la referencia de la consulta. No se utiliza la contraseña de ISBM como credencial de base de datos.
+El envío de enlaces requiere configurar Supabase Auth y su servicio de correo. El proveedor de correo predeterminado de Supabase puede restringir destinatarios y frecuencia; configurar SMTP propio para las direcciones del equipo cuando el proyecto lo requiera. La aplicación no anuncia un envío exitoso si Supabase devuelve un error.
 
-## Pendientes antes de activar
+## Comportamiento
 
-- Aplicar y verificar el esquema en un proyecto Supabase accesible; configurar los correos del equipo desde el SQL Editor, sin abrir escrituras anónimas. Mantener la confirmación de correo habilitada en Supabase Auth.
-- Comprobar las políticas con usuarios de roles distintos y con una sesión sin acceso.
-- Configurar envío de enlaces por correo y URL de retorno para https://loshtpaht.github.io/FarmaNexo-SV/.
-- Implementar el cliente de sincronización, manejo de errores, reconexión y actualización entre dos navegadores independientes.
-- Importar los registros locales con una acción explícita y comprobación de duplicados por ID. El agente no tiene acceso a los registros guardados en el navegador del usuario.
-- Decidir cómo compartir y controlar las reglas globales, y comprobar la separación del catálogo ISBM.
+- El dashboard continúa abierto sin contraseña. Solo el apartado ISBM mantiene su contraseña independiente.
+- «Conectar equipo» envía un enlace de acceso al correo que introduce la persona. Una sesión autorizada abre los datos compartidos; al salir, vuelve al conjunto local original.
+- Realtime actualiza las verificaciones, medicamentos adicionales y reglas. Hay una comprobación de respaldo cada 15 segundos cuando la página está visible.
+- Las consultas se insertan sin políticas de edición o borrado. El servidor registra el usuario y correo reales; «Verificado por» conserva la referencia de la llamada.
+- Los lectores no guardan registros. Editores y administradores pueden agregar consultas y medicamentos adicionales. Solo administradores cambian reglas globales o permisos.
+- Las reglas tienen revisión para detectar cambios simultáneos en vez de sobrescribirlos silenciosamente.
+- El botón «Copiar registros locales al equipo» es explícito, deduplica por ID y conserva los originales. Nunca reemplaza las reglas compartidas por las locales.
+- Un guardado compartido fallido se informa y no se presenta como guardado local exitoso. Los lotes confirmados son inmutables y pueden reintentarse sin duplicar identificadores.
+- El catálogo ISBM original continúa cifrado en Pages; la base registra sus identificadores. Las consultas del equipo no se cifran con la contraseña de ISBM: se protegen mediante las cuentas y RLS.
 
-No cambiar la etiqueta «Datos en este navegador» ni anunciar sincronización hasta superar las pruebas con la base real.
+## Verificación
+
+`npm test` incluye ejecución del esquema en PostgreSQL embebido (PGlite), sin la sentencia de publicación Realtime, y comprueba acceso de administradores, editores, lectores, usuarios ajenos y solicitudes anónimas. También prueba la identidad del autor y las restricciones de reglas.
+
+Se probaron tres navegadores independientes contra una API local respaldada por el mismo esquema PostgreSQL: propagación automática de consultas mediante la comprobación periódica, permisos de solo lectura, reglas compartidas y conservación/importación idempotente de los datos locales. Este ensayo no prueba la entrega de WebSocket ni el correo en el servicio Supabase remoto.
+
+La prueba final en Supabase requiere aplicar el script, configurar Auth, entrar con los correos autorizados y comprobar la propagación real entre dos dispositivos. No se debe anunciar esa validación remota como terminada antes de hacerla.

@@ -44,13 +44,16 @@ Los datos son instantáneas; no hay sincronización automática con Google Sheet
 
 Reglas configurables en fechas de El Salvador. Los plazos son recordatorios de consulta, no predicciones de consumo ni garantía de disponibilidad. La última consulta de cada par sucursal/medicamento define el seguimiento, conservando el historial. Las variantes tienen identificadores separados.
 
-Los registros, medicamentos adicionales y reglas se guardan en localStorage del navegador y origen actuales. No hay sincronización entre usuarios/dispositivos ni avisos con la página cerrada. Exporta respaldos JSON frecuentemente; importarlos combina historiales. CSV permite revisar las consultas en hojas de cálculo. Borrar los datos del navegador puede eliminar los registros.
+Hay dos modos de datos. Sin sesión del equipo, los registros permanecen en localStorage del navegador y origen actuales. Al conectar un correo autorizado, verificaciones, medicamentos adicionales y reglas se consultan y guardan en Supabase. Los cambios se reciben por Realtime, con comprobación de respaldo cada 15 segundos mientras la página está visible. La conexión requiere activar las tablas y Auth del proyecto; véase [configuración Supabase](supabase/README.md).
+
+El botón Equipo permite entrar por enlace de correo, administrar permisos y copiar los registros locales explícitamente. Los originales se conservan; salir vuelve al modo local. Los lectores no escriben y solo administradores cambian reglas. No hay avisos con la página cerrada. Exporta respaldos JSON frecuentemente. CSV permite revisar las consultas en hojas de cálculo. Borrar los datos del navegador puede eliminar los registros locales.
 
 ## Desarrollo
 
-El sitio y sus pruebas Node no requieren dependencias npm. GitHub Actions prueba y publica dist al cambiar main.
+El sitio usa el SDK Supabase 2.119.0 vendorizado bajo licencia MIT. Las pruebas de base de datos usan PGlite como dependencia de desarrollo. GitHub Actions instala las dependencias, ejecuta las pruebas y publica dist al cambiar main.
 
 ```sh
+npm ci
 npm test
 npm run build
 python -m http.server 8000 --directory dist
