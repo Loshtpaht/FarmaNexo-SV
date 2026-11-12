@@ -1,0 +1,5703 @@
+[
+  {
+    "id": "37010101",
+    "number": 1,
+    "code": "37010101",
+    "name": "ACETAMINOFÉN + FENILEFRINA + CLORFENIRAMINA + DEXTROMETORFANO TABLETA DE 325/10/2/10 MG",
+    "composition": "325 MG + 10 MG + 2 MG + 10 MG",
+    "presentation": "CAJA X 100 TABLETAS",
+    "type": "TABLETA",
+    "unit": "TABLETA",
+    "collection": "isbm",
+    "sources": [
+      "Complemento 109",
+      "Tarifas · Medicamentos"
+    ],
+    "aliases": [],
+    "source_records": [
+      {
+        "source": "Complemento 109",
+        "number": 1,
+        "code": "37010101",
+        "description": "ACETAMINOFÉN + FENILEFRINA + CLORFENIRAMINA + DEXTROMETORFANO TABLETA DE 325/10/2/10 MG",
+        "presentation": "CAJA X 100 TABLETAS"
+      },
+      {
+        "source": "Tarifas · Medicamentos",
+        "row": 242,
+        "code_p2h": "37010101",
+        "code_tca": "37010101",
+        "barcode": "37010101",
+        "description": "ACETAMINOFÉN + FENILEFRINA + CLORFENIRAMINA + DEXTROMETORFANO TABLETA DE 325/10/2/10 MG",
+        "state": "Inactivo",
+        "phase": "FASE 3",
+        "agreement": "DRSV/ISBM",
+        "price_rollout_iva": null,
+        "price_pilot_iva": null
+      }
+    ],
+    "state": "Inactivo",
+    "treatment": "AGUDO",
+    "controlled": "No",
+    "injectable": "No",
+    "specialist": "Si",
+    "group": "PREPARADOS PARA LA TOS Y FRÍOS",
+    "agreement": "DRSV/ISBM",
+    "price_rollout_iva": null,
+    "price_pilot_iva": null
+  },
+  {
+    "id": "27020002",
+    "number": 2,
+    "code": "27020002",
+    "name": "ACETATO DE CALCIO COMPRIMIDO DE 475 MG",
+    "composition": "475 MG",
+    "presentation": "CAJA X 10 BLISTERES DE CLORURO DE POLIVINILO (PVC) / POLICLORURO DE VINILIDENO (PVDC) / ALUMINIO TRANSPARENTE/INCOLORO X 10 COMPRIMIDOS RECUBIERTOS CON PELICULA",
+    "type": "TABLETA",
+    "unit": "TABLETA",
+    "collection": "isbm",
+    "sources": [
+      "Complemento 109",
+      "Tarifas · Medicamentos"
+    ],
+    "aliases": [
+      "ACETATO DE CALCIO COMPRIMIDOS 475 MG"
+    ],
+    "source_records": [
+      {
+        "source": "Complemento 109",
+        "number": 2,
+        "code": "27020002",
+        "description": "ACETATO DE CALCIO COMPRIMIDO DE 475 MG",
+        "presentation": "CAJA X 10 BLISTERES DE CLORURO DE POLIVINILO (PVC) / POLICLORURO DE VINILIDENO (PVDC) / ALUMINIO TRANSPARENTE/INCOLORO X 10 COMPRIMIDOS RECUBIERTOS CON PELICULA"
+      },
+      {
+        "source": "Tarifas · Medicamentos",
+        "row": 357,
+        "code_p2h": "27020002",
+        "code_tca": "27020002",
+        "barcode": "27020002",
+        "description": "ACETATO DE CALCIO COMPRIMIDOS 475 MG",
+        "state": "Inactivo",
+        "phase": "FASE 3",
+        "agreement": "DRSV/ISBM",
+        "price_rollout_iva": null,
+        "price_pilot_iva": null
+      }
+    ],
+    "state": "Inactivo",
+    "treatment": "AGUDO",
+    "controlled": "No",
+    "injectable": "No",
+    "specialist": "Si",
+    "group": "TODOS LOS OTROS PRODUCTOS TERAPÉUTICOS V",
+    "agreement": "DRSV/ISBM",
+    "price_rollout_iva": null,
+    "price_pilot_iva": null
+  },
+  {
+    "id": "28030101",
+    "number": 3,
+    "code": "28030101",
+    "name": "ACETAZOLAMIDA TABLETA RANURADA DE 250 MG",
+    "composition": "250 MG",
+    "presentation": "CAJA X 20 TABLETAS (2 BLÍSTER X 10)",
+    "type": "TABLETA RANURADA",
+    "unit": "TABLETA",
+    "collection": "isbm",
+    "sources": [
+      "Complemento 109",
+      "Tarifas · Medicamentos"
+    ],
+    "aliases": [],
+    "source_records": [
+      {
+        "source": "Complemento 109",
+        "number": 3,
+        "code": "28030101",
+        "description": "ACETAZOLAMIDA TABLETA RANURADA DE 250 MG",
+        "presentation": "CAJA X 20 TABLETAS (2 BLÍSTER X 10)"
+      },
+      {
+        "source": "Tarifas · Medicamentos",
+        "row": 243,
+        "code_p2h": "28030101",
+        "code_tca": "28030101",
+        "barcode": "28030101",
+        "description": "ACETAZOLAMIDA TABLETA RANURADA DE 250 MG",
+        "state": "Inactivo",
+        "phase": "FASE 3",
+        "agreement": "DRSV/ISBM",
+        "price_rollout_iva": null,
+        "price_pilot_iva": null
+      }
+    ],
+    "state": "Inactivo",
+    "treatment": "CRONICO",
+    "controlled": "No",
+    "injectable": "No",
+    "specialist": "Si",
+    "group": "OFTÁLMICOS",
+    "agreement": "DRSV/ISBM",
+    "price_rollout_iva": null,
+    "price_pilot_iva": null
+  },
+  {
+    "id": "28020002",
+    "number": 4,
+    "code": "28020002",
+    "name": "ACIDO POLIACRÍLICO GEL ESTÉRIL PARA LA APLICACIÓN EN GOTAS, 0.2%",
+    "composition": "0.2%",
+    "presentation": "TUBO X 10 G",
+    "type": "GEL OFTÁLMICO",
+    "unit": "TUBO",
+    "collection": "isbm",
+    "sources": [
+      "Complemento 109",
+      "Tarifas · Medicamentos"
+    ],
+    "aliases": [
+      "ACIDO POLIACRILICO GEL ESTERIL, TUBO 10G 0.2%"
+    ],
+    "source_records": [
+      {
+        "source": "Complemento 109",
+        "number": 4,
+        "code": "28020002",
+        "description": "ACIDO POLIACRÍLICO GEL ESTÉRIL PARA LA APLICACIÓN EN GOTAS, 0.2%",
+        "presentation": "TUBO X 10 G"
+      },
+      {
+        "source": "Tarifas · Medicamentos",
+        "row": 244,
+        "code_p2h": "28020002",
+        "code_tca": "28020002",
+        "barcode": "28020002",
+        "description": "ACIDO POLIACRILICO GEL ESTERIL, TUBO 10G 0.2%",
+        "state": "Inactivo",
+        "phase": "FASE 3",
+        "agreement": "DRSV/ISBM",
+        "price_rollout_iva": null,
+        "price_pilot_iva": null
+      }
+    ],
+    "state": "Inactivo",
+    "treatment": "CRONICO",
+    "controlled": "No",
+    "injectable": "No",
+    "specialist": "Si",
+    "group": "OFTÁLMICOS",
+    "agreement": "DRSV/ISBM",
+    "price_rollout_iva": null,
+    "price_pilot_iva": null
+  },
+  {
+    "id": "29060101",
+    "number": 5,
+    "code": "29060101",
+    "name": "ACIDO RETINÓICO GEL 0.05/100 G",
+    "composition": "0.05%",
+    "presentation": "TUBO X 15 G",
+    "type": "GEL",
+    "unit": "TUBO",
+    "collection": "isbm",
+    "sources": [
+      "Complemento 109",
+      "Tarifas · Medicamentos"
+    ],
+    "aliases": [
+      "ACIDO RETINÓICO GEL 0.05/100G TUBO 15G"
+    ],
+    "source_records": [
+      {
+        "source": "Complemento 109",
+        "number": 5,
+        "code": "29060101",
+        "description": "ACIDO RETINÓICO GEL 0.05/100 G",
+        "presentation": "TUBO X 15 G"
+      },
+      {
+        "source": "Tarifas · Medicamentos",
+        "row": 245,
+        "code_p2h": "29060101",
+        "code_tca": "29060101",
+        "barcode": "29060101",
+        "description": "ACIDO RETINÓICO GEL 0.05/100G TUBO 15G",
+        "state": "Inactivo",
+        "phase": "FASE 3",
+        "agreement": "DRSV/ISBM",
+        "price_rollout_iva": null,
+        "price_pilot_iva": null
+      }
+    ],
+    "state": "Inactivo",
+    "treatment": "AGUDO",
+    "controlled": "No",
+    "injectable": "No",
+    "specialist": "Si",
+    "group": "PREPARADOS ANTIACNÉ",
+    "agreement": "DRSV/ISBM",
+    "price_rollout_iva": null,
+    "price_pilot_iva": null
+  },
+  {
+    "id": "38010101",
+    "number": 6,
+    "code": "38010101",
+    "name": "ACIDO ZOLEDRONICO FRASCO VIAL DE  4 MG",
+    "composition": "4 MG",
+    "presentation": "CAJA X 1 FRASCO-AMPOLLA",
+    "type": "SOLUCIÓN INYECTABLE",
+    "unit": "FRASCO-AMPOLLA",
+    "collection": "isbm",
+    "sources": [
+      "Complemento 109",
+      "Tarifas · Medicamentos"
+    ],
+    "aliases": [
+      "ACIDO ZOLEDRONICO FRASCO VIAL DE 4 MG/5 ML"
+    ],
+    "source_records": [
+      {
+        "source": "Complemento 109",
+        "number": 6,
+        "code": "38010101",
+        "description": "ACIDO ZOLEDRONICO FRASCO VIAL DE  4 MG",
+        "presentation": "CAJA X 1 FRASCO-AMPOLLA"
+      },
+      {
+        "source": "Tarifas · Medicamentos",
+        "row": 246,
+        "code_p2h": "38010101",
+        "code_tca": "38010101",
+        "barcode": "38010101",
+        "description": "ACIDO ZOLEDRONICO FRASCO VIAL DE 4 MG/5 ML",
+        "state": "Inactivo",
+        "phase": "FASE 3",
+        "agreement": "DRSV/ISBM",
+        "price_rollout_iva": null,
+        "price_pilot_iva": null
+      }
+    ],
+    "state": "Inactivo",
+    "treatment": "AGUDO",
+    "controlled": "No",
+    "injectable": "Si",
+    "specialist": "Si",
+    "group": "HOMEOSTASIS DEL CALCIO",
+    "agreement": "DRSV/ISBM",
+    "price_rollout_iva": null,
+    "price_pilot_iva": null
+  },
+  {
+    "id": "29080101",
+    "number": 7,
+    "code": "29080101",
+    "name": "ALQUITRÁN EQUIVALENTE AL 0.5% DE ALQUITRÁN DE HULLA (2.9% SOLUBILIZADO) COMPLEJO DE ALQUITRANES, ALQUITRÁN EQUIVALENTE AL  0.5% DE ALQUITRÁN DE HULLA (2.9% SOLUBILIZADO)",
+    "composition": "0.5 % (EQUIVALENTE DE ALQUITRÁN DE HULLA; 2.9 % SOLUBILIZADO)",
+    "presentation": "FRASCO X 240 ML",
+    "type": "LÍQUIDO TÓPICO",
+    "unit": "FRASCO",
+    "collection": "isbm",
+    "sources": [
+      "Complemento 109",
+      "Tarifas · Medicamentos"
+    ],
+    "aliases": [
+      "ALQUITRÁN EQUIVALENTE AL 0.5% DE ALQUITRÁN DE HULLA (2.9% SOLUBILIZADO) COMPLEJO DE ALQUITRANES"
+    ],
+    "source_records": [
+      {
+        "source": "Complemento 109",
+        "number": 7,
+        "code": "29080101",
+        "description": "ALQUITRÁN EQUIVALENTE AL 0.5% DE ALQUITRÁN DE HULLA (2.9% SOLUBILIZADO) COMPLEJO DE ALQUITRANES, ALQUITRÁN EQUIVALENTE AL  0.5% DE ALQUITRÁN DE HULLA (2.9% SOLUBILIZADO)",
+        "presentation": "FRASCO X 240 ML"
+      },
+      {
+        "source": "Tarifas · Medicamentos",
+        "row": 247,
+        "code_p2h": "29080101",
+        "code_tca": "29080101",
+        "barcode": "29080101",
+        "description": "ALQUITRÁN EQUIVALENTE AL 0.5% DE ALQUITRÁN DE HULLA (2.9% SOLUBILIZADO) COMPLEJO DE ALQUITRANES",
+        "state": "Inactivo",
+        "phase": "FASE 3",
+        "agreement": "DRSV/ISBM",
+        "price_rollout_iva": null,
+        "price_pilot_iva": null
+      }
+    ],
+    "state": "Inactivo",
+    "treatment": "AGUDO",
+    "controlled": "No",
+    "injectable": "No",
+    "specialist": "Si",
+    "group": "OTRAS PREPARACIONES DERMATOLÓGICAS",
+    "agreement": "DRSV/ISBM",
+    "price_rollout_iva": null,
+    "price_pilot_iva": null
+  },
+  {
+    "id": "34020100",
+    "number": 8,
+    "code": "34020100",
+    "name": "AMANTADINA AMANTADINA DE 100MG",
+    "composition": "100 MG",
+    "presentation": "CAJA X 30 UNIDADES (3 BLÍSTER X 10)",
+    "type": "TABLETA O CÁPSULA",
+    "unit": "TABLETA O CÁPSULA",
+    "collection": "isbm",
+    "sources": [
+      "Complemento 109",
+      "Tarifas · Medicamentos"
+    ],
+    "aliases": [
+      "AMANTADINA DE 100MG capsula"
+    ],
+    "source_records": [
+      {
+        "source": "Complemento 109",
+        "number": 8,
+        "code": "34020100",
+        "description": "AMANTADINA AMANTADINA DE 100MG",
+        "presentation": "CAJA X 30 UNIDADES (3 BLÍSTER X 10)"
+      },
+      {
+        "source": "Tarifas · Medicamentos",
+        "row": 248,
+        "code_p2h": "34020100",
+        "code_tca": "34020100",
+        "barcode": "34020100",
+        "description": "AMANTADINA DE 100MG capsula",
+        "state": "Inactivo",
+        "phase": "FASE 3",
+        "agreement": "DRSV/ISBM",
+        "price_rollout_iva": null,
+        "price_pilot_iva": null
+      }
+    ],
+    "state": "Inactivo",
+    "treatment": "CRONICO",
+    "controlled": "No",
+    "injectable": "No",
+    "specialist": "Si",
+    "group": "FÁRMACOS ANTIPARKINSONIANOS",
+    "agreement": "DRSV/ISBM",
+    "price_rollout_iva": null,
+    "price_pilot_iva": null
+  },
+  {
+    "id": "17020101",
+    "number": 9,
+    "code": "17020101",
+    "name": "AMIODARONA CLORHIDRATO  TABLETA DE 200 MG",
+    "composition": "200 MG",
+    "presentation": "CAJA X 30 TABLETAS (3 BLÍSTER X 10)",
+    "type": "TABLETA",
+    "unit": "TABLETA",
+    "collection": "isbm",
+    "sources": [
+      "Complemento 109"
+    ],
+    "aliases": [],
+    "source_records": [
+      {
+        "source": "Complemento 109",
+        "number": 9,
+        "code": "17020101",
+        "description": "AMIODARONA CLORHIDRATO  TABLETA DE 200 MG",
+        "presentation": "CAJA X 30 TABLETAS (3 BLÍSTER X 10)"
+      }
+    ]
+  },
+  {
+    "id": "23030601",
+    "number": 10,
+    "code": "23030601",
+    "name": "ASPARTATO DE ARGININA AMPOLLA BEBIBLE DE 5 G / 10 ML",
+    "composition": "5 G / 10 ML",
+    "presentation": "CAJA X 15 AMPOLLAS BEBIBLES X 10 ML",
+    "type": "SOLUCIÓN ORAL (AMPOLLA BEBIBLE)",
+    "unit": "AMPOLLA BEBIBLE",
+    "collection": "isbm",
+    "sources": [
+      "Complemento 109",
+      "Tarifas · Medicamentos"
+    ],
+    "aliases": [],
+    "source_records": [
+      {
+        "source": "Complemento 109",
+        "number": 10,
+        "code": "23030601",
+        "description": "ASPARTATO DE ARGININA AMPOLLA BEBIBLE DE 5 G / 10 ML",
+        "presentation": "CAJA X 15 AMPOLLAS BEBIBLES X 10 ML"
+      },
+      {
+        "source": "Tarifas · Medicamentos",
+        "row": 249,
+        "code_p2h": "23030601",
+        "code_tca": "23030601",
+        "barcode": "23030601",
+        "description": "ASPARTATO DE ARGININA AMPOLLA BEBIBLE DE 5 G / 10 ML",
+        "state": "Inactivo",
+        "phase": "FASE 3",
+        "agreement": "DRSV/ISBM",
+        "price_rollout_iva": null,
+        "price_pilot_iva": null
+      }
+    ],
+    "state": "Inactivo",
+    "treatment": "AGUDO",
+    "controlled": "No",
+    "injectable": "No",
+    "specialist": "Si",
+    "group": "DIGESTIVOS, INCLUIDOS ENZIMAS",
+    "agreement": "DRSV/ISBM",
+    "price_rollout_iva": null,
+    "price_pilot_iva": null
+  },
+  {
+    "id": "16010102",
+    "number": 11,
+    "code": "16010102",
+    "name": "ATENOLOL  TABLETA DE 100 MG",
+    "composition": "100 MG",
+    "presentation": "CAJA X 100 TABLETAS (10 BLÍSTER X 10)",
+    "type": "TABLETA",
+    "unit": "TABLETA",
+    "collection": "isbm",
+    "sources": [
+      "Complemento 109",
+      "Tarifas · Medicamentos"
+    ],
+    "aliases": [
+      "ATENOLOL TABLETA DE 100 MG"
+    ],
+    "source_records": [
+      {
+        "source": "Complemento 109",
+        "number": 11,
+        "code": "16010102",
+        "description": "ATENOLOL  TABLETA DE 100 MG",
+        "presentation": "CAJA X 100 TABLETAS (10 BLÍSTER X 10)"
+      },
+      {
+        "source": "Tarifas · Medicamentos",
+        "row": 349,
+        "code_p2h": "16010102",
+        "code_tca": "16010102",
+        "barcode": "16010102",
+        "description": "ATENOLOL TABLETA DE 100 MG",
+        "state": "Inactivo",
+        "phase": "FASE 3",
+        "agreement": "DRSV/ISBM",
+        "price_rollout_iva": null,
+        "price_pilot_iva": null
+      }
+    ],
+    "state": "Inactivo",
+    "treatment": "CRONICO",
+    "controlled": "No",
+    "injectable": "No",
+    "specialist": "Si",
+    "group": "BETABLOQUEANTES",
+    "agreement": "DRSV/ISBM",
+    "price_rollout_iva": null,
+    "price_pilot_iva": null
+  },
+  {
+    "id": "25030104",
+    "number": 12,
+    "code": "25030104",
+    "name": "ATORVASTATINA TABLETA DE 20 MG",
+    "composition": "20 MG",
+    "presentation": "CAJA X 100 TABLETAS (10 BLÍSTER X 10)",
+    "type": "TABLETA",
+    "unit": "TABLETA",
+    "collection": "isbm",
+    "sources": [
+      "Complemento 109",
+      "Tarifas · Medicamentos"
+    ],
+    "aliases": [],
+    "source_records": [
+      {
+        "source": "Complemento 109",
+        "number": 12,
+        "code": "25030104",
+        "description": "ATORVASTATINA TABLETA DE 20 MG",
+        "presentation": "CAJA X 100 TABLETAS (10 BLÍSTER X 10)"
+      },
+      {
+        "source": "Tarifas · Medicamentos",
+        "row": 250,
+        "code_p2h": "25030104",
+        "code_tca": "25030104",
+        "barcode": "25030104",
+        "description": "ATORVASTATINA TABLETA DE 20 MG",
+        "state": "Inactivo",
+        "phase": "FASE 3",
+        "agreement": "DRSV/ISBM",
+        "price_rollout_iva": null,
+        "price_pilot_iva": null
+      }
+    ],
+    "state": "Inactivo",
+    "treatment": "CRONICO",
+    "controlled": "No",
+    "injectable": "No",
+    "specialist": "Si",
+    "group": "AGENTES MODIFICADORES DE LÍPIDOS",
+    "agreement": "DRSV/ISBM",
+    "price_rollout_iva": null,
+    "price_pilot_iva": null
+  },
+  {
+    "id": "35010102",
+    "number": 13,
+    "code": "35010102",
+    "name": "AZATIOPRINA TABLETA DE 50 MG",
+    "composition": "50 MG",
+    "presentation": "CAJA X 100 TABLETAS (4 BLÍSTER X 25)",
+    "type": "TABLETA",
+    "unit": "TABLETA",
+    "collection": "isbm",
+    "sources": [
+      "Complemento 109",
+      "Tarifas · Medicamentos"
+    ],
+    "aliases": [],
+    "source_records": [
+      {
+        "source": "Complemento 109",
+        "number": 13,
+        "code": "35010102",
+        "description": "AZATIOPRINA TABLETA DE 50 MG",
+        "presentation": "CAJA X 100 TABLETAS (4 BLÍSTER X 25)"
+      },
+      {
+        "source": "Tarifas · Medicamentos",
+        "row": 251,
+        "code_p2h": "35010102",
+        "code_tca": "35010102",
+        "barcode": "35010102",
+        "description": "AZATIOPRINA TABLETA DE 50 MG",
+        "state": "Inactivo",
+        "phase": "FASE 3",
+        "agreement": "DRSV/ISBM",
+        "price_rollout_iva": null,
+        "price_pilot_iva": null
+      }
+    ],
+    "state": "Inactivo",
+    "treatment": "CRONICO",
+    "controlled": "No",
+    "injectable": "No",
+    "specialist": "Si",
+    "group": "AGENTES ANTINEOPLÁSICOS",
+    "agreement": "DRSV/ISBM",
+    "price_rollout_iva": null,
+    "price_pilot_iva": null
+  },
+  {
+    "id": "34030101",
+    "number": 14,
+    "code": "34030101",
+    "name": "BETAHISTINA  TABLETA O COMPRIMIDO DE 16 MG",
+    "composition": "16 MG",
+    "presentation": "CAJA X 20 TABLETAS (2 BLÍSTER X 10)",
+    "type": "TABLETA",
+    "unit": "TABLETA",
+    "collection": "isbm",
+    "sources": [
+      "Complemento 109",
+      "Tarifas · Medicamentos"
+    ],
+    "aliases": [
+      "BETAHISTINA TABLETA O COMPRIMIDO DE 16 MG"
+    ],
+    "source_records": [
+      {
+        "source": "Complemento 109",
+        "number": 14,
+        "code": "34030101",
+        "description": "BETAHISTINA  TABLETA O COMPRIMIDO DE 16 MG",
+        "presentation": "CAJA X 20 TABLETAS (2 BLÍSTER X 10)"
+      },
+      {
+        "source": "Tarifas · Medicamentos",
+        "row": 252,
+        "code_p2h": "34030101",
+        "code_tca": "34030101",
+        "barcode": "34030101",
+        "description": "BETAHISTINA TABLETA O COMPRIMIDO DE 16 MG",
+        "state": "Inactivo",
+        "phase": "FASE 3",
+        "agreement": "DRSV/ISBM",
+        "price_rollout_iva": null,
+        "price_pilot_iva": null
+      }
+    ],
+    "state": "Inactivo",
+    "treatment": "AGUDO",
+    "controlled": "No",
+    "injectable": "No",
+    "specialist": "Si",
+    "group": "OTROS MEDICAMENTOS DEL SISTEMA NERVIOSO",
+    "agreement": "DRSV/ISBM",
+    "price_rollout_iva": null,
+    "price_pilot_iva": null
+  },
+  {
+    "id": "10000118",
+    "number": 15,
+    "code": "10000118",
+    "name": "BETAMETASONA + ACIDO SALICÍLICO LOCIÓN 0.05 GR + 2 G EN 100 ML",
+    "composition": "0.05 G + 2 G EN 100 ML",
+    "presentation": "FRASCO X 20 ML",
+    "type": "LOCIÓN",
+    "unit": "FRASCO",
+    "collection": "isbm",
+    "sources": [
+      "Complemento 109",
+      "Tarifas · Medicamentos"
+    ],
+    "aliases": [
+      "BETAMETASONA + ACIDO SALICÍLICO loción/crema 0.05% + 2%"
+    ],
+    "source_records": [
+      {
+        "source": "Complemento 109",
+        "number": 15,
+        "code": "10000118",
+        "description": "BETAMETASONA + ACIDO SALICÍLICO LOCIÓN 0.05 GR + 2 G EN 100 ML",
+        "presentation": "FRASCO X 20 ML"
+      },
+      {
+        "source": "Tarifas · Medicamentos",
+        "row": 253,
+        "code_p2h": "10000118",
+        "code_tca": "10000118",
+        "barcode": "10000118",
+        "description": "BETAMETASONA + ACIDO SALICÍLICO loción/crema 0.05% + 2%",
+        "state": "Inactivo",
+        "phase": "FASE 3",
+        "agreement": "DRSV/ISBM",
+        "price_rollout_iva": null,
+        "price_pilot_iva": null
+      }
+    ],
+    "state": "Inactivo",
+    "treatment": "AGUDO",
+    "controlled": "No",
+    "injectable": "No",
+    "specialist": "Si",
+    "group": "CORTICOSTEROIDES DERMATOLÓGICOS",
+    "agreement": "DRSV/ISBM",
+    "price_rollout_iva": null,
+    "price_pilot_iva": null,
+    "review_note": "Tarifas dice loción/crema y el complemento especifica loción. Confirmar forma comercial; no asumir que la crema es intercambiable."
+  },
+  {
+    "id": "35020101",
+    "number": 16,
+    "code": "35020101",
+    "name": "BICALUTAMIDA TABLETA DE 50 MG",
+    "composition": "50 MG",
+    "presentation": "CAJA X 30 TABLETAS (1 BLÍSTER X 30)",
+    "type": "TABLETA",
+    "unit": "TABLETA",
+    "collection": "isbm",
+    "sources": [
+      "Complemento 109",
+      "Tarifas · Medicamentos"
+    ],
+    "aliases": [],
+    "source_records": [
+      {
+        "source": "Complemento 109",
+        "number": 16,
+        "code": "35020101",
+        "description": "BICALUTAMIDA TABLETA DE 50 MG",
+        "presentation": "CAJA X 30 TABLETAS (1 BLÍSTER X 30)"
+      },
+      {
+        "source": "Tarifas · Medicamentos",
+        "row": 254,
+        "code_p2h": "35020101",
+        "code_tca": "35020101",
+        "barcode": "35020101",
+        "description": "BICALUTAMIDA TABLETA DE 50 MG",
+        "state": "Inactivo",
+        "phase": "FASE 3",
+        "agreement": "DRSV/ISBM",
+        "price_rollout_iva": null,
+        "price_pilot_iva": null
+      }
+    ],
+    "state": "Inactivo",
+    "treatment": "CRONICO",
+    "controlled": "No",
+    "injectable": "No",
+    "specialist": "Si",
+    "group": "AGENTES ANTINEOPLÁSICOS",
+    "agreement": "DRSV/ISBM",
+    "price_rollout_iva": null,
+    "price_pilot_iva": null
+  },
+  {
+    "id": "10000153",
+    "number": 17,
+    "code": "10000153",
+    "name": "CALCIPOTRIOL + BETAMETASONA GEL DE 0.05 MG + 0.5 MG EN 1.0 G",
+    "composition": "0.05 MG + 0.5 MG / G",
+    "presentation": "TUBO X 30 G",
+    "type": "GEL",
+    "unit": "TUBO",
+    "collection": "isbm",
+    "sources": [
+      "Complemento 109"
+    ],
+    "aliases": [],
+    "source_records": [
+      {
+        "source": "Complemento 109",
+        "number": 17,
+        "code": "10000153",
+        "description": "CALCIPOTRIOL + BETAMETASONA GEL DE 0.05 MG + 0.5 MG EN 1.0 G",
+        "presentation": "TUBO X 30 G"
+      }
+    ],
+    "review_note": "Gel en el complemento; crema en tarifas. Se mantienen por separado para confirmar la forma."
+  },
+  {
+    "id": "11010406",
+    "number": 18,
+    "code": "11010406",
+    "name": "CEFTRIAXONA SÓDICA FRASCO-AMPOLLA DE 1 G",
+    "composition": "1 G",
+    "presentation": "CAJA X 10 FRASCOS-AMPOLLA",
+    "type": "POLVO PARA SOLUCIÓN INYECTABLE",
+    "unit": "FRASCO-AMPOLLA",
+    "collection": "isbm",
+    "sources": [
+      "Complemento 109",
+      "Tarifas · Medicamentos"
+    ],
+    "aliases": [],
+    "source_records": [
+      {
+        "source": "Complemento 109",
+        "number": 18,
+        "code": "11010406",
+        "description": "CEFTRIAXONA SÓDICA FRASCO-AMPOLLA DE 1 G",
+        "presentation": "CAJA X 10 FRASCOS-AMPOLLA"
+      },
+      {
+        "source": "Tarifas · Medicamentos",
+        "row": 257,
+        "code_p2h": "11010406",
+        "code_tca": "11010406",
+        "barcode": "11010406",
+        "description": "CEFTRIAXONA SÓDICA FRASCO-AMPOLLA DE 1 G",
+        "state": "Inactivo",
+        "phase": "FASE 3",
+        "agreement": "DRSV/ISBM",
+        "price_rollout_iva": null,
+        "price_pilot_iva": null
+      }
+    ],
+    "state": "Inactivo",
+    "treatment": "AGUDO",
+    "controlled": "No",
+    "injectable": "Si",
+    "specialist": "Si",
+    "group": "ANTIBACTERIANOS PARA USO SISTÉMICO",
+    "agreement": "DRSV/ISBM",
+    "price_rollout_iva": null,
+    "price_pilot_iva": null
+  },
+  {
+    "id": "24010105",
+    "number": 19,
+    "code": "24010105",
+    "name": "CITALOPRAM  COMPRIMIDO DE 20 MG",
+    "composition": "20 MG",
+    "presentation": "CAJA X 30 TABLETAS (3 BLÍSTER X 10)",
+    "type": "TABLETA",
+    "unit": "TABLETA",
+    "collection": "isbm",
+    "sources": [
+      "Complemento 109",
+      "Tarifas · Medicamentos"
+    ],
+    "aliases": [
+      "CITALOPRAM COMPRIMIDO DE 20 MG"
+    ],
+    "source_records": [
+      {
+        "source": "Complemento 109",
+        "number": 19,
+        "code": "24010105",
+        "description": "CITALOPRAM  COMPRIMIDO DE 20 MG",
+        "presentation": "CAJA X 30 TABLETAS (3 BLÍSTER X 10)"
+      },
+      {
+        "source": "Tarifas · Medicamentos",
+        "row": 258,
+        "code_p2h": "24010105",
+        "code_tca": "24010105",
+        "barcode": "24010105",
+        "description": "CITALOPRAM COMPRIMIDO DE 20 MG",
+        "state": "Inactivo",
+        "phase": "FASE 3",
+        "agreement": "DRSV/ISBM",
+        "price_rollout_iva": null,
+        "price_pilot_iva": null
+      }
+    ],
+    "state": "Inactivo",
+    "treatment": "CRONICO",
+    "controlled": "No",
+    "injectable": "No",
+    "specialist": "Si",
+    "group": "OTROS MEDICAMENTOS DEL SISTEMA NERVIOSO",
+    "agreement": "DRSV/ISBM",
+    "price_rollout_iva": null,
+    "price_pilot_iva": null
+  },
+  {
+    "id": "15030101",
+    "number": 20,
+    "code": "15030101",
+    "name": "CITRATO DE POTASIO CITRATO DE POTASIO DE 10 MEQ",
+    "composition": "10 MEQ",
+    "presentation": "FRASCO X 14 TABLETAS",
+    "type": "TABLETA",
+    "unit": "TABLETA",
+    "collection": "isbm",
+    "sources": [
+      "Complemento 109",
+      "Tarifas · Medicamentos"
+    ],
+    "aliases": [],
+    "source_records": [
+      {
+        "source": "Complemento 109",
+        "number": 20,
+        "code": "15030101",
+        "description": "CITRATO DE POTASIO CITRATO DE POTASIO DE 10 MEQ",
+        "presentation": "FRASCO X 14 TABLETAS"
+      },
+      {
+        "source": "Tarifas · Medicamentos",
+        "row": 259,
+        "code_p2h": "15030101",
+        "code_tca": "15030101",
+        "barcode": "15030101",
+        "description": "CITRATO DE POTASIO CITRATO DE POTASIO DE 10 MEQ",
+        "state": "Inactivo",
+        "phase": "FASE 3",
+        "agreement": "DRSV/ISBM",
+        "price_rollout_iva": null,
+        "price_pilot_iva": null
+      }
+    ],
+    "state": "Inactivo",
+    "treatment": "AGUDO",
+    "controlled": "No",
+    "injectable": "No",
+    "specialist": "Si",
+    "group": "UROLÓGICOS",
+    "agreement": "DRSV/ISBM",
+    "price_rollout_iva": null,
+    "price_pilot_iva": null
+  },
+  {
+    "id": "21020101",
+    "number": 21,
+    "code": "21020101",
+    "name": "CLONIXINATO DE LISINA + PROPINOXATO TABLETA 125 MG/10 MG",
+    "composition": "125 MG + 10 MG",
+    "presentation": "CAJA X 100 TABLETAS RECUBIERTAS",
+    "type": "TABLETA RECUBIERTA",
+    "unit": "TABLETA",
+    "collection": "isbm",
+    "sources": [
+      "Complemento 109",
+      "Tarifas · Medicamentos"
+    ],
+    "aliases": [],
+    "source_records": [
+      {
+        "source": "Complemento 109",
+        "number": 21,
+        "code": "21020101",
+        "description": "CLONIXINATO DE LISINA + PROPINOXATO TABLETA 125 MG/10 MG",
+        "presentation": "CAJA X 100 TABLETAS RECUBIERTAS"
+      },
+      {
+        "source": "Tarifas · Medicamentos",
+        "row": 260,
+        "code_p2h": "21020101",
+        "code_tca": "21020101",
+        "barcode": "21020101",
+        "description": "CLONIXINATO DE LISINA + PROPINOXATO TABLETA 125 MG/10 MG",
+        "state": "Inactivo",
+        "phase": "FASE 3",
+        "agreement": "DRSV/ISBM",
+        "price_rollout_iva": null,
+        "price_pilot_iva": null
+      }
+    ],
+    "state": "Inactivo",
+    "treatment": "AGUDO",
+    "controlled": "No",
+    "injectable": "No",
+    "specialist": "Si",
+    "group": "MEDICAMENTOS PARA TRASTORNOS GASTROINTES",
+    "agreement": "DRSV/ISBM",
+    "price_rollout_iva": null,
+    "price_pilot_iva": null
+  },
+  {
+    "id": "28050201",
+    "number": 22,
+    "code": "28050201",
+    "name": "CLORANFENICOL+ DEXAMETASONA COLIRIO SOL. OFTÁLMICA DE 5 MG+1 MG/ML",
+    "composition": "5 MG + 1 MG / ML",
+    "presentation": "FRASCO X 10 ML",
+    "type": "SOLUCIÓN OFTÁLMICA (COLIRIO)",
+    "unit": "FRASCO GOTERO",
+    "collection": "isbm",
+    "sources": [
+      "Complemento 109",
+      "Tarifas · Medicamentos"
+    ],
+    "aliases": [
+      "CLORANFENICOL+DEXAMETASONA SOLUCION OFTALMICA 5MG+1MG/ML"
+    ],
+    "source_records": [
+      {
+        "source": "Complemento 109",
+        "number": 22,
+        "code": "28050201",
+        "description": "CLORANFENICOL+ DEXAMETASONA COLIRIO SOL. OFTÁLMICA DE 5 MG+1 MG/ML",
+        "presentation": "FRASCO X 10 ML"
+      },
+      {
+        "source": "Tarifas · Medicamentos",
+        "row": 358,
+        "code_p2h": "28050201",
+        "code_tca": "28050201",
+        "barcode": "28050201",
+        "description": "CLORANFENICOL+DEXAMETASONA SOLUCION OFTALMICA 5MG+1MG/ML",
+        "state": "Inactivo",
+        "phase": "FASE 3",
+        "agreement": "DRSV/ISBM",
+        "price_rollout_iva": null,
+        "price_pilot_iva": null
+      }
+    ],
+    "state": "Inactivo",
+    "treatment": "AGUDO",
+    "controlled": "No",
+    "injectable": "No",
+    "specialist": "Si",
+    "group": "OFTÁLMICOS",
+    "agreement": "DRSV/ISBM",
+    "price_rollout_iva": null,
+    "price_pilot_iva": null
+  },
+  {
+    "id": "31010008",
+    "number": 23,
+    "code": "31010008",
+    "name": "CLORFENIRAMINA MALEATO  AMPOLLA DE 10 MG/ML",
+    "composition": "10 MG/ML",
+    "presentation": "CAJA X 25 AMPOLLAS",
+    "type": "SOLUCIÓN INYECTABLE",
+    "unit": "AMPOLLA",
+    "collection": "isbm",
+    "sources": [
+      "Complemento 109",
+      "Tarifas · Medicamentos"
+    ],
+    "aliases": [
+      "CLORFENIRAMINA MALEATO AMPOLLA DE 10 MG/ML"
+    ],
+    "source_records": [
+      {
+        "source": "Complemento 109",
+        "number": 23,
+        "code": "31010008",
+        "description": "CLORFENIRAMINA MALEATO  AMPOLLA DE 10 MG/ML",
+        "presentation": "CAJA X 25 AMPOLLAS"
+      },
+      {
+        "source": "Tarifas · Medicamentos",
+        "row": 261,
+        "code_p2h": "31010008",
+        "code_tca": "31010008",
+        "barcode": "31010008",
+        "description": "CLORFENIRAMINA MALEATO AMPOLLA DE 10 MG/ML",
+        "state": "Inactivo",
+        "phase": "FASE 3",
+        "agreement": "DRSV/ISBM",
+        "price_rollout_iva": null,
+        "price_pilot_iva": null
+      }
+    ],
+    "state": "Inactivo",
+    "treatment": "AGUDO",
+    "controlled": "No",
+    "injectable": "Si",
+    "specialist": "Si",
+    "group": "ANTIHISTAMÍNICOS PARA USO SISTÉMICO",
+    "agreement": "DRSV/ISBM",
+    "price_rollout_iva": null,
+    "price_pilot_iva": null
+  },
+  {
+    "id": "29120101",
+    "number": 24,
+    "code": "29120101",
+    "name": "CLOSTRIDIOPEPTIDASA + CLORANFENICOL UNGÜENTO DE 60U/1 GR",
+    "composition": "1.2 UI / GR",
+    "presentation": "CAJA X 1 TUBO DE ALUMINIO NATURAL X 15 GR",
+    "type": "UNGÜENTO",
+    "unit": "TUBO",
+    "collection": "isbm",
+    "sources": [
+      "Complemento 109",
+      "Tarifas · Medicamentos"
+    ],
+    "aliases": [
+      "CLOSTRIDIOPEPTIDASA+CLORANFENICOL UNGUENTO 60U/1 GR"
+    ],
+    "source_records": [
+      {
+        "source": "Complemento 109",
+        "number": 24,
+        "code": "29120101",
+        "description": "CLOSTRIDIOPEPTIDASA + CLORANFENICOL UNGÜENTO DE 60U/1 GR",
+        "presentation": "CAJA X 1 TUBO DE ALUMINIO NATURAL X 15 GR"
+      },
+      {
+        "source": "Tarifas · Medicamentos",
+        "row": 359,
+        "code_p2h": "29120101",
+        "code_tca": "29120101",
+        "barcode": "29120101",
+        "description": "CLOSTRIDIOPEPTIDASA+CLORANFENICOL UNGUENTO 60U/1 GR",
+        "state": "Inactivo",
+        "phase": "FASE 3",
+        "agreement": "DRSV/ISBM",
+        "price_rollout_iva": null,
+        "price_pilot_iva": null
+      }
+    ],
+    "state": "Inactivo",
+    "treatment": "AGUDO",
+    "controlled": "No",
+    "injectable": "No",
+    "specialist": "Si",
+    "group": "PREPARACIONES PARA TRATAMIENTO DE HERIDA",
+    "agreement": "DRSV/ISBM",
+    "price_rollout_iva": null,
+    "price_pilot_iva": null
+  },
+  {
+    "id": "30010102",
+    "number": 25,
+    "code": "30010102",
+    "name": "CLOTRIMAZOL + METRONIDAZOL  CREMA VAGINAL 2% + 500 MG",
+    "composition": "2 % + 500 MG",
+    "presentation": "TUBO X 40 G",
+    "type": "CREMA VAGINAL",
+    "unit": "TUBO",
+    "collection": "isbm",
+    "sources": [
+      "Complemento 109",
+      "Tarifas · Medicamentos"
+    ],
+    "aliases": [
+      "CLOTRIMAZOL + METRONIDAZOL CREMA VAGINAL 2% + 500 MG"
+    ],
+    "source_records": [
+      {
+        "source": "Complemento 109",
+        "number": 25,
+        "code": "30010102",
+        "description": "CLOTRIMAZOL + METRONIDAZOL  CREMA VAGINAL 2% + 500 MG",
+        "presentation": "TUBO X 40 G"
+      },
+      {
+        "source": "Tarifas · Medicamentos",
+        "row": 262,
+        "code_p2h": "30010102",
+        "code_tca": "30010102",
+        "barcode": "30010102",
+        "description": "CLOTRIMAZOL + METRONIDAZOL CREMA VAGINAL 2% + 500 MG",
+        "state": "Inactivo",
+        "phase": "FASE 3",
+        "agreement": "DRSV/ISBM",
+        "price_rollout_iva": null,
+        "price_pilot_iva": null
+      }
+    ],
+    "state": "Inactivo",
+    "treatment": "AGUDO",
+    "controlled": "No",
+    "injectable": "No",
+    "specialist": "Si",
+    "group": "ANTI-INFECCIOSOS GINECOLÓGICOS Y ANTISÉP",
+    "agreement": "DRSV/ISBM",
+    "price_rollout_iva": null,
+    "price_pilot_iva": null
+  },
+  {
+    "id": "30010103",
+    "number": 26,
+    "code": "30010103",
+    "name": "CLOTRIMAZOL + SULFIZOXAZOL + ALANTOINA  CREMA VAGINAL 1 GR/10 GR/2GR EN 100 GR",
+    "composition": "1 G + 10 G + 2 G EN 100 G",
+    "presentation": "CAJA X 1 TUBO X 50 G",
+    "type": "CREMA VAGINAL",
+    "unit": "TUBO",
+    "collection": "isbm",
+    "sources": [
+      "Complemento 109",
+      "Tarifas · Medicamentos"
+    ],
+    "aliases": [
+      "CLOTRIMAZOL + SULFIZOXAZOL + ALANTOINA CREMA VAGINAL 1 GR/10 GR/2GR EN 100 GR"
+    ],
+    "source_records": [
+      {
+        "source": "Complemento 109",
+        "number": 26,
+        "code": "30010103",
+        "description": "CLOTRIMAZOL + SULFIZOXAZOL + ALANTOINA  CREMA VAGINAL 1 GR/10 GR/2GR EN 100 GR",
+        "presentation": "CAJA X 1 TUBO X 50 G"
+      },
+      {
+        "source": "Tarifas · Medicamentos",
+        "row": 264,
+        "code_p2h": "30010103",
+        "code_tca": "30010103",
+        "barcode": "30010103",
+        "description": "CLOTRIMAZOL + SULFIZOXAZOL + ALANTOINA CREMA VAGINAL 1 GR/10 GR/2GR EN 100 GR",
+        "state": "Inactivo",
+        "phase": "FASE 3",
+        "agreement": "DRSV/ISBM",
+        "price_rollout_iva": null,
+        "price_pilot_iva": null
+      }
+    ],
+    "state": "Inactivo",
+    "treatment": "AGUDO",
+    "controlled": "No",
+    "injectable": "No",
+    "specialist": "Si",
+    "group": "ANTI-INFECCIOSOS GINECOLÓGICOS Y ANTISÉP",
+    "agreement": "DRSV/ISBM",
+    "price_rollout_iva": null,
+    "price_pilot_iva": null
+  },
+  {
+    "id": "29090101",
+    "number": 27,
+    "code": "29090101",
+    "name": "CLOTRIMAZOL-GENTAMICINA-BETAMETASONA 50MG DE BETAMETASONA + 1 G DE CLOTRIMAZOL + 0.1 G DE GENTAMICINA EN 100 G",
+    "composition": "1 G + 0.1 G + 0.05 G EN 100 G",
+    "presentation": "CAJA X 1 TUBO X 15 G",
+    "type": "CREMA",
+    "unit": "TUBO",
+    "collection": "isbm",
+    "sources": [
+      "Complemento 109",
+      "Tarifas · Medicamentos"
+    ],
+    "aliases": [
+      "CLOTRIMAZOL+GENTAMICINA+BETAMETASONA 50MG + 1 G DE CLOTRIMAZOL + 0.1 G DE GENTAMICINA EN 100 G"
+    ],
+    "source_records": [
+      {
+        "source": "Complemento 109",
+        "number": 27,
+        "code": "29090101",
+        "description": "CLOTRIMAZOL-GENTAMICINA-BETAMETASONA 50MG DE BETAMETASONA + 1 G DE CLOTRIMAZOL + 0.1 G DE GENTAMICINA EN 100 G",
+        "presentation": "CAJA X 1 TUBO X 15 G"
+      },
+      {
+        "source": "Tarifas · Medicamentos",
+        "row": 265,
+        "code_p2h": "29090101",
+        "code_tca": "29090101",
+        "barcode": "29090101",
+        "description": "CLOTRIMAZOL+GENTAMICINA+BETAMETASONA 50MG + 1 G DE CLOTRIMAZOL + 0.1 G DE GENTAMICINA EN 100 G",
+        "state": "Inactivo",
+        "phase": "FASE 3",
+        "agreement": "DRSV/ISBM",
+        "price_rollout_iva": null,
+        "price_pilot_iva": null
+      }
+    ],
+    "state": "Inactivo",
+    "treatment": "AGUDO",
+    "controlled": "No",
+    "injectable": "No",
+    "specialist": "Si",
+    "group": "CORTICOSTEROIDES DERMATOLÓGICOS",
+    "agreement": "DRSV/ISBM",
+    "price_rollout_iva": null,
+    "price_pilot_iva": null
+  },
+  {
+    "id": "10000262",
+    "number": 28,
+    "code": "10000262",
+    "name": "DEXAMETASONA + CLORANFENICOL + NAFAZOLINA COLIRIO DEXAMETASONA 0.1% + CLORANFENICOL 0.5% + NAFAZOLINA 0.025% COLIRIO",
+    "composition": "0.1 % + 0.5 % + 0.025 %",
+    "presentation": "CAJA X 1 FRASCO GOTERO X 7.5 ML",
+    "type": "SOLUCIÓN OFTÁLMICA (COLIRIO)",
+    "unit": "FRASCO GOTERO",
+    "collection": "isbm",
+    "sources": [
+      "Complemento 109",
+      "Tarifas · Medicamentos"
+    ],
+    "aliases": [],
+    "source_records": [
+      {
+        "source": "Complemento 109",
+        "number": 28,
+        "code": "10000262",
+        "description": "DEXAMETASONA + CLORANFENICOL + NAFAZOLINA COLIRIO DEXAMETASONA 0.1% + CLORANFENICOL 0.5% + NAFAZOLINA 0.025% COLIRIO",
+        "presentation": "CAJA X 1 FRASCO GOTERO X 7.5 ML"
+      },
+      {
+        "source": "Tarifas · Medicamentos",
+        "row": 263,
+        "code_p2h": "10000262",
+        "code_tca": "10000262",
+        "barcode": "10000262",
+        "description": "DEXAMETASONA + CLORANFENICOL + NAFAZOLINA COLIRIO DEXAMETASONA 0.1% + CLORANFENICOL 0.5% + NAFAZOLINA 0.025% COLIRIO",
+        "state": "Inactivo",
+        "phase": "FASE 3",
+        "agreement": "DRSV/ISBM",
+        "price_rollout_iva": null,
+        "price_pilot_iva": null
+      }
+    ],
+    "state": "Inactivo",
+    "treatment": "AGUDO",
+    "controlled": "No",
+    "injectable": "No",
+    "specialist": "Si",
+    "group": "CORTICOSTEROIDES PARA USO SISTÉMICO",
+    "agreement": "DRSV/ISBM",
+    "price_rollout_iva": null,
+    "price_pilot_iva": null
+  },
+  {
+    "id": "26020101",
+    "number": 29,
+    "code": "26020101",
+    "name": "DEXAMETASONA FOSFATO (SODICO) FRASCO VIAL DE 5 ML, I.M.-I.V. 4 MG/ML",
+    "composition": "4 MG/ML",
+    "presentation": "CAJA X 100 FRASCOS-AMPOLLA X 5 ML",
+    "type": "SOLUCIÓN INYECTABLE I.M./I.V.",
+    "unit": "FRASCO-AMPOLLA",
+    "collection": "isbm",
+    "sources": [
+      "Complemento 109",
+      "Tarifas · Medicamentos"
+    ],
+    "aliases": [
+      "DEXAMETASONA FOSFATO (SODICO) FRASCO VIAL DE 5 ML"
+    ],
+    "source_records": [
+      {
+        "source": "Complemento 109",
+        "number": 29,
+        "code": "26020101",
+        "description": "DEXAMETASONA FOSFATO (SODICO) FRASCO VIAL DE 5 ML, I.M.-I.V. 4 MG/ML",
+        "presentation": "CAJA X 100 FRASCOS-AMPOLLA X 5 ML"
+      },
+      {
+        "source": "Tarifas · Medicamentos",
+        "row": 266,
+        "code_p2h": "26020101",
+        "code_tca": "26020101",
+        "barcode": "26020101",
+        "description": "DEXAMETASONA FOSFATO (SODICO) FRASCO VIAL DE 5 ML",
+        "state": "Inactivo",
+        "phase": "FASE 3",
+        "agreement": "DRSV/ISBM",
+        "price_rollout_iva": null,
+        "price_pilot_iva": null
+      }
+    ],
+    "state": "Inactivo",
+    "treatment": "AGUDO",
+    "controlled": "No",
+    "injectable": "Si",
+    "specialist": "Si",
+    "group": "CORTICOSTEROIDES PARA USO SISTÉMICO",
+    "agreement": "DRSV/ISBM",
+    "price_rollout_iva": null,
+    "price_pilot_iva": null
+  },
+  {
+    "id": "10000269",
+    "number": 30,
+    "code": "10000269",
+    "name": "DEXTROMETORFAN BROMHIDRATO + CARBOXIMETILCISTEINA +CLORFENIRAMINA MALEATO JARABE DE 5 MG+ 150 MG +2.5 MG",
+    "composition": "5 MG + 150 MG + 2.5 MG",
+    "presentation": "FRASCO X 120 ML",
+    "type": "JARABE",
+    "unit": "FRASCO",
+    "collection": "isbm",
+    "sources": [
+      "Complemento 109",
+      "Tarifas · Medicamentos"
+    ],
+    "aliases": [
+      "DEXTROMETORFAN BROMHIDRATO + CARBOXIMETILCISTEINA +CLORFENIR 5 mg+ 150 mg +2.5 mg jarabe"
+    ],
+    "source_records": [
+      {
+        "source": "Complemento 109",
+        "number": 30,
+        "code": "10000269",
+        "description": "DEXTROMETORFAN BROMHIDRATO + CARBOXIMETILCISTEINA +CLORFENIRAMINA MALEATO JARABE DE 5 MG+ 150 MG +2.5 MG",
+        "presentation": "FRASCO X 120 ML"
+      },
+      {
+        "source": "Tarifas · Medicamentos",
+        "row": 267,
+        "code_p2h": "10000269",
+        "code_tca": "10000269",
+        "barcode": "10000269",
+        "description": "DEXTROMETORFAN BROMHIDRATO + CARBOXIMETILCISTEINA +CLORFENIR 5 mg+ 150 mg +2.5 mg jarabe",
+        "state": "Inactivo",
+        "phase": "FASE 3",
+        "agreement": "DRSV/ISBM",
+        "price_rollout_iva": null,
+        "price_pilot_iva": null
+      }
+    ],
+    "state": "Inactivo",
+    "treatment": "AGUDO",
+    "controlled": "No",
+    "injectable": "No",
+    "specialist": "Si",
+    "group": "PREPARADOS PARA LA TOS Y FRÍOS",
+    "agreement": "DRSV/ISBM",
+    "price_rollout_iva": null,
+    "price_pilot_iva": null
+  },
+  {
+    "id": "10000270",
+    "number": 31,
+    "code": "10000270",
+    "name": "DEXTROMETORFANO BROMHIDRATO JARABE DE 15 MG/ 5 ML",
+    "composition": "15 MG / 5 ML",
+    "presentation": "CAJA X 1 FRASCO X 120 ML",
+    "type": "JARABE",
+    "unit": "FRASCO",
+    "collection": "isbm",
+    "sources": [
+      "Complemento 109",
+      "Tarifas · Medicamentos"
+    ],
+    "aliases": [
+      "DEXTROMETORFANO JARABE (15 MG/ 5 ML) FRASCO DE 120ML"
+    ],
+    "source_records": [
+      {
+        "source": "Complemento 109",
+        "number": 31,
+        "code": "10000270",
+        "description": "DEXTROMETORFANO BROMHIDRATO JARABE DE 15 MG/ 5 ML",
+        "presentation": "CAJA X 1 FRASCO X 120 ML"
+      },
+      {
+        "source": "Tarifas · Medicamentos",
+        "row": 268,
+        "code_p2h": "10000270",
+        "code_tca": "10000270",
+        "barcode": "10000270",
+        "description": "DEXTROMETORFANO JARABE (15 MG/ 5 ML) FRASCO DE 120ML",
+        "state": "Inactivo",
+        "phase": "FASE 3",
+        "agreement": "DRSV/ISBM",
+        "price_rollout_iva": null,
+        "price_pilot_iva": null
+      }
+    ],
+    "state": "Inactivo",
+    "treatment": "AGUDO",
+    "controlled": "No",
+    "injectable": "No",
+    "specialist": "Si",
+    "group": "PREPARADOS PARA LA TOS Y FRÍOS",
+    "agreement": "DRSV/ISBM",
+    "price_rollout_iva": null,
+    "price_pilot_iva": null
+  },
+  {
+    "id": "10000295",
+    "number": 32,
+    "code": "10000295",
+    "name": "DICLOFENACO SÓDICO COLIRIO SOL. OFTÁLMICA AL 0.1%",
+    "composition": "0.1%",
+    "presentation": "CAJA X 1 FRASCO GOTERO X 7.5 ML",
+    "type": "SOLUCIÓN OFTÁLMICA (COLIRIO)",
+    "unit": "FRASCO GOTERO",
+    "collection": "isbm",
+    "sources": [
+      "Complemento 109",
+      "Tarifas · Medicamentos"
+    ],
+    "aliases": [
+      "DICLOFENACO, SÓDICO 0.001 gotas oftalmicas"
+    ],
+    "source_records": [
+      {
+        "source": "Complemento 109",
+        "number": 32,
+        "code": "10000295",
+        "description": "DICLOFENACO SÓDICO COLIRIO SOL. OFTÁLMICA AL 0.1%",
+        "presentation": "CAJA X 1 FRASCO GOTERO X 7.5 ML"
+      },
+      {
+        "source": "Tarifas · Medicamentos",
+        "row": 270,
+        "code_p2h": "10000295",
+        "code_tca": "10000295",
+        "barcode": "10000295",
+        "description": "DICLOFENACO, SÓDICO 0.001 gotas oftalmicas",
+        "state": "Inactivo",
+        "phase": "FASE 3",
+        "agreement": "DRSV/ISBM",
+        "price_rollout_iva": null,
+        "price_pilot_iva": null
+      }
+    ],
+    "state": "Inactivo",
+    "treatment": "AGUDO",
+    "controlled": "No",
+    "injectable": "No",
+    "specialist": "Si",
+    "group": "PRODUCTOS ANTIINFLAMATORIOS Y ANTIRREUMÁ",
+    "agreement": "DRSV/ISBM",
+    "price_rollout_iva": null,
+    "price_pilot_iva": null
+  },
+  {
+    "id": "31010101",
+    "number": 33,
+    "code": "31010101",
+    "name": "DIMENHIDRINATO AMPOLLA DE 50 MG/2 ML",
+    "composition": "50 MG / 2 ML",
+    "presentation": "CAJA X 100 AMPOLLAS X 2 ML",
+    "type": "SOLUCIÓN INYECTABLE",
+    "unit": "AMPOLLA",
+    "collection": "isbm",
+    "sources": [
+      "Complemento 109",
+      "Tarifas · Medicamentos"
+    ],
+    "aliases": [],
+    "source_records": [
+      {
+        "source": "Complemento 109",
+        "number": 33,
+        "code": "31010101",
+        "description": "DIMENHIDRINATO AMPOLLA DE 50 MG/2 ML",
+        "presentation": "CAJA X 100 AMPOLLAS X 2 ML"
+      },
+      {
+        "source": "Tarifas · Medicamentos",
+        "row": 271,
+        "code_p2h": "31010101",
+        "code_tca": "31010101",
+        "barcode": "31010101",
+        "description": "DIMENHIDRINATO AMPOLLA DE 50 MG/2 ML",
+        "state": "Inactivo",
+        "phase": "FASE 3",
+        "agreement": "DRSV/ISBM",
+        "price_rollout_iva": null,
+        "price_pilot_iva": null
+      }
+    ],
+    "state": "Inactivo",
+    "treatment": "AGUDO",
+    "controlled": "No",
+    "injectable": "Si",
+    "specialist": "Si",
+    "group": "ANTIHISTAMÍNICOS PARA USO SISTÉMICO",
+    "agreement": "DRSV/ISBM",
+    "price_rollout_iva": null,
+    "price_pilot_iva": null
+  },
+  {
+    "id": "16080101",
+    "number": 34,
+    "code": "16080101",
+    "name": "DIOSMINA + HESPERIDINA TABLETAS, TABLETAS RECUBIERTAS, CÁPSULAS O COMPRIMIDOS DE 450 MG +50 MG",
+    "composition": "450 MG + 50 MG",
+    "presentation": "CAJA X 100 TABLETAS (10 BLÍSTER X 10)",
+    "type": "TABLETA",
+    "unit": "TABLETA",
+    "collection": "isbm",
+    "sources": [
+      "Complemento 109",
+      "Tarifas · Medicamentos"
+    ],
+    "aliases": [],
+    "source_records": [
+      {
+        "source": "Complemento 109",
+        "number": 34,
+        "code": "16080101",
+        "description": "DIOSMINA + HESPERIDINA TABLETAS, TABLETAS RECUBIERTAS, CÁPSULAS O COMPRIMIDOS DE 450 MG +50 MG",
+        "presentation": "CAJA X 100 TABLETAS (10 BLÍSTER X 10)"
+      },
+      {
+        "source": "Tarifas · Medicamentos",
+        "row": 272,
+        "code_p2h": "16080101",
+        "code_tca": "16080101",
+        "barcode": "16080101",
+        "description": "DIOSMINA + HESPERIDINA TABLETAS, TABLETAS RECUBIERTAS, CÁPSULAS O COMPRIMIDOS DE 450 MG +50 MG",
+        "state": "Inactivo",
+        "phase": "FASE 3",
+        "agreement": "DRSV/ISBM",
+        "price_rollout_iva": null,
+        "price_pilot_iva": null
+      }
+    ],
+    "state": "Inactivo",
+    "treatment": "CRONICO",
+    "controlled": "No",
+    "injectable": "No",
+    "specialist": "Si",
+    "group": "VASOPROTECTORES",
+    "agreement": "DRSV/ISBM",
+    "price_rollout_iva": null,
+    "price_pilot_iva": null
+  },
+  {
+    "id": "10000331",
+    "number": 35,
+    "code": "10000331",
+    "name": "DOMPERIDONA SUSPENSIÓN DE 1 MG /1 ML",
+    "composition": "1 MG/ML",
+    "presentation": "FRASCO X 60 ML",
+    "type": "SUSPENSIÓN ORAL",
+    "unit": "FRASCO",
+    "collection": "isbm",
+    "sources": [
+      "Complemento 109"
+    ],
+    "aliases": [],
+    "source_records": [
+      {
+        "source": "Complemento 109",
+        "number": 35,
+        "code": "10000331",
+        "description": "DOMPERIDONA SUSPENSIÓN DE 1 MG /1 ML",
+        "presentation": "FRASCO X 60 ML"
+      }
+    ],
+    "review_note": "Suspensión oral en el complemento; inyectable en tarifas. Se mantienen por separado para confirmar la vía."
+  },
+  {
+    "id": "28030102",
+    "number": 36,
+    "code": "28030102",
+    "name": "DORZOLAMIDA CLORHIDRATO COLIRIO SOL. OFTÁLMICA AL 2%",
+    "composition": "2%",
+    "presentation": "FRASCO GOTERO (VOLUMEN POR DEFINIR)",
+    "type": "SOLUCIÓN OFTÁLMICA (COLIRIO)",
+    "unit": "FRASCO GOTERO",
+    "collection": "isbm",
+    "sources": [
+      "Complemento 109",
+      "Tarifas · Medicamentos"
+    ],
+    "aliases": [],
+    "source_records": [
+      {
+        "source": "Complemento 109",
+        "number": 36,
+        "code": "28030102",
+        "description": "DORZOLAMIDA CLORHIDRATO COLIRIO SOL. OFTÁLMICA AL 2%",
+        "presentation": "FRASCO GOTERO (VOLUMEN POR DEFINIR)"
+      },
+      {
+        "source": "Tarifas · Medicamentos",
+        "row": 274,
+        "code_p2h": "28030102",
+        "code_tca": "28030102",
+        "barcode": "28030102",
+        "description": "DORZOLAMIDA CLORHIDRATO COLIRIO SOL. OFTÁLMICA AL 2%",
+        "state": "Inactivo",
+        "phase": "FASE 3",
+        "agreement": "DRSV/ISBM",
+        "price_rollout_iva": null,
+        "price_pilot_iva": null
+      }
+    ],
+    "state": "Inactivo",
+    "treatment": "CRONICO",
+    "controlled": "No",
+    "injectable": "No",
+    "specialist": "Si",
+    "group": "OFTÁLMICOS",
+    "agreement": "DRSV/ISBM",
+    "price_rollout_iva": null,
+    "price_pilot_iva": null
+  },
+  {
+    "id": "169",
+    "number": 37,
+    "code": "169",
+    "name": "DOXAZOCINA TABLETA DE 2 MG",
+    "composition": "2 MG",
+    "presentation": "CAJA X 30 UNIDADES (3 BLÍSTER X 10)",
+    "type": "TABLETA",
+    "unit": "TABLETA",
+    "collection": "isbm",
+    "sources": [
+      "Complemento 109",
+      "Tarifas · Medicamentos"
+    ],
+    "aliases": [
+      "DOXAZOCINA Tableta 2 mg"
+    ],
+    "source_records": [
+      {
+        "source": "Complemento 109",
+        "number": 37,
+        "code": "169",
+        "description": "DOXAZOCINA TABLETA DE 2 MG",
+        "presentation": "CAJA X 30 UNIDADES (3 BLÍSTER X 10)"
+      },
+      {
+        "source": "Tarifas · Medicamentos",
+        "row": 347,
+        "code_p2h": "00000169",
+        "code_tca": "00000169",
+        "barcode": "00000169",
+        "description": "DOXAZOCINA Tableta 2 mg",
+        "state": "Inactivo",
+        "phase": "FASE 3",
+        "agreement": "DRSV/ISBM",
+        "price_rollout_iva": null,
+        "price_pilot_iva": null
+      }
+    ],
+    "state": "Inactivo",
+    "treatment": "AGUDO",
+    "controlled": "No",
+    "injectable": "No",
+    "specialist": "Si",
+    "group": "ANTIHIPERTENSIVOS",
+    "agreement": "DRSV/ISBM",
+    "price_rollout_iva": null,
+    "price_pilot_iva": null
+  },
+  {
+    "id": "15040101",
+    "number": 38,
+    "code": "15040101",
+    "name": "DUTASTERIDE TABLETAS O CÁPSULAS DE 0.5 MG",
+    "composition": "0.5 MG",
+    "presentation": "CAJA X 30 CÁPSULAS (3 BLÍSTER X 10)",
+    "type": "CÁPSULA",
+    "unit": "CÁPSULA",
+    "collection": "isbm",
+    "sources": [
+      "Complemento 109",
+      "Tarifas · Medicamentos"
+    ],
+    "aliases": [],
+    "source_records": [
+      {
+        "source": "Complemento 109",
+        "number": 38,
+        "code": "15040101",
+        "description": "DUTASTERIDE TABLETAS O CÁPSULAS DE 0.5 MG",
+        "presentation": "CAJA X 30 CÁPSULAS (3 BLÍSTER X 10)"
+      },
+      {
+        "source": "Tarifas · Medicamentos",
+        "row": 275,
+        "code_p2h": "15040101",
+        "code_tca": "15040101",
+        "barcode": "15040101",
+        "description": "DUTASTERIDE TABLETAS O CÁPSULAS DE 0.5 MG",
+        "state": "Inactivo",
+        "phase": "FASE 3",
+        "agreement": "DRSV/ISBM",
+        "price_rollout_iva": null,
+        "price_pilot_iva": null
+      }
+    ],
+    "state": "Inactivo",
+    "treatment": "CRONICO",
+    "controlled": "No",
+    "injectable": "No",
+    "specialist": "Si",
+    "group": "UROLÓGICOS",
+    "agreement": "DRSV/ISBM",
+    "price_rollout_iva": null,
+    "price_pilot_iva": null
+  },
+  {
+    "id": "34040102",
+    "number": 39,
+    "code": "34040102",
+    "name": "ERGOTAMINA TARTRATO+CAFEINA+PARACETAMOL GRAGEA DE 1 MG/40 MG/450 MG",
+    "composition": "1 MG + 40 MG + 450 MG",
+    "presentation": "CAJA X 100 GRAGEAS",
+    "type": "GRAGEA",
+    "unit": "GRAGEA",
+    "collection": "isbm",
+    "sources": [
+      "Complemento 109",
+      "Tarifas · Medicamentos"
+    ],
+    "aliases": [],
+    "source_records": [
+      {
+        "source": "Complemento 109",
+        "number": 39,
+        "code": "34040102",
+        "description": "ERGOTAMINA TARTRATO+CAFEINA+PARACETAMOL GRAGEA DE 1 MG/40 MG/450 MG",
+        "presentation": "CAJA X 100 GRAGEAS"
+      },
+      {
+        "source": "Tarifas · Medicamentos",
+        "row": 350,
+        "code_p2h": "34040102",
+        "code_tca": "34040102",
+        "barcode": "34040102",
+        "description": "ERGOTAMINA TARTRATO+CAFEINA+PARACETAMOL GRAGEA DE 1 MG/40 MG/450 MG",
+        "state": "Inactivo",
+        "phase": "FASE 3",
+        "agreement": "DRSV/ISBM",
+        "price_rollout_iva": null,
+        "price_pilot_iva": null
+      }
+    ],
+    "state": "Inactivo",
+    "treatment": "CRONICO",
+    "controlled": "No",
+    "injectable": "No",
+    "specialist": "Si",
+    "group": "ANALGÉSICOS",
+    "agreement": "DRSV/ISBM",
+    "price_rollout_iva": null,
+    "price_pilot_iva": null
+  },
+  {
+    "id": "25060101",
+    "number": 40,
+    "code": "25060101",
+    "name": "ERITROPOYETINA ALFA DE ORIGEN ADN RECOMBINANTE HUMANA POLVO LIOFILIZADO PARA SOLUCIÓN O SOLUCIÓN INYECTABLE I.V.-S.C. DE 4000 UI /ML",
+    "composition": "4,000 UI/ML",
+    "presentation": "CAJA X 6 FRASCOS-AMPOLLA X 1 ML",
+    "type": "POLVO LIOFILIZADO O SOLUCIÓN INYECTABLE I.V./S.C.",
+    "unit": "FRASCO-AMPOLLA",
+    "collection": "isbm",
+    "sources": [
+      "Complemento 109",
+      "Tarifas · Medicamentos"
+    ],
+    "aliases": [
+      "ERITROPOYETINA ALFA DE ORIGEN ADN RECOMBINANTE HUMANA SOLUCIÓN INYECTABLE I.V.-S.C. DE 4000 UI /ML"
+    ],
+    "source_records": [
+      {
+        "source": "Complemento 109",
+        "number": 40,
+        "code": "25060101",
+        "description": "ERITROPOYETINA ALFA DE ORIGEN ADN RECOMBINANTE HUMANA POLVO LIOFILIZADO PARA SOLUCIÓN O SOLUCIÓN INYECTABLE I.V.-S.C. DE 4000 UI /ML",
+        "presentation": "CAJA X 6 FRASCOS-AMPOLLA X 1 ML"
+      },
+      {
+        "source": "Tarifas · Medicamentos",
+        "row": 277,
+        "code_p2h": "25060101",
+        "code_tca": "25060101",
+        "barcode": "25060101",
+        "description": "ERITROPOYETINA ALFA DE ORIGEN ADN RECOMBINANTE HUMANA SOLUCIÓN INYECTABLE I.V.-S.C. DE 4000 UI /ML",
+        "state": "Inactivo",
+        "phase": "FASE 3",
+        "agreement": "DRSV/ISBM",
+        "price_rollout_iva": null,
+        "price_pilot_iva": null
+      }
+    ],
+    "state": "Inactivo",
+    "treatment": "CRONICO",
+    "controlled": "No",
+    "injectable": "Si",
+    "specialist": "Si",
+    "group": "PREPARADOS ANTIANÉMICOS",
+    "agreement": "DRSV/ISBM",
+    "price_rollout_iva": null,
+    "price_pilot_iva": null
+  },
+  {
+    "id": "23020205",
+    "number": 41,
+    "code": "23020205",
+    "name": "ESOMEPRAZOL TABLETA O CÁPSULA DE 40 MG",
+    "composition": "40 MG",
+    "presentation": "CAJA X 30 UNIDADES (3 BLÍSTER X 10)",
+    "type": "TABLETA O CÁPSULA",
+    "unit": "TABLETA O CÁPSULA",
+    "collection": "isbm",
+    "sources": [
+      "Complemento 109",
+      "Tarifas · Medicamentos"
+    ],
+    "aliases": [],
+    "source_records": [
+      {
+        "source": "Complemento 109",
+        "number": 41,
+        "code": "23020205",
+        "description": "ESOMEPRAZOL TABLETA O CÁPSULA DE 40 MG",
+        "presentation": "CAJA X 30 UNIDADES (3 BLÍSTER X 10)"
+      },
+      {
+        "source": "Tarifas · Medicamentos",
+        "row": 278,
+        "code_p2h": "23020205",
+        "code_tca": "23020205",
+        "barcode": "23020205",
+        "description": "ESOMEPRAZOL TABLETA O CÁPSULA DE 40 MG",
+        "state": "Inactivo",
+        "phase": "FASE 3",
+        "agreement": "DRSV/ISBM",
+        "price_rollout_iva": null,
+        "price_pilot_iva": null
+      }
+    ],
+    "state": "Inactivo",
+    "treatment": "AGUDO",
+    "controlled": "No",
+    "injectable": "No",
+    "specialist": "Si",
+    "group": "MEDICAMENTOS PARA TRASTORNOS RELACIONADO",
+    "agreement": "DRSV/ISBM",
+    "price_rollout_iva": null,
+    "price_pilot_iva": null
+  },
+  {
+    "id": "16050202",
+    "number": 42,
+    "code": "16050202",
+    "name": "ESPIRONOLACTONA  TABLETA DE 25 MG",
+    "composition": "25 MG",
+    "presentation": "CAJA X 30 TABLETAS (3 BLÍSTER X 10)",
+    "type": "TABLETA",
+    "unit": "TABLETA",
+    "collection": "isbm",
+    "sources": [
+      "Complemento 109",
+      "Tarifas · Medicamentos"
+    ],
+    "aliases": [
+      "ESPIRONOLACTONA TABLETA DE 25 MG"
+    ],
+    "source_records": [
+      {
+        "source": "Complemento 109",
+        "number": 42,
+        "code": "16050202",
+        "description": "ESPIRONOLACTONA  TABLETA DE 25 MG",
+        "presentation": "CAJA X 30 TABLETAS (3 BLÍSTER X 10)"
+      },
+      {
+        "source": "Tarifas · Medicamentos",
+        "row": 279,
+        "code_p2h": "16050202",
+        "code_tca": "16050202",
+        "barcode": "16050202",
+        "description": "ESPIRONOLACTONA TABLETA DE 25 MG",
+        "state": "Inactivo",
+        "phase": "FASE 3",
+        "agreement": "DRSV/ISBM",
+        "price_rollout_iva": null,
+        "price_pilot_iva": null
+      }
+    ],
+    "state": "Inactivo",
+    "treatment": "CRONICO",
+    "controlled": "No",
+    "injectable": "No",
+    "specialist": "Si",
+    "group": "DIURÉTICOS",
+    "agreement": "DRSV/ISBM",
+    "price_rollout_iva": null,
+    "price_pilot_iva": null
+  },
+  {
+    "id": "30040201",
+    "number": 43,
+    "code": "30040201",
+    "name": "ETINIL ESTRADIOL + CIPROTERONA TABLETA O COMPRIMIDO DE 2 MG + 0.035 MG",
+    "composition": "0.035 MG + 2 MG",
+    "presentation": "CAJA X 21 TABLETAS",
+    "type": "TABLETA",
+    "unit": "TABLETA",
+    "collection": "isbm",
+    "sources": [
+      "Complemento 109",
+      "Tarifas · Medicamentos"
+    ],
+    "aliases": [],
+    "source_records": [
+      {
+        "source": "Complemento 109",
+        "number": 43,
+        "code": "30040201",
+        "description": "ETINIL ESTRADIOL + CIPROTERONA TABLETA O COMPRIMIDO DE 2 MG + 0.035 MG",
+        "presentation": "CAJA X 21 TABLETAS"
+      },
+      {
+        "source": "Tarifas · Medicamentos",
+        "row": 280,
+        "code_p2h": "30040201",
+        "code_tca": "30040201",
+        "barcode": "30040201",
+        "description": "ETINIL ESTRADIOL + CIPROTERONA TABLETA O COMPRIMIDO DE 2 MG + 0.035 MG",
+        "state": "Inactivo",
+        "phase": "FASE 3",
+        "agreement": "DRSV/ISBM",
+        "price_rollout_iva": null,
+        "price_pilot_iva": null
+      }
+    ],
+    "state": "Inactivo",
+    "treatment": "CRONICO",
+    "controlled": "No",
+    "injectable": "No",
+    "specialist": "Si",
+    "group": "HORMONAS SEXUALES Y MODULADORES DEL SIST",
+    "agreement": "DRSV/ISBM",
+    "price_rollout_iva": null,
+    "price_pilot_iva": null
+  },
+  {
+    "id": "33010103",
+    "number": 44,
+    "code": "33010103",
+    "name": "FEBUXOSTAT FEBUXOSTAT DE 80 MG",
+    "composition": "80 MG",
+    "presentation": "CAJA X 60 TABLETAS (6 BLÍSTER X 10)",
+    "type": "TABLETA",
+    "unit": "TABLETA",
+    "collection": "isbm",
+    "sources": [
+      "Complemento 109",
+      "Tarifas · Medicamentos"
+    ],
+    "aliases": [
+      "FEBUXOSTAT 80 MG TABLETA RECUBIERTA"
+    ],
+    "source_records": [
+      {
+        "source": "Complemento 109",
+        "number": 44,
+        "code": "33010103",
+        "description": "FEBUXOSTAT FEBUXOSTAT DE 80 MG",
+        "presentation": "CAJA X 60 TABLETAS (6 BLÍSTER X 10)"
+      },
+      {
+        "source": "Tarifas · Medicamentos",
+        "row": 281,
+        "code_p2h": "33010103",
+        "code_tca": "33010103",
+        "barcode": "33010103",
+        "description": "FEBUXOSTAT 80 MG TABLETA RECUBIERTA",
+        "state": "Inactivo",
+        "phase": "FASE 3",
+        "agreement": "DRSV/ISBM",
+        "price_rollout_iva": null,
+        "price_pilot_iva": null
+      }
+    ],
+    "state": "Inactivo",
+    "treatment": "CRONICO",
+    "controlled": "No",
+    "injectable": "No",
+    "specialist": "Si",
+    "group": "MEDICAMENTOS PARA LA GOTA",
+    "agreement": "DRSV/ISBM",
+    "price_rollout_iva": null,
+    "price_pilot_iva": null
+  },
+  {
+    "id": "174",
+    "number": 45,
+    "code": "174",
+    "name": "FENITOINA JARABE O SUSPENSIÓN DE 125 MG/5 ML",
+    "composition": "125 MG / 5 ML",
+    "presentation": "FRASCO X 120ML",
+    "type": "JARABE O SUSPENSIÓN ORAL",
+    "unit": "FRASCO",
+    "collection": "isbm",
+    "sources": [
+      "Complemento 109",
+      "Tarifas · Medicamentos"
+    ],
+    "aliases": [
+      "FENITOINA 125 mg/5 ml Jarabe o Suspensión"
+    ],
+    "source_records": [
+      {
+        "source": "Complemento 109",
+        "number": 45,
+        "code": "174",
+        "description": "FENITOINA JARABE O SUSPENSIÓN DE 125 MG/5 ML",
+        "presentation": "FRASCO X 120ML"
+      },
+      {
+        "source": "Tarifas · Medicamentos",
+        "row": 348,
+        "code_p2h": "00000174",
+        "code_tca": "00000174",
+        "barcode": "00000174",
+        "description": "FENITOINA 125 mg/5 ml Jarabe o Suspensión",
+        "state": "Inactivo",
+        "phase": "FASE 3",
+        "agreement": "DRSV/ISBM",
+        "price_rollout_iva": null,
+        "price_pilot_iva": null
+      }
+    ],
+    "state": "Inactivo",
+    "treatment": "AGUDO",
+    "controlled": "No",
+    "injectable": "No",
+    "specialist": "Si",
+    "group": "ANTIEPILÉPTICOS",
+    "agreement": "DRSV/ISBM",
+    "price_rollout_iva": null,
+    "price_pilot_iva": null
+  },
+  {
+    "id": "29100101",
+    "number": 46,
+    "code": "29100101",
+    "name": "FILTRO SOLAR PROTECCIÓN SOLAR 30 O MAYOR, CREMA",
+    "composition": "FPS 30 O MAYOR",
+    "presentation": "TUBO X 100 G",
+    "type": "CREMA",
+    "unit": "TUBO",
+    "collection": "isbm",
+    "sources": [
+      "Complemento 109",
+      "Tarifas · Medicamentos"
+    ],
+    "aliases": [],
+    "source_records": [
+      {
+        "source": "Complemento 109",
+        "number": 46,
+        "code": "29100101",
+        "description": "FILTRO SOLAR PROTECCIÓN SOLAR 30 O MAYOR, CREMA",
+        "presentation": "TUBO X 100 G"
+      },
+      {
+        "source": "Tarifas · Medicamentos",
+        "row": 282,
+        "code_p2h": "29100101",
+        "code_tca": "29100101",
+        "barcode": "29100101",
+        "description": "FILTRO SOLAR PROTECCIÓN SOLAR 30 O MAYOR, CREMA",
+        "state": "Inactivo",
+        "phase": "FASE 3",
+        "agreement": "DRSV/ISBM",
+        "price_rollout_iva": null,
+        "price_pilot_iva": null
+      }
+    ],
+    "state": "Inactivo",
+    "treatment": "AGUDO",
+    "controlled": "No",
+    "injectable": "No",
+    "specialist": "Si",
+    "group": "EMOLIENTES Y PROTECTORES CUTÁNEOS",
+    "agreement": "DRSV/ISBM",
+    "price_rollout_iva": null,
+    "price_pilot_iva": null
+  },
+  {
+    "id": "18030101",
+    "number": 47,
+    "code": "18030101",
+    "name": "FITOMENADIONA (VITAMINA K1) AMPOLLA DE 10 MG/ML",
+    "composition": "10 MG/ML",
+    "presentation": "CAJA X 25 AMPOLLAS",
+    "type": "SOLUCIÓN INYECTABLE",
+    "unit": "AMPOLLA",
+    "collection": "isbm",
+    "sources": [
+      "Complemento 109",
+      "Tarifas · Medicamentos"
+    ],
+    "aliases": [],
+    "source_records": [
+      {
+        "source": "Complemento 109",
+        "number": 47,
+        "code": "18030101",
+        "description": "FITOMENADIONA (VITAMINA K1) AMPOLLA DE 10 MG/ML",
+        "presentation": "CAJA X 25 AMPOLLAS"
+      },
+      {
+        "source": "Tarifas · Medicamentos",
+        "row": 283,
+        "code_p2h": "18030101",
+        "code_tca": "18030101",
+        "barcode": "18030101",
+        "description": "FITOMENADIONA (VITAMINA K1) AMPOLLA DE 10 MG/ML",
+        "state": "Inactivo",
+        "phase": "FASE 3",
+        "agreement": "DRSV/ISBM",
+        "price_rollout_iva": null,
+        "price_pilot_iva": null
+      }
+    ],
+    "state": "Inactivo",
+    "treatment": "AGUDO",
+    "controlled": "No",
+    "injectable": "Si",
+    "specialist": "Si",
+    "group": "ANTIHEMORRÁGICOS",
+    "agreement": "DRSV/ISBM",
+    "price_rollout_iva": null,
+    "price_pilot_iva": null
+  },
+  {
+    "id": "34040101",
+    "number": 48,
+    "code": "34040101",
+    "name": "FLUNARICINA DICLORHIDRATO TABLETA O CÁPSULA DE 10 MG",
+    "composition": "10 MG",
+    "presentation": "CAJA X 10 TABLETAS",
+    "type": "TABLETA",
+    "unit": "TABLETA",
+    "collection": "isbm",
+    "sources": [
+      "Complemento 109",
+      "Tarifas · Medicamentos"
+    ],
+    "aliases": [
+      "FLUNARIZINA DICLORHIDRATO TABLETA O CÁPSULA DE 10 MG"
+    ],
+    "source_records": [
+      {
+        "source": "Complemento 109",
+        "number": 48,
+        "code": "34040101",
+        "description": "FLUNARICINA DICLORHIDRATO TABLETA O CÁPSULA DE 10 MG",
+        "presentation": "CAJA X 10 TABLETAS"
+      },
+      {
+        "source": "Tarifas · Medicamentos",
+        "row": 284,
+        "code_p2h": "34040101",
+        "code_tca": "34040101",
+        "barcode": "34040101",
+        "description": "FLUNARIZINA DICLORHIDRATO TABLETA O CÁPSULA DE 10 MG",
+        "state": "Inactivo",
+        "phase": "FASE 3",
+        "agreement": "DRSV/ISBM",
+        "price_rollout_iva": null,
+        "price_pilot_iva": null
+      }
+    ],
+    "state": "Inactivo",
+    "treatment": "AGUDO",
+    "controlled": "No",
+    "injectable": "No",
+    "specialist": "Si",
+    "group": "OTROS MEDICAMENTOS DEL SISTEMA NERVIOSO",
+    "agreement": "DRSV/ISBM",
+    "price_rollout_iva": null,
+    "price_pilot_iva": null
+  },
+  {
+    "id": "38020101",
+    "number": 49,
+    "code": "38020101",
+    "name": "GLUCOSAMINA SÓLIDO ORAL DE 1.5 G",
+    "composition": "1.5 G",
+    "presentation": "CAJA X 15 SOBRES",
+    "type": "POLVO ORAL (SOBRE)",
+    "unit": "SOBRE",
+    "collection": "isbm",
+    "sources": [
+      "Complemento 109",
+      "Tarifas · Medicamentos"
+    ],
+    "aliases": [
+      "GLUCOSAMINA SÓLIDO ORAL DE 1.5 G SOBRES"
+    ],
+    "source_records": [
+      {
+        "source": "Complemento 109",
+        "number": 49,
+        "code": "38020101",
+        "description": "GLUCOSAMINA SÓLIDO ORAL DE 1.5 G",
+        "presentation": "CAJA X 15 SOBRES"
+      },
+      {
+        "source": "Tarifas · Medicamentos",
+        "row": 288,
+        "code_p2h": "38020101",
+        "code_tca": "38020101",
+        "barcode": "38020101",
+        "description": "GLUCOSAMINA SÓLIDO ORAL DE 1.5 G SOBRES",
+        "state": "Inactivo",
+        "phase": "FASE 3",
+        "agreement": "DRSV/ISBM",
+        "price_rollout_iva": null,
+        "price_pilot_iva": null
+      }
+    ],
+    "state": "Inactivo",
+    "treatment": "CRONICO",
+    "controlled": "No",
+    "injectable": "No",
+    "specialist": "Si",
+    "group": "PRODUCTOS ANTIINFLAMATORIOS Y ANTIRREUMÁ",
+    "agreement": "DRSV/ISBM",
+    "price_rollout_iva": null,
+    "price_pilot_iva": null
+  },
+  {
+    "id": "10000494",
+    "number": 50,
+    "code": "10000494",
+    "name": "HIDROXICINA CLORHIDRATO  TABLETA DE 10 MG",
+    "composition": "10 MG",
+    "presentation": "CAJA X 30 UNIDADES (3 BLÍSTER X 10)",
+    "type": "TABLETA",
+    "unit": "TABLETA",
+    "collection": "isbm",
+    "sources": [
+      "Complemento 109",
+      "Tarifas · Medicamentos"
+    ],
+    "aliases": [
+      "HIDROXICINA CLORHIDRATO 10 mg tableta"
+    ],
+    "source_records": [
+      {
+        "source": "Complemento 109",
+        "number": 50,
+        "code": "10000494",
+        "description": "HIDROXICINA CLORHIDRATO  TABLETA DE 10 MG",
+        "presentation": "CAJA X 30 UNIDADES (3 BLÍSTER X 10)"
+      },
+      {
+        "source": "Tarifas · Medicamentos",
+        "row": 356,
+        "code_p2h": "10000494",
+        "code_tca": "10000494",
+        "barcode": "10000494",
+        "description": "HIDROXICINA CLORHIDRATO 10 mg tableta",
+        "state": "Inactivo",
+        "phase": "FASE 3",
+        "agreement": "DRSV/ISBM",
+        "price_rollout_iva": null,
+        "price_pilot_iva": null
+      }
+    ],
+    "state": "Inactivo",
+    "treatment": "AGUDO",
+    "controlled": "No",
+    "injectable": "No",
+    "specialist": "Si",
+    "group": "PSICOLÉPTICOS (ANTIPSICÓTICOS ANSIOLÍTI)",
+    "agreement": "DRSV/ISBM",
+    "price_rollout_iva": null,
+    "price_pilot_iva": null
+  },
+  {
+    "id": "10030103",
+    "number": 51,
+    "code": "10030103",
+    "name": "HIDROXICLOROQUINA TABLETA DE 400 MG",
+    "composition": "400 MG",
+    "presentation": "CAJA X 30 TABLETAS (3 BLÍSTER X 10)",
+    "type": "TABLETA",
+    "unit": "TABLETA",
+    "collection": "isbm",
+    "sources": [
+      "Complemento 109",
+      "Tarifas · Medicamentos"
+    ],
+    "aliases": [],
+    "source_records": [
+      {
+        "source": "Complemento 109",
+        "number": 51,
+        "code": "10030103",
+        "description": "HIDROXICLOROQUINA TABLETA DE 400 MG",
+        "presentation": "CAJA X 30 TABLETAS (3 BLÍSTER X 10)"
+      },
+      {
+        "source": "Tarifas · Medicamentos",
+        "row": 290,
+        "code_p2h": "10030103",
+        "code_tca": "10030103",
+        "barcode": "10030103",
+        "description": "HIDROXICLOROQUINA TABLETA DE 400 MG",
+        "state": "Inactivo",
+        "phase": "FASE 3",
+        "agreement": "DRSV/ISBM",
+        "price_rollout_iva": null,
+        "price_pilot_iva": null
+      }
+    ],
+    "state": "Inactivo",
+    "treatment": "AGUDO",
+    "controlled": "No",
+    "injectable": "No",
+    "specialist": "Si",
+    "group": "ANTIPROTOZOARIOS",
+    "agreement": "DRSV/ISBM",
+    "price_rollout_iva": null,
+    "price_pilot_iva": null
+  },
+  {
+    "id": "28020003",
+    "number": 52,
+    "code": "28020003",
+    "name": "HIDROXIPROPILMETILCELULOSA + DEXTRAN 70 COLIRIO SOLUCIÓN OFTÁLMICA DE 3 MG/ 1MG EN 1ML",
+    "composition": "3 MG + 1 MG / ML",
+    "presentation": "FRASCO GOTERO X 10 ML",
+    "type": "SOLUCIÓN OFTÁLMICA (COLIRIO)",
+    "unit": "FRASCO GOTERO",
+    "collection": "isbm",
+    "sources": [
+      "Complemento 109",
+      "Tarifas · Medicamentos"
+    ],
+    "aliases": [
+      "HIDROXIPROPILMETILCELULOSA+DEXTRAN 70 3 MG/ 1MG SOLUCIÓN OFTÁLMICA FRASCO 10 ML"
+    ],
+    "source_records": [
+      {
+        "source": "Complemento 109",
+        "number": 52,
+        "code": "28020003",
+        "description": "HIDROXIPROPILMETILCELULOSA + DEXTRAN 70 COLIRIO SOLUCIÓN OFTÁLMICA DE 3 MG/ 1MG EN 1ML",
+        "presentation": "FRASCO GOTERO X 10 ML"
+      },
+      {
+        "source": "Tarifas · Medicamentos",
+        "row": 291,
+        "code_p2h": "28020003",
+        "code_tca": "28020003",
+        "barcode": "28020003",
+        "description": "HIDROXIPROPILMETILCELULOSA+DEXTRAN 70 3 MG/ 1MG SOLUCIÓN OFTÁLMICA FRASCO 10 ML",
+        "state": "Inactivo",
+        "phase": "FASE 3",
+        "agreement": "DRSV/ISBM",
+        "price_rollout_iva": null,
+        "price_pilot_iva": null
+      }
+    ],
+    "state": "Inactivo",
+    "treatment": "CRONICO",
+    "controlled": "No",
+    "injectable": "No",
+    "specialist": "Si",
+    "group": "OFTÁLMICOS",
+    "agreement": "DRSV/ISBM",
+    "price_rollout_iva": null,
+    "price_pilot_iva": null
+  },
+  {
+    "id": "35010301",
+    "number": 53,
+    "code": "35010301",
+    "name": "HIDROXIUREA CÁPSULA 500 MG",
+    "composition": "500 MG",
+    "presentation": "CAJA X 100 CÁPSULAS (10 BLÍSTER X 10)",
+    "type": "CÁPSULA",
+    "unit": "CÁPSULA",
+    "collection": "isbm",
+    "sources": [
+      "Complemento 109",
+      "Tarifas · Medicamentos"
+    ],
+    "aliases": [],
+    "source_records": [
+      {
+        "source": "Complemento 109",
+        "number": 53,
+        "code": "35010301",
+        "description": "HIDROXIUREA CÁPSULA 500 MG",
+        "presentation": "CAJA X 100 CÁPSULAS (10 BLÍSTER X 10)"
+      },
+      {
+        "source": "Tarifas · Medicamentos",
+        "row": 292,
+        "code_p2h": "35010301",
+        "code_tca": "35010301",
+        "barcode": "35010301",
+        "description": "HIDROXIUREA CÁPSULA 500 MG",
+        "state": "Inactivo",
+        "phase": "FASE 3",
+        "agreement": "DRSV/ISBM",
+        "price_rollout_iva": null,
+        "price_pilot_iva": null
+      }
+    ],
+    "state": "Inactivo",
+    "treatment": "CRONICO",
+    "controlled": "No",
+    "injectable": "No",
+    "specialist": "Si",
+    "group": "AGENTES ANTINEOPLÁSICOS",
+    "agreement": "DRSV/ISBM",
+    "price_rollout_iva": null,
+    "price_pilot_iva": null
+  },
+  {
+    "id": "25060201",
+    "number": 54,
+    "code": "25060201",
+    "name": "HIERRO AMINOQUELADO  SUSPENSIÓN DE 8.55MG/ML",
+    "composition": "8.55 MG/ML",
+    "presentation": "FRASCO X 30 ML",
+    "type": "SUSPENSIÓN ORAL",
+    "unit": "FRASCO",
+    "collection": "isbm",
+    "sources": [
+      "Complemento 109",
+      "Tarifas · Medicamentos"
+    ],
+    "aliases": [
+      "HIERRO AMINOQUELADO SUSPENSIÓN DE 8.55MG/ML frasco 30ml"
+    ],
+    "source_records": [
+      {
+        "source": "Complemento 109",
+        "number": 54,
+        "code": "25060201",
+        "description": "HIERRO AMINOQUELADO  SUSPENSIÓN DE 8.55MG/ML",
+        "presentation": "FRASCO X 30 ML"
+      },
+      {
+        "source": "Tarifas · Medicamentos",
+        "row": 293,
+        "code_p2h": "25060201",
+        "code_tca": "25060201",
+        "barcode": "25060201",
+        "description": "HIERRO AMINOQUELADO SUSPENSIÓN DE 8.55MG/ML frasco 30ml",
+        "state": "Inactivo",
+        "phase": "FASE 3",
+        "agreement": "DRSV/ISBM",
+        "price_rollout_iva": null,
+        "price_pilot_iva": null
+      }
+    ],
+    "state": "Inactivo",
+    "treatment": "AGUDO",
+    "controlled": "No",
+    "injectable": "No",
+    "specialist": "Si",
+    "group": "PREPARADOS ANTIANÉMICOS",
+    "agreement": "DRSV/ISBM",
+    "price_rollout_iva": null,
+    "price_pilot_iva": null
+  },
+  {
+    "id": "25060202",
+    "number": 55,
+    "code": "25060202",
+    "name": "HIERRO SACAROSA AMPOLLA 20 MG/1 ML",
+    "composition": "20 MG/ML",
+    "presentation": "AMPOLLA X 5 ML",
+    "type": "SOLUCIÓN INYECTABLE",
+    "unit": "AMPOLLA",
+    "collection": "isbm",
+    "sources": [
+      "Complemento 109",
+      "Tarifas · Medicamentos"
+    ],
+    "aliases": [],
+    "source_records": [
+      {
+        "source": "Complemento 109",
+        "number": 55,
+        "code": "25060202",
+        "description": "HIERRO SACAROSA AMPOLLA 20 MG/1 ML",
+        "presentation": "AMPOLLA X 5 ML"
+      },
+      {
+        "source": "Tarifas · Medicamentos",
+        "row": 294,
+        "code_p2h": "25060202",
+        "code_tca": "25060202",
+        "barcode": "25060202",
+        "description": "HIERRO SACAROSA AMPOLLA 20 MG/1 ML",
+        "state": "Inactivo",
+        "phase": "FASE 3",
+        "agreement": "DRSV/ISBM",
+        "price_rollout_iva": null,
+        "price_pilot_iva": null
+      }
+    ],
+    "state": "Inactivo",
+    "treatment": "AGUDO",
+    "controlled": "No",
+    "injectable": "Si",
+    "specialist": "Si",
+    "group": "PREPARADOS ANTIANÉMICOS",
+    "agreement": "DRSV/ISBM",
+    "price_rollout_iva": null,
+    "price_pilot_iva": null
+  },
+  {
+    "id": "24010201",
+    "number": 56,
+    "code": "24010201",
+    "name": "IMIPRAMINA  COMPRIMIDOS O TABLETAS DE25 MG",
+    "composition": "25 MG",
+    "presentation": "CAJA X 100 TABLETAS (10 BLÍSTER X 10)",
+    "type": "TABLETA",
+    "unit": "TABLETA",
+    "collection": "isbm",
+    "sources": [
+      "Complemento 109",
+      "Tarifas · Medicamentos"
+    ],
+    "aliases": [
+      "IMIPRAMINA COMPRIMIDOS O TABLETAS DE25 MG"
+    ],
+    "source_records": [
+      {
+        "source": "Complemento 109",
+        "number": 56,
+        "code": "24010201",
+        "description": "IMIPRAMINA  COMPRIMIDOS O TABLETAS DE25 MG",
+        "presentation": "CAJA X 100 TABLETAS (10 BLÍSTER X 10)"
+      },
+      {
+        "source": "Tarifas · Medicamentos",
+        "row": 295,
+        "code_p2h": "24010201",
+        "code_tca": "24010201",
+        "barcode": "24010201",
+        "description": "IMIPRAMINA COMPRIMIDOS O TABLETAS DE25 MG",
+        "state": "Inactivo",
+        "phase": "FASE 3",
+        "agreement": "DRSV/ISBM",
+        "price_rollout_iva": null,
+        "price_pilot_iva": null
+      }
+    ],
+    "state": "Inactivo",
+    "treatment": "CRONICO",
+    "controlled": "No",
+    "injectable": "No",
+    "specialist": "Si",
+    "group": "PSICOANALEPTICOS (ANTIDEPRESIVOS ESTIMU)",
+    "agreement": "DRSV/ISBM",
+    "price_rollout_iva": null,
+    "price_pilot_iva": null
+  },
+  {
+    "id": "25010405",
+    "number": 57,
+    "code": "25010405",
+    "name": "INSULINA HUMANA CRISTALINA ADN RECOMBINANTE  SOLUCIÓN INYECTABLE DE 100 UI/ML",
+    "composition": "100 UI/ML",
+    "presentation": "FRASCO-AMPOLLA X 10 ML",
+    "type": "SOLUCIÓN INYECTABLE",
+    "unit": "FRASCO-AMPOLLA",
+    "collection": "isbm",
+    "sources": [
+      "Complemento 109"
+    ],
+    "aliases": [],
+    "source_records": [
+      {
+        "source": "Complemento 109",
+        "number": 57,
+        "code": "25010405",
+        "description": "INSULINA HUMANA CRISTALINA ADN RECOMBINANTE  SOLUCIÓN INYECTABLE DE 100 UI/ML",
+        "presentation": "FRASCO-AMPOLLA X 10 ML"
+      }
+    ],
+    "review_note": "Frasco-ampolla de 10 ml en el complemento; pluma de 3 ml en tarifas. Se mantienen por separado para confirmar la presentación."
+  },
+  {
+    "id": "16060102",
+    "number": 58,
+    "code": "16060102",
+    "name": "ISOSORBIDE MONONITRATO TABLETA DE 20 MG",
+    "composition": "20 MG",
+    "presentation": "CAJA X 30 TABLETAS (3 BLÍSTER X 10)",
+    "type": "TABLETA",
+    "unit": "TABLETA",
+    "collection": "isbm",
+    "sources": [
+      "Complemento 109",
+      "Tarifas · Medicamentos"
+    ],
+    "aliases": [],
+    "source_records": [
+      {
+        "source": "Complemento 109",
+        "number": 58,
+        "code": "16060102",
+        "description": "ISOSORBIDE MONONITRATO TABLETA DE 20 MG",
+        "presentation": "CAJA X 30 TABLETAS (3 BLÍSTER X 10)"
+      },
+      {
+        "source": "Tarifas · Medicamentos",
+        "row": 297,
+        "code_p2h": "16060102",
+        "code_tca": "16060102",
+        "barcode": "16060102",
+        "description": "ISOSORBIDE MONONITRATO TABLETA DE 20 MG",
+        "state": "Inactivo",
+        "phase": "FASE 3",
+        "agreement": "DRSV/ISBM",
+        "price_rollout_iva": null,
+        "price_pilot_iva": null
+      }
+    ],
+    "state": "Inactivo",
+    "treatment": "CRONICO",
+    "controlled": "No",
+    "injectable": "No",
+    "specialist": "Si",
+    "group": "TERAPIA CARDÍACA",
+    "agreement": "DRSV/ISBM",
+    "price_rollout_iva": null,
+    "price_pilot_iva": null
+  },
+  {
+    "id": "13010201",
+    "number": 59,
+    "code": "13010201",
+    "name": "KETOCONAZOL  TABLETA DE 200 MG",
+    "composition": "200 MG",
+    "presentation": "CAJA X 10 TABLETAS",
+    "type": "TABLETA",
+    "unit": "TABLETA",
+    "collection": "isbm",
+    "sources": [
+      "Complemento 109",
+      "Tarifas · Medicamentos"
+    ],
+    "aliases": [
+      "KETOCONAZOL TABLETA DE 200 MG"
+    ],
+    "source_records": [
+      {
+        "source": "Complemento 109",
+        "number": 59,
+        "code": "13010201",
+        "description": "KETOCONAZOL  TABLETA DE 200 MG",
+        "presentation": "CAJA X 10 TABLETAS"
+      },
+      {
+        "source": "Tarifas · Medicamentos",
+        "row": 299,
+        "code_p2h": "13010201",
+        "code_tca": "13010201",
+        "barcode": "13010201",
+        "description": "KETOCONAZOL TABLETA DE 200 MG",
+        "state": "Inactivo",
+        "phase": "FASE 3",
+        "agreement": "DRSV/ISBM",
+        "price_rollout_iva": null,
+        "price_pilot_iva": null
+      }
+    ],
+    "state": "Inactivo",
+    "treatment": "AGUDO",
+    "controlled": "No",
+    "injectable": "No",
+    "specialist": "Si",
+    "group": "ANTIMICÓTICOS PARA USO SISTÉMICO",
+    "agreement": "DRSV/ISBM",
+    "price_rollout_iva": null,
+    "price_pilot_iva": null
+  },
+  {
+    "id": "10000558",
+    "number": 60,
+    "code": "10000558",
+    "name": "KETOROLACO TABLETA O COMPRIMIDO DE 10 MG",
+    "composition": "10 MG",
+    "presentation": "CAJA X 10 TABLETAS RECUBIERTAS",
+    "type": "TABLETA RECUBIERTA",
+    "unit": "TABLETA",
+    "collection": "isbm",
+    "sources": [
+      "Complemento 109",
+      "Tarifas · Medicamentos"
+    ],
+    "aliases": [],
+    "source_records": [
+      {
+        "source": "Complemento 109",
+        "number": 60,
+        "code": "10000558",
+        "description": "KETOROLACO TABLETA O COMPRIMIDO DE 10 MG",
+        "presentation": "CAJA X 10 TABLETAS RECUBIERTAS"
+      },
+      {
+        "source": "Tarifas · Medicamentos",
+        "row": 300,
+        "code_p2h": "10000558",
+        "code_tca": "10000558",
+        "barcode": "10000558",
+        "description": "KETOROLACO TABLETA O COMPRIMIDO DE 10 MG",
+        "state": "Inactivo",
+        "phase": "FASE 3",
+        "agreement": "DRSV/ISBM",
+        "price_rollout_iva": null,
+        "price_pilot_iva": null
+      }
+    ],
+    "state": "Inactivo",
+    "treatment": "AGUDO",
+    "controlled": "No",
+    "injectable": "No",
+    "specialist": "Si",
+    "group": "PRODUCTOS ANTIINFLAMATORIOS Y ANTIRREUMÁ",
+    "agreement": "DRSV/ISBM",
+    "price_rollout_iva": null,
+    "price_pilot_iva": null
+  },
+  {
+    "id": "28060101",
+    "number": 61,
+    "code": "28060101",
+    "name": "KETOTIFENO COLIRIO 0.25 MG/ML",
+    "composition": "0.25 MG/ML",
+    "presentation": "CAJA X 1 FRASCO GOTERO X 5 ML",
+    "type": "SOLUCIÓN OFTÁLMICA (COLIRIO)",
+    "unit": "FRASCO GOTERO",
+    "collection": "isbm",
+    "sources": [
+      "Complemento 109",
+      "Tarifas · Medicamentos"
+    ],
+    "aliases": [
+      "KETOTIFENO COLIRIO 0.25 MG/ML FRASCO X 5ML"
+    ],
+    "source_records": [
+      {
+        "source": "Complemento 109",
+        "number": 61,
+        "code": "28060101",
+        "description": "KETOTIFENO COLIRIO 0.25 MG/ML",
+        "presentation": "CAJA X 1 FRASCO GOTERO X 5 ML"
+      },
+      {
+        "source": "Tarifas · Medicamentos",
+        "row": 301,
+        "code_p2h": "28060101",
+        "code_tca": "28060101",
+        "barcode": "28060101",
+        "description": "KETOTIFENO COLIRIO 0.25 MG/ML FRASCO X 5ML",
+        "state": "Inactivo",
+        "phase": "FASE 3",
+        "agreement": "DRSV/ISBM",
+        "price_rollout_iva": null,
+        "price_pilot_iva": null
+      }
+    ],
+    "state": "Inactivo",
+    "treatment": "AGUDO",
+    "controlled": "No",
+    "injectable": "No",
+    "specialist": "Si",
+    "group": "OFTÁLMICOS",
+    "agreement": "DRSV/ISBM",
+    "price_rollout_iva": null,
+    "price_pilot_iva": null
+  },
+  {
+    "id": "24030201",
+    "number": 62,
+    "code": "24030201",
+    "name": "LACOSAMIDA TABLETA DE 100 MG",
+    "composition": "100 MG",
+    "presentation": "CAJA X 30 TABLETAS RECUBIERTAS (3 BLÍSTER X 10)",
+    "type": "TABLETA RECUBIERTA",
+    "unit": "TABLETA",
+    "collection": "isbm",
+    "sources": [
+      "Complemento 109",
+      "Tarifas · Medicamentos"
+    ],
+    "aliases": [],
+    "source_records": [
+      {
+        "source": "Complemento 109",
+        "number": 62,
+        "code": "24030201",
+        "description": "LACOSAMIDA TABLETA DE 100 MG",
+        "presentation": "CAJA X 30 TABLETAS RECUBIERTAS (3 BLÍSTER X 10)"
+      },
+      {
+        "source": "Tarifas · Medicamentos",
+        "row": 302,
+        "code_p2h": "24030201",
+        "code_tca": "24030201",
+        "barcode": "24030201",
+        "description": "LACOSAMIDA TABLETA DE 100 MG",
+        "state": "Inactivo",
+        "phase": "FASE 3",
+        "agreement": "DRSV/ISBM",
+        "price_rollout_iva": null,
+        "price_pilot_iva": null
+      }
+    ],
+    "state": "Inactivo",
+    "treatment": "CRONICO",
+    "controlled": "No",
+    "injectable": "No",
+    "specialist": "Si",
+    "group": "ANTIEPILÉPTICOS",
+    "agreement": "DRSV/ISBM",
+    "price_rollout_iva": null,
+    "price_pilot_iva": null
+  },
+  {
+    "id": "28030201",
+    "number": 63,
+    "code": "28030201",
+    "name": "LATANOPROST  COLIRIO 0.005%",
+    "composition": "0.005%",
+    "presentation": "CAJA X 1 FRASCO GOTERO X 3 ML",
+    "type": "SOLUCIÓN OFTÁLMICA (COLIRIO)",
+    "unit": "FRASCO GOTERO",
+    "collection": "isbm",
+    "sources": [
+      "Complemento 109",
+      "Tarifas · Medicamentos"
+    ],
+    "aliases": [
+      "LATANOPROST COLIRIO 0.005% frasco x 3ml"
+    ],
+    "source_records": [
+      {
+        "source": "Complemento 109",
+        "number": 63,
+        "code": "28030201",
+        "description": "LATANOPROST  COLIRIO 0.005%",
+        "presentation": "CAJA X 1 FRASCO GOTERO X 3 ML"
+      },
+      {
+        "source": "Tarifas · Medicamentos",
+        "row": 303,
+        "code_p2h": "28030201",
+        "code_tca": "28030201",
+        "barcode": "28030201",
+        "description": "LATANOPROST COLIRIO 0.005% frasco x 3ml",
+        "state": "Inactivo",
+        "phase": "FASE 3",
+        "agreement": "DRSV/ISBM",
+        "price_rollout_iva": null,
+        "price_pilot_iva": null
+      }
+    ],
+    "state": "Inactivo",
+    "treatment": "CRONICO",
+    "controlled": "No",
+    "injectable": "No",
+    "specialist": "Si",
+    "group": "OFTÁLMICOS",
+    "agreement": "DRSV/ISBM",
+    "price_rollout_iva": null,
+    "price_pilot_iva": null
+  },
+  {
+    "id": "30070002",
+    "number": 64,
+    "code": "30070002",
+    "name": "LETROZOLE  TABLETA DE 2.5 MG",
+    "composition": "2.5 MG",
+    "presentation": "CAJA X 30 TABLETAS RECUBIERTAS (3 BLÍSTER TRIPLEX/AL X 10)",
+    "type": "TABLETA RECUBIERTA",
+    "unit": "TABLETA",
+    "collection": "isbm",
+    "sources": [
+      "Complemento 109"
+    ],
+    "aliases": [],
+    "source_records": [
+      {
+        "source": "Complemento 109",
+        "number": 64,
+        "code": "30070002",
+        "description": "LETROZOLE  TABLETA DE 2.5 MG",
+        "presentation": "CAJA X 30 TABLETAS RECUBIERTAS (3 BLÍSTER TRIPLEX/AL X 10)"
+      }
+    ]
+  },
+  {
+    "id": "24030401",
+    "number": 65,
+    "code": "24030401",
+    "name": "LEVETIRACETAN TABLETA DE 500 MG",
+    "composition": "500 MG",
+    "presentation": "CAJA X 30 TABLETAS RECUBIERTAS (3 BLÍSTER X 10)",
+    "type": "TABLETA RECUBIERTA",
+    "unit": "TABLETA",
+    "collection": "isbm",
+    "sources": [
+      "Complemento 109",
+      "Tarifas · Medicamentos"
+    ],
+    "aliases": [],
+    "source_records": [
+      {
+        "source": "Complemento 109",
+        "number": 65,
+        "code": "24030401",
+        "description": "LEVETIRACETAN TABLETA DE 500 MG",
+        "presentation": "CAJA X 30 TABLETAS RECUBIERTAS (3 BLÍSTER X 10)"
+      },
+      {
+        "source": "Tarifas · Medicamentos",
+        "row": 352,
+        "code_p2h": "24030401",
+        "code_tca": "24030401",
+        "barcode": "24030401",
+        "description": "LEVETIRACETAN TABLETA DE 500 MG",
+        "state": "Inactivo",
+        "phase": "FASE 3",
+        "agreement": "DRSV/ISBM",
+        "price_rollout_iva": null,
+        "price_pilot_iva": null
+      }
+    ],
+    "state": "Inactivo",
+    "treatment": "CRONICO",
+    "controlled": "No",
+    "injectable": "No",
+    "specialist": "Si",
+    "group": "ANTIEPILÉPTICOS",
+    "agreement": "DRSV/ISBM",
+    "price_rollout_iva": null,
+    "price_pilot_iva": null
+  },
+  {
+    "id": "16040004",
+    "number": 66,
+    "code": "16040004",
+    "name": "LOSARTAN  TABLETA DE 50 MG",
+    "composition": "50 MG",
+    "presentation": "CAJA X 50 TABLETAS (5 BLÍSTER X 10)",
+    "type": "TABLETA",
+    "unit": "TABLETA",
+    "collection": "isbm",
+    "sources": [
+      "Complemento 109",
+      "Tarifas · Medicamentos"
+    ],
+    "aliases": [
+      "LOSARTAN TABLETA DE 50 MG"
+    ],
+    "source_records": [
+      {
+        "source": "Complemento 109",
+        "number": 66,
+        "code": "16040004",
+        "description": "LOSARTAN  TABLETA DE 50 MG",
+        "presentation": "CAJA X 50 TABLETAS (5 BLÍSTER X 10)"
+      },
+      {
+        "source": "Tarifas · Medicamentos",
+        "row": 304,
+        "code_p2h": "16040004",
+        "code_tca": "16040004",
+        "barcode": "16040004",
+        "description": "LOSARTAN TABLETA DE 50 MG",
+        "state": "Inactivo",
+        "phase": "FASE 3",
+        "agreement": "DRSV/ISBM",
+        "price_rollout_iva": null,
+        "price_pilot_iva": null
+      }
+    ],
+    "state": "Inactivo",
+    "treatment": "CRONICO",
+    "controlled": "No",
+    "injectable": "No",
+    "specialist": "Si",
+    "group": "AGENTES QUE ACTÚAN SOBRE EL SISTEMA RENI",
+    "agreement": "DRSV/ISBM",
+    "price_rollout_iva": null,
+    "price_pilot_iva": null
+  },
+  {
+    "id": "24050101",
+    "number": 67,
+    "code": "24050101",
+    "name": "MEMANTINA CLORHIDRATO TABLETA DE 10 MG",
+    "composition": "10 MG",
+    "presentation": "CAJA X 30 TABLETAS RECUBIERTAS (3 BLÍSTER X 10)",
+    "type": "TABLETA RECUBIERTA",
+    "unit": "TABLETA",
+    "collection": "isbm",
+    "sources": [
+      "Complemento 109",
+      "Tarifas · Medicamentos"
+    ],
+    "aliases": [],
+    "source_records": [
+      {
+        "source": "Complemento 109",
+        "number": 67,
+        "code": "24050101",
+        "description": "MEMANTINA CLORHIDRATO TABLETA DE 10 MG",
+        "presentation": "CAJA X 30 TABLETAS RECUBIERTAS (3 BLÍSTER X 10)"
+      },
+      {
+        "source": "Tarifas · Medicamentos",
+        "row": 305,
+        "code_p2h": "24050101",
+        "code_tca": "24050101",
+        "barcode": "24050101",
+        "description": "MEMANTINA CLORHIDRATO TABLETA DE 10 MG",
+        "state": "Inactivo",
+        "phase": "FASE 3",
+        "agreement": "DRSV/ISBM",
+        "price_rollout_iva": null,
+        "price_pilot_iva": null
+      }
+    ],
+    "state": "Inactivo",
+    "treatment": "CRONICO",
+    "controlled": "No",
+    "injectable": "No",
+    "specialist": "Si",
+    "group": "PSICOANALEPTICOS (ANTIDEPRESIVOS ESTIMU)",
+    "agreement": "DRSV/ISBM",
+    "price_rollout_iva": null,
+    "price_pilot_iva": null
+  },
+  {
+    "id": "23050101",
+    "number": 68,
+    "code": "23050101",
+    "name": "MESALAZINA  TABLETA DE 500 MG",
+    "composition": "500 MG",
+    "presentation": "CAJA X 50 TABLETAS",
+    "type": "TABLETA",
+    "unit": "TABLETA",
+    "collection": "isbm",
+    "sources": [
+      "Complemento 109",
+      "Tarifas · Medicamentos"
+    ],
+    "aliases": [
+      "MESALAZINA TABLETA DE 500 MG"
+    ],
+    "source_records": [
+      {
+        "source": "Complemento 109",
+        "number": 68,
+        "code": "23050101",
+        "description": "MESALAZINA  TABLETA DE 500 MG",
+        "presentation": "CAJA X 50 TABLETAS"
+      },
+      {
+        "source": "Tarifas · Medicamentos",
+        "row": 306,
+        "code_p2h": "23050101",
+        "code_tca": "23050101",
+        "barcode": "23050101",
+        "description": "MESALAZINA TABLETA DE 500 MG",
+        "state": "Inactivo",
+        "phase": "FASE 3",
+        "agreement": "DRSV/ISBM",
+        "price_rollout_iva": null,
+        "price_pilot_iva": null
+      }
+    ],
+    "state": "Inactivo",
+    "treatment": "AGUDO",
+    "controlled": "No",
+    "injectable": "No",
+    "specialist": "Si",
+    "group": "ANTIDIARREICOS Y ANTIINFLAMATORIOS/INTES",
+    "agreement": "DRSV/ISBM",
+    "price_rollout_iva": null,
+    "price_pilot_iva": null
+  },
+  {
+    "id": "10000949",
+    "number": 69,
+    "code": "10000949",
+    "name": "METILDOPA TABLETA DE 500 MG",
+    "composition": "500 MG",
+    "presentation": "CAJA X 30 TABLETAS (3 BLÍSTER X 10)",
+    "type": "TABLETA",
+    "unit": "TABLETA",
+    "collection": "isbm",
+    "sources": [
+      "Complemento 109",
+      "Tarifas · Medicamentos"
+    ],
+    "aliases": [
+      "METILDOPA 500MG/TABLETA"
+    ],
+    "source_records": [
+      {
+        "source": "Complemento 109",
+        "number": 69,
+        "code": "10000949",
+        "description": "METILDOPA TABLETA DE 500 MG",
+        "presentation": "CAJA X 30 TABLETAS (3 BLÍSTER X 10)"
+      },
+      {
+        "source": "Tarifas · Medicamentos",
+        "row": 307,
+        "code_p2h": "10000949",
+        "code_tca": "10000949",
+        "barcode": "10000949",
+        "description": "METILDOPA 500MG/TABLETA",
+        "state": "Inactivo",
+        "phase": "FASE 3",
+        "agreement": "DRSV/ISBM",
+        "price_rollout_iva": null,
+        "price_pilot_iva": null
+      }
+    ],
+    "state": "Inactivo",
+    "treatment": "CRONICO",
+    "controlled": "No",
+    "injectable": "No",
+    "specialist": "Si",
+    "group": "ANTIHIPERTENSIVOS",
+    "agreement": "DRSV/ISBM",
+    "price_rollout_iva": null,
+    "price_pilot_iva": null
+  },
+  {
+    "id": "29080301",
+    "number": 70,
+    "code": "29080301",
+    "name": "METOXALENO (AMMOIDIN)  TABLETA DE 10 MG",
+    "composition": "10 MG",
+    "presentation": "CAJA X 30 TABLETAS (3 BLÍSTER X 10)",
+    "type": "TABLETA",
+    "unit": "TABLETA",
+    "collection": "isbm",
+    "sources": [
+      "Complemento 109",
+      "Tarifas · Medicamentos"
+    ],
+    "aliases": [
+      "METOXALENO (AMMOIDIN) TABLETA DE 10 MG"
+    ],
+    "source_records": [
+      {
+        "source": "Complemento 109",
+        "number": 70,
+        "code": "29080301",
+        "description": "METOXALENO (AMMOIDIN)  TABLETA DE 10 MG",
+        "presentation": "CAJA X 30 TABLETAS (3 BLÍSTER X 10)"
+      },
+      {
+        "source": "Tarifas · Medicamentos",
+        "row": 308,
+        "code_p2h": "29080301",
+        "code_tca": "29080301",
+        "barcode": "29080301",
+        "description": "METOXALENO (AMMOIDIN) TABLETA DE 10 MG",
+        "state": "Inactivo",
+        "phase": "FASE 3",
+        "agreement": "DRSV/ISBM",
+        "price_rollout_iva": null,
+        "price_pilot_iva": null
+      }
+    ],
+    "state": "Inactivo",
+    "treatment": "AGUDO",
+    "controlled": "No",
+    "injectable": "No",
+    "specialist": "Si",
+    "group": "ANTIPSORIÁSICOS",
+    "agreement": "DRSV/ISBM",
+    "price_rollout_iva": null,
+    "price_pilot_iva": null
+  },
+  {
+    "id": "29080302",
+    "number": 71,
+    "code": "29080302",
+    "name": "METOXALENO (AMMOIDIN) UNGÜENTO 0.4%",
+    "composition": "0.4%",
+    "presentation": "CAJA X 1 TUBO X 30 G",
+    "type": "UNGÜENTO",
+    "unit": "TUBO",
+    "collection": "isbm",
+    "sources": [
+      "Complemento 109",
+      "Tarifas · Medicamentos"
+    ],
+    "aliases": [
+      "METOXALENO (AMMOIDIN) UNGÜENTO 0.4% tubo x 30g"
+    ],
+    "source_records": [
+      {
+        "source": "Complemento 109",
+        "number": 71,
+        "code": "29080302",
+        "description": "METOXALENO (AMMOIDIN) UNGÜENTO 0.4%",
+        "presentation": "CAJA X 1 TUBO X 30 G"
+      },
+      {
+        "source": "Tarifas · Medicamentos",
+        "row": 309,
+        "code_p2h": "29080302",
+        "code_tca": "29080302",
+        "barcode": "29080302",
+        "description": "METOXALENO (AMMOIDIN) UNGÜENTO 0.4% tubo x 30g",
+        "state": "Inactivo",
+        "phase": "FASE 3",
+        "agreement": "DRSV/ISBM",
+        "price_rollout_iva": null,
+        "price_pilot_iva": null
+      }
+    ],
+    "state": "Inactivo",
+    "treatment": "AGUDO",
+    "controlled": "No",
+    "injectable": "No",
+    "specialist": "Si",
+    "group": "ANTIPSORIÁSICOS",
+    "agreement": "DRSV/ISBM",
+    "price_rollout_iva": null,
+    "price_pilot_iva": null
+  },
+  {
+    "id": "35010202",
+    "number": 72,
+    "code": "35010202",
+    "name": "MICOFENOLATO DE MOFETIL CÁPSULA 250 MG",
+    "composition": "250 MG",
+    "presentation": "CAJA X 30 CÁPSULAS (3 BLÍSTER PVC/PVDC/AL X 10)",
+    "type": "CÁPSULA",
+    "unit": "CÁPSULA",
+    "collection": "isbm",
+    "sources": [
+      "Complemento 109",
+      "Tarifas · Medicamentos"
+    ],
+    "aliases": [],
+    "source_records": [
+      {
+        "source": "Complemento 109",
+        "number": 72,
+        "code": "35010202",
+        "description": "MICOFENOLATO DE MOFETIL CÁPSULA 250 MG",
+        "presentation": "CAJA X 30 CÁPSULAS (3 BLÍSTER PVC/PVDC/AL X 10)"
+      },
+      {
+        "source": "Tarifas · Medicamentos",
+        "row": 310,
+        "code_p2h": "35010202",
+        "code_tca": "35010202",
+        "barcode": "35010202",
+        "description": "MICOFENOLATO DE MOFETIL CÁPSULA 250 MG",
+        "state": "Inactivo",
+        "phase": "FASE 3",
+        "agreement": "DRSV/ISBM",
+        "price_rollout_iva": null,
+        "price_pilot_iva": null
+      }
+    ],
+    "state": "Inactivo",
+    "treatment": "CRONICO",
+    "controlled": "No",
+    "injectable": "No",
+    "specialist": "Si",
+    "group": "SUSTANCIAS INMUNOSUPRESORAS",
+    "agreement": "DRSV/ISBM",
+    "price_rollout_iva": null,
+    "price_pilot_iva": null
+  },
+  {
+    "id": "22060101",
+    "number": 73,
+    "code": "22060101",
+    "name": "MONTELUKAST TABLETA DE 10 MG",
+    "composition": "10 MG",
+    "presentation": "CAJA X 30 TABLETAS RECUBIERTAS (3 BLÍSTER X 10)",
+    "type": "TABLETA RECUBIERTA",
+    "unit": "TABLETA",
+    "collection": "isbm",
+    "sources": [
+      "Complemento 109",
+      "Tarifas · Medicamentos"
+    ],
+    "aliases": [],
+    "source_records": [
+      {
+        "source": "Complemento 109",
+        "number": 73,
+        "code": "22060101",
+        "description": "MONTELUKAST TABLETA DE 10 MG",
+        "presentation": "CAJA X 30 TABLETAS RECUBIERTAS (3 BLÍSTER X 10)"
+      },
+      {
+        "source": "Tarifas · Medicamentos",
+        "row": 311,
+        "code_p2h": "22060101",
+        "code_tca": "22060101",
+        "barcode": "22060101",
+        "description": "MONTELUKAST TABLETA DE 10 MG",
+        "state": "Inactivo",
+        "phase": "FASE 3",
+        "agreement": "DRSV/ISBM",
+        "price_rollout_iva": null,
+        "price_pilot_iva": null
+      }
+    ],
+    "state": "Inactivo",
+    "treatment": "AGUDO",
+    "controlled": "No",
+    "injectable": "No",
+    "specialist": "Si",
+    "group": "FÁRMACOS PARA ENFERMEDADES OBSTRUCTIVAS",
+    "agreement": "DRSV/ISBM",
+    "price_rollout_iva": null,
+    "price_pilot_iva": null
+  },
+  {
+    "id": "22060102",
+    "number": 74,
+    "code": "22060102",
+    "name": "MONTELUKAST TABLETA MASTICABLE DE 4 MG",
+    "composition": "4 MG",
+    "presentation": "CAJA X 30 TABLETAS MASTICABLES (3 BLÍSTER X 10)",
+    "type": "TABLETA MASTICABLE",
+    "unit": "TABLETA",
+    "collection": "isbm",
+    "sources": [
+      "Complemento 109",
+      "Tarifas · Medicamentos"
+    ],
+    "aliases": [],
+    "source_records": [
+      {
+        "source": "Complemento 109",
+        "number": 74,
+        "code": "22060102",
+        "description": "MONTELUKAST TABLETA MASTICABLE DE 4 MG",
+        "presentation": "CAJA X 30 TABLETAS MASTICABLES (3 BLÍSTER X 10)"
+      },
+      {
+        "source": "Tarifas · Medicamentos",
+        "row": 312,
+        "code_p2h": "22060102",
+        "code_tca": "22060102",
+        "barcode": "22060102",
+        "description": "MONTELUKAST TABLETA MASTICABLE DE 4 MG",
+        "state": "Inactivo",
+        "phase": "FASE 3",
+        "agreement": "DRSV/ISBM",
+        "price_rollout_iva": null,
+        "price_pilot_iva": null
+      }
+    ],
+    "state": "Inactivo",
+    "treatment": "AGUDO",
+    "controlled": "No",
+    "injectable": "No",
+    "specialist": "Si",
+    "group": "FÁRMACOS PARA ENFERMEDADES OBSTRUCTIVAS",
+    "agreement": "DRSV/ISBM",
+    "price_rollout_iva": null,
+    "price_pilot_iva": null
+  },
+  {
+    "id": "23010301",
+    "number": 75,
+    "code": "23010301",
+    "name": "MOSAPRIDE CITRATO TABLETA 5 MG",
+    "composition": "5 MG",
+    "presentation": "CAJA X 30 TABLETAS (3 BLÍSTER X 10)",
+    "type": "TABLETA",
+    "unit": "TABLETA",
+    "collection": "isbm",
+    "sources": [
+      "Complemento 109",
+      "Tarifas · Medicamentos"
+    ],
+    "aliases": [
+      "MOSAPRIDA CITRATO TABLETA 5 MG"
+    ],
+    "source_records": [
+      {
+        "source": "Complemento 109",
+        "number": 75,
+        "code": "23010301",
+        "description": "MOSAPRIDE CITRATO TABLETA 5 MG",
+        "presentation": "CAJA X 30 TABLETAS (3 BLÍSTER X 10)"
+      },
+      {
+        "source": "Tarifas · Medicamentos",
+        "row": 353,
+        "code_p2h": "23010301",
+        "code_tca": "23010301",
+        "barcode": "23010301",
+        "description": "MOSAPRIDA CITRATO TABLETA 5 MG",
+        "state": "Inactivo",
+        "phase": "FASE 3",
+        "agreement": "DRSV/ISBM",
+        "price_rollout_iva": null,
+        "price_pilot_iva": null
+      }
+    ],
+    "state": "Inactivo",
+    "treatment": "CRONICO",
+    "controlled": "No",
+    "injectable": "No",
+    "specialist": "Si",
+    "group": "MEDICAMENTOS PARA TRASTORNOS GASTROINTES",
+    "agreement": "DRSV/ISBM",
+    "price_rollout_iva": null,
+    "price_pilot_iva": null
+  },
+  {
+    "id": "27010010",
+    "number": 76,
+    "code": "27010010",
+    "name": "MULTIVITAMINAS: A + D +C+ FLUORURO SUSPENSIÓN 1500UI /400UI /35 MG/ 0.25 MG EN 1 ML",
+    "composition": "1,500 UI + 400 UI + 35 MG + 0.25 MG / ML",
+    "presentation": "FRASCO X 50 ML",
+    "type": "SUSPENSIÓN ORAL",
+    "unit": "FRASCO",
+    "collection": "isbm",
+    "sources": [
+      "Complemento 109",
+      "Tarifas · Medicamentos"
+    ],
+    "aliases": [
+      "MULTIVITAMINAS: A+D+C+ FLUORURO SUSPENSIÓN 1500UI /400UI /35 MG/ 0.25 MG FCO X 50ML"
+    ],
+    "source_records": [
+      {
+        "source": "Complemento 109",
+        "number": 76,
+        "code": "27010010",
+        "description": "MULTIVITAMINAS: A + D +C+ FLUORURO SUSPENSIÓN 1500UI /400UI /35 MG/ 0.25 MG EN 1 ML",
+        "presentation": "FRASCO X 50 ML"
+      },
+      {
+        "source": "Tarifas · Medicamentos",
+        "row": 313,
+        "code_p2h": "27010010",
+        "code_tca": "27010010",
+        "barcode": "27010010",
+        "description": "MULTIVITAMINAS: A+D+C+ FLUORURO SUSPENSIÓN 1500UI /400UI /35 MG/ 0.25 MG FCO X 50ML",
+        "state": "Inactivo",
+        "phase": "FASE 3",
+        "agreement": "DRSV/ISBM",
+        "price_rollout_iva": null,
+        "price_pilot_iva": null
+      }
+    ],
+    "state": "Inactivo",
+    "treatment": "AGUDO",
+    "controlled": "No",
+    "injectable": "No",
+    "specialist": "Si",
+    "group": "VITAMINAS",
+    "agreement": "DRSV/ISBM",
+    "price_rollout_iva": null,
+    "price_pilot_iva": null
+  },
+  {
+    "id": "28070101",
+    "number": 77,
+    "code": "28070101",
+    "name": "NAFAZOLINA CLORHIDRATO SOLUCIÓN OFTÁLMICA DE 1 MG",
+    "composition": "1 MG/ML (0.1 %)",
+    "presentation": "CAJA X 1 FRASCO GOTERO X 15 ML",
+    "type": "SOLUCIÓN OFTÁLMICA",
+    "unit": "FRASCO GOTERO",
+    "collection": "isbm",
+    "sources": [
+      "Complemento 109",
+      "Tarifas · Medicamentos"
+    ],
+    "aliases": [
+      "NAFAZOLINA CLORHIDRATO SOLUCIÓN OFTÁLMICA DE 1 MG FRASCO X 15ML"
+    ],
+    "source_records": [
+      {
+        "source": "Complemento 109",
+        "number": 77,
+        "code": "28070101",
+        "description": "NAFAZOLINA CLORHIDRATO SOLUCIÓN OFTÁLMICA DE 1 MG",
+        "presentation": "CAJA X 1 FRASCO GOTERO X 15 ML"
+      },
+      {
+        "source": "Tarifas · Medicamentos",
+        "row": 354,
+        "code_p2h": "28070101",
+        "code_tca": "28070101",
+        "barcode": "28070101",
+        "description": "NAFAZOLINA CLORHIDRATO SOLUCIÓN OFTÁLMICA DE 1 MG FRASCO X 15ML",
+        "state": "Inactivo",
+        "phase": "FASE 3",
+        "agreement": "DRSV/ISBM",
+        "price_rollout_iva": null,
+        "price_pilot_iva": null
+      }
+    ],
+    "state": "Inactivo",
+    "treatment": "CRONICO",
+    "controlled": "No",
+    "injectable": "No",
+    "specialist": "Si",
+    "group": "OFTÁLMICOS",
+    "agreement": "DRSV/ISBM",
+    "price_rollout_iva": null,
+    "price_pilot_iva": null
+  },
+  {
+    "id": "16020104",
+    "number": 78,
+    "code": "16020104",
+    "name": "NIFEDIPINA DE LIBERACION PROLONGADA TABLETA DE 30 MG",
+    "composition": "30 MG",
+    "presentation": "CAJA X 10 BLISTERES DE ALUMINIO/ALUMINIO PLATEADO X 10 TABLETAS DE LIBERACION PROLONGADA",
+    "type": "TABLETA DE LIBERACIÓN PROLONGADA",
+    "unit": "TABLETA",
+    "collection": "isbm",
+    "sources": [
+      "Complemento 109",
+      "Tarifas · Medicamentos"
+    ],
+    "aliases": [
+      "NIFEDIPINO DE LIBERACION PROLONGADA TABLETA DE 30 MG"
+    ],
+    "source_records": [
+      {
+        "source": "Complemento 109",
+        "number": 78,
+        "code": "16020104",
+        "description": "NIFEDIPINA DE LIBERACION PROLONGADA TABLETA DE 30 MG",
+        "presentation": "CAJA X 10 BLISTERES DE ALUMINIO/ALUMINIO PLATEADO X 10 TABLETAS DE LIBERACION PROLONGADA"
+      },
+      {
+        "source": "Tarifas · Medicamentos",
+        "row": 314,
+        "code_p2h": "16020104",
+        "code_tca": "16020104",
+        "barcode": "16020104",
+        "description": "NIFEDIPINO DE LIBERACION PROLONGADA TABLETA DE 30 MG",
+        "state": "Inactivo",
+        "phase": "FASE 3",
+        "agreement": "DRSV/ISBM",
+        "price_rollout_iva": null,
+        "price_pilot_iva": null
+      }
+    ],
+    "state": "Inactivo",
+    "treatment": "CRONICO",
+    "controlled": "No",
+    "injectable": "No",
+    "specialist": "Si",
+    "group": "BLOQUEADORES DE LOS CANALES DE CALCIO",
+    "agreement": "DRSV/ISBM",
+    "price_rollout_iva": null,
+    "price_pilot_iva": null
+  },
+  {
+    "id": "16020105",
+    "number": 79,
+    "code": "16020105",
+    "name": "NIMODIPINA  TABLETA DE 30 MG",
+    "composition": "30 MG",
+    "presentation": "CAJA X 30 TABLETAS RECUBIERTAS (3 BLÍSTER X 10)",
+    "type": "TABLETA RECUBIERTA",
+    "unit": "TABLETA",
+    "collection": "isbm",
+    "sources": [
+      "Complemento 109",
+      "Tarifas · Medicamentos"
+    ],
+    "aliases": [
+      "NIMODIPINA TABLETA DE 30 MG"
+    ],
+    "source_records": [
+      {
+        "source": "Complemento 109",
+        "number": 79,
+        "code": "16020105",
+        "description": "NIMODIPINA  TABLETA DE 30 MG",
+        "presentation": "CAJA X 30 TABLETAS RECUBIERTAS (3 BLÍSTER X 10)"
+      },
+      {
+        "source": "Tarifas · Medicamentos",
+        "row": 315,
+        "code_p2h": "16020105",
+        "code_tca": "16020105",
+        "barcode": "16020105",
+        "description": "NIMODIPINA TABLETA DE 30 MG",
+        "state": "Inactivo",
+        "phase": "FASE 3",
+        "agreement": "DRSV/ISBM",
+        "price_rollout_iva": null,
+        "price_pilot_iva": null
+      }
+    ],
+    "state": "Inactivo",
+    "treatment": "CRONICO",
+    "controlled": "No",
+    "injectable": "No",
+    "specialist": "Si",
+    "group": "BLOQUEADORES DE LOS CANALES DE CALCIO",
+    "agreement": "DRSV/ISBM",
+    "price_rollout_iva": null,
+    "price_pilot_iva": null
+  },
+  {
+    "id": "30010201",
+    "number": 80,
+    "code": "30010201",
+    "name": "NISTATINA + METRONIDAZOL NISTATINA 100,000UI+METRONIDAZOL 500MG",
+    "composition": "100,000 UI + 500 MG",
+    "presentation": "CAJA X 10 ÓVULOS",
+    "type": "ÓVULO VAGINAL",
+    "unit": "ÓVULO",
+    "collection": "isbm",
+    "sources": [
+      "Complemento 109",
+      "Tarifas · Medicamentos"
+    ],
+    "aliases": [
+      "NISTATINA + METRONIDAZOL NISTATINA 100"
+    ],
+    "source_records": [
+      {
+        "source": "Complemento 109",
+        "number": 80,
+        "code": "30010201",
+        "description": "NISTATINA + METRONIDAZOL NISTATINA 100,000UI+METRONIDAZOL 500MG",
+        "presentation": "CAJA X 10 ÓVULOS"
+      },
+      {
+        "source": "Tarifas · Medicamentos",
+        "row": 316,
+        "code_p2h": "30010201",
+        "code_tca": "30010201",
+        "barcode": "30010201",
+        "description": "NISTATINA + METRONIDAZOL NISTATINA 100",
+        "state": "Inactivo",
+        "phase": "FASE 3",
+        "agreement": "DRSV/ISBM",
+        "price_rollout_iva": null,
+        "price_pilot_iva": null
+      }
+    ],
+    "state": "Inactivo",
+    "treatment": "AGUDO",
+    "controlled": "No",
+    "injectable": "No",
+    "specialist": "Si",
+    "group": "ANTI-INFECCIOSOS GINECOLÓGICOS Y ANTISÉP",
+    "agreement": "DRSV/ISBM",
+    "price_rollout_iva": null,
+    "price_pilot_iva": null
+  },
+  {
+    "id": "34010601",
+    "number": 81,
+    "code": "34010601",
+    "name": "OXCARBAZEPINA TABLETA DE 300 MG",
+    "composition": "300 MG",
+    "presentation": "CAJA X 30 TABLETAS RECUBIERTAS (3 BLÍSTER X 10)",
+    "type": "TABLETA RECUBIERTA",
+    "unit": "TABLETA",
+    "collection": "isbm",
+    "sources": [
+      "Complemento 109",
+      "Tarifas · Medicamentos"
+    ],
+    "aliases": [],
+    "source_records": [
+      {
+        "source": "Complemento 109",
+        "number": 81,
+        "code": "34010601",
+        "description": "OXCARBAZEPINA TABLETA DE 300 MG",
+        "presentation": "CAJA X 30 TABLETAS RECUBIERTAS (3 BLÍSTER X 10)"
+      },
+      {
+        "source": "Tarifas · Medicamentos",
+        "row": 317,
+        "code_p2h": "34010601",
+        "code_tca": "34010601",
+        "barcode": "34010601",
+        "description": "OXCARBAZEPINA TABLETA DE 300 MG",
+        "state": "Inactivo",
+        "phase": "FASE 3",
+        "agreement": "DRSV/ISBM",
+        "price_rollout_iva": null,
+        "price_pilot_iva": null
+      }
+    ],
+    "state": "Inactivo",
+    "treatment": "CRONICO",
+    "controlled": "No",
+    "injectable": "No",
+    "specialist": "Si",
+    "group": "ANTIEPILÉPTICOS",
+    "agreement": "DRSV/ISBM",
+    "price_rollout_iva": null,
+    "price_pilot_iva": null
+  },
+  {
+    "id": "15050101",
+    "number": 82,
+    "code": "15050101",
+    "name": "OXIBUTININA  TABLETA DE 5 MG",
+    "composition": "5 MG",
+    "presentation": "CAJA X 20 TABLETAS",
+    "type": "TABLETA",
+    "unit": "TABLETA",
+    "collection": "isbm",
+    "sources": [
+      "Complemento 109",
+      "Tarifas · Medicamentos"
+    ],
+    "aliases": [
+      "OXIBUTININA TABLETA DE 5 MG"
+    ],
+    "source_records": [
+      {
+        "source": "Complemento 109",
+        "number": 82,
+        "code": "15050101",
+        "description": "OXIBUTININA  TABLETA DE 5 MG",
+        "presentation": "CAJA X 20 TABLETAS"
+      },
+      {
+        "source": "Tarifas · Medicamentos",
+        "row": 318,
+        "code_p2h": "15050101",
+        "code_tca": "15050101",
+        "barcode": "15050101",
+        "description": "OXIBUTININA TABLETA DE 5 MG",
+        "state": "Inactivo",
+        "phase": "FASE 3",
+        "agreement": "DRSV/ISBM",
+        "price_rollout_iva": null,
+        "price_pilot_iva": null
+      }
+    ],
+    "state": "Inactivo",
+    "treatment": "CRONICO",
+    "controlled": "No",
+    "injectable": "No",
+    "specialist": "Si",
+    "group": "UROLÓGICOS",
+    "agreement": "DRSV/ISBM",
+    "price_rollout_iva": null,
+    "price_pilot_iva": null
+  },
+  {
+    "id": "24010106",
+    "number": 83,
+    "code": "24010106",
+    "name": "PAROXETINA CLORHIDRATO TABLETA DE 20 MG",
+    "composition": "20 MG",
+    "presentation": "CAJA X 30 TABLETAS RECUBIERTAS (3 BLÍSTER X 10)",
+    "type": "TABLETA RECUBIERTA",
+    "unit": "TABLETA",
+    "collection": "isbm",
+    "sources": [
+      "Complemento 109",
+      "Tarifas · Medicamentos"
+    ],
+    "aliases": [],
+    "source_records": [
+      {
+        "source": "Complemento 109",
+        "number": 83,
+        "code": "24010106",
+        "description": "PAROXETINA CLORHIDRATO TABLETA DE 20 MG",
+        "presentation": "CAJA X 30 TABLETAS RECUBIERTAS (3 BLÍSTER X 10)"
+      },
+      {
+        "source": "Tarifas · Medicamentos",
+        "row": 319,
+        "code_p2h": "24010106",
+        "code_tca": "24010106",
+        "barcode": "24010106",
+        "description": "PAROXETINA CLORHIDRATO TABLETA DE 20 MG",
+        "state": "Inactivo",
+        "phase": "FASE 3",
+        "agreement": "DRSV/ISBM",
+        "price_rollout_iva": null,
+        "price_pilot_iva": null
+      }
+    ],
+    "state": "Inactivo",
+    "treatment": "CRONICO",
+    "controlled": "No",
+    "injectable": "No",
+    "specialist": "Si",
+    "group": "PSICOANALEPTICOS (ANTIDEPRESIVOS ESTIMU)",
+    "agreement": "DRSV/ISBM",
+    "price_rollout_iva": null,
+    "price_pilot_iva": null
+  },
+  {
+    "id": "10000757",
+    "number": 84,
+    "code": "10000757",
+    "name": "PENICILINA G BENZATINICA  FRASCO-AMPOLLA DE 1.2 MILLONES DE UI",
+    "composition": "1,200,000 UI",
+    "presentation": "FRASCO-AMPOLLA",
+    "type": "POLVO PARA SUSPENSIÓN INYECTABLE",
+    "unit": "FRASCO-AMPOLLA",
+    "collection": "isbm",
+    "sources": [
+      "Complemento 109",
+      "Tarifas · Medicamentos"
+    ],
+    "aliases": [
+      "PENICILINA G BENZATINICA FRASCO-AMPOLLA DE 1.2 MILLONES DE UI"
+    ],
+    "source_records": [
+      {
+        "source": "Complemento 109",
+        "number": 84,
+        "code": "10000757",
+        "description": "PENICILINA G BENZATINICA  FRASCO-AMPOLLA DE 1.2 MILLONES DE UI",
+        "presentation": "FRASCO-AMPOLLA"
+      },
+      {
+        "source": "Tarifas · Medicamentos",
+        "row": 320,
+        "code_p2h": "10000757",
+        "code_tca": "10000757",
+        "barcode": "10000757",
+        "description": "PENICILINA G BENZATINICA FRASCO-AMPOLLA DE 1.2 MILLONES DE UI",
+        "state": "Inactivo",
+        "phase": "FASE 3",
+        "agreement": "DRSV/ISBM",
+        "price_rollout_iva": null,
+        "price_pilot_iva": null
+      }
+    ],
+    "state": "Inactivo",
+    "treatment": "AGUDO",
+    "controlled": "No",
+    "injectable": "Si",
+    "specialist": "Si",
+    "group": "ANTIBACTERIANOS PARA USO SISTÉMICO",
+    "agreement": "DRSV/ISBM",
+    "price_rollout_iva": null,
+    "price_pilot_iva": null
+  },
+  {
+    "id": "10000760",
+    "number": 85,
+    "code": "10000760",
+    "name": "PENTOSANO POLISULFATO DE SODIO+TRIAMCINOLONA ACETONIDO+LIDOCAINA HIDROCLORURO CREMA 1 G + 0.01 G + 2 G EN 100 G",
+    "composition": "1 G + 0.01 G + 2 G EN 100 G",
+    "presentation": "CAJA X 1 TUBO X 15 G",
+    "type": "CREMA",
+    "unit": "TUBO",
+    "collection": "isbm",
+    "sources": [
+      "Complemento 109",
+      "Tarifas · Medicamentos"
+    ],
+    "aliases": [
+      "PENTOSANO POLISULFATO DE SODIO + TRIAMCINOLONA ACETONIDO + L 1gr + 0.01gr + 2gr crema"
+    ],
+    "source_records": [
+      {
+        "source": "Complemento 109",
+        "number": 85,
+        "code": "10000760",
+        "description": "PENTOSANO POLISULFATO DE SODIO+TRIAMCINOLONA ACETONIDO+LIDOCAINA HIDROCLORURO CREMA 1 G + 0.01 G + 2 G EN 100 G",
+        "presentation": "CAJA X 1 TUBO X 15 G"
+      },
+      {
+        "source": "Tarifas · Medicamentos",
+        "row": 346,
+        "code_p2h": "10000760",
+        "code_tca": "10000760",
+        "barcode": "10000760",
+        "description": "PENTOSANO POLISULFATO DE SODIO + TRIAMCINOLONA ACETONIDO + L 1gr + 0.01gr + 2gr crema",
+        "state": "Inactivo",
+        "phase": "FASE 3",
+        "agreement": "DRSV/ISBM",
+        "price_rollout_iva": null,
+        "price_pilot_iva": null
+      }
+    ],
+    "state": "Inactivo",
+    "treatment": "AGUDO",
+    "controlled": "No",
+    "injectable": "No",
+    "specialist": "Si",
+    "group": "VASOPROTECTORES",
+    "agreement": "DRSV/ISBM",
+    "price_rollout_iva": null,
+    "price_pilot_iva": null
+  },
+  {
+    "id": "16100101",
+    "number": 86,
+    "code": "16100101",
+    "name": "PENTOXIFILINA  GRAGEAS O TABLETAS DE 400 MG",
+    "composition": "400 MG",
+    "presentation": "CAJA X 3 BLISTERES DE POLICLORURO DE VINILO (PVC)/ALUMINIO VERDE X 10 TABLETAS DE LIBERACION PROLONGADA (PRESENTACIÓN COMERCIAL)",
+    "type": "GRAGEA O TABLETA",
+    "unit": "TABLETA",
+    "collection": "isbm",
+    "sources": [
+      "Complemento 109",
+      "Tarifas · Medicamentos"
+    ],
+    "aliases": [
+      "PENTOXIFILINA GRAGEAS O TABLETAS DE 400 MG"
+    ],
+    "source_records": [
+      {
+        "source": "Complemento 109",
+        "number": 86,
+        "code": "16100101",
+        "description": "PENTOXIFILINA  GRAGEAS O TABLETAS DE 400 MG",
+        "presentation": "CAJA X 3 BLISTERES DE POLICLORURO DE VINILO (PVC)/ALUMINIO VERDE X 10 TABLETAS DE LIBERACION PROLONGADA (PRESENTACIÓN COMERCIAL)"
+      },
+      {
+        "source": "Tarifas · Medicamentos",
+        "row": 321,
+        "code_p2h": "16100101",
+        "code_tca": "16100101",
+        "barcode": "16100101",
+        "description": "PENTOXIFILINA GRAGEAS O TABLETAS DE 400 MG",
+        "state": "Inactivo",
+        "phase": "FASE 3",
+        "agreement": "DRSV/ISBM",
+        "price_rollout_iva": null,
+        "price_pilot_iva": null
+      }
+    ],
+    "state": "Inactivo",
+    "treatment": "CRONICO",
+    "controlled": "No",
+    "injectable": "No",
+    "specialist": "Si",
+    "group": "VASODILATADORES PERIFÉRICOS",
+    "agreement": "DRSV/ISBM",
+    "price_rollout_iva": null,
+    "price_pilot_iva": null
+  },
+  {
+    "id": "23040201",
+    "number": 87,
+    "code": "23040201",
+    "name": "PICOSULFATO DE SODIO SOLUCIÓN DE 7.5MG/ML",
+    "composition": "7.5 MG/ML",
+    "presentation": "FRASCO GOTERO X 20 ML",
+    "type": "SOLUCIÓN ORAL (GOTAS)",
+    "unit": "FRASCO GOTERO",
+    "collection": "isbm",
+    "sources": [
+      "Complemento 109",
+      "Tarifas · Medicamentos"
+    ],
+    "aliases": [
+      "PICOSULFATO DE SODIO SOLUCIÓN DE 7.5MG/ML FRASCO X 20ML"
+    ],
+    "source_records": [
+      {
+        "source": "Complemento 109",
+        "number": 87,
+        "code": "23040201",
+        "description": "PICOSULFATO DE SODIO SOLUCIÓN DE 7.5MG/ML",
+        "presentation": "FRASCO GOTERO X 20 ML"
+      },
+      {
+        "source": "Tarifas · Medicamentos",
+        "row": 322,
+        "code_p2h": "23040201",
+        "code_tca": "23040201",
+        "barcode": "23040201",
+        "description": "PICOSULFATO DE SODIO SOLUCIÓN DE 7.5MG/ML FRASCO X 20ML",
+        "state": "Inactivo",
+        "phase": "FASE 3",
+        "agreement": "DRSV/ISBM",
+        "price_rollout_iva": null,
+        "price_pilot_iva": null
+      }
+    ],
+    "state": "Inactivo",
+    "treatment": "AGUDO",
+    "controlled": "No",
+    "injectable": "No",
+    "specialist": "Si",
+    "group": "LAXANTES",
+    "agreement": "DRSV/ISBM",
+    "price_rollout_iva": null,
+    "price_pilot_iva": null
+  },
+  {
+    "id": "24060101",
+    "number": 88,
+    "code": "24060101",
+    "name": "PIRIDOSTIGMINA TABLETA DE 60 MG",
+    "composition": "60 MG",
+    "presentation": "CAJA X 1 FRASCO X 20 TABLETAS",
+    "type": "TABLETA",
+    "unit": "TABLETA",
+    "collection": "isbm",
+    "sources": [
+      "Complemento 109",
+      "Tarifas · Medicamentos"
+    ],
+    "aliases": [],
+    "source_records": [
+      {
+        "source": "Complemento 109",
+        "number": 88,
+        "code": "24060101",
+        "description": "PIRIDOSTIGMINA TABLETA DE 60 MG",
+        "presentation": "CAJA X 1 FRASCO X 20 TABLETAS"
+      },
+      {
+        "source": "Tarifas · Medicamentos",
+        "row": 323,
+        "code_p2h": "24060101",
+        "code_tca": "24060101",
+        "barcode": "24060101",
+        "description": "PIRIDOSTIGMINA TABLETA DE 60 MG",
+        "state": "Inactivo",
+        "phase": "FASE 3",
+        "agreement": "DRSV/ISBM",
+        "price_rollout_iva": null,
+        "price_pilot_iva": null
+      }
+    ],
+    "state": "Inactivo",
+    "treatment": "CRONICO",
+    "controlled": "No",
+    "injectable": "No",
+    "specialist": "Si",
+    "group": "OTROS MEDICAMENTOS DEL SISTEMA NERVIOSO",
+    "agreement": "DRSV/ISBM",
+    "price_rollout_iva": null,
+    "price_pilot_iva": null
+  },
+  {
+    "id": "34020103",
+    "number": 89,
+    "code": "34020103",
+    "name": "PRAMIPEXOLE  TABLETA DE 1.5 MG",
+    "composition": "1.5 MG",
+    "presentation": "CAJA X 30 TABLETAS",
+    "type": "TABLETA",
+    "unit": "TABLETA",
+    "collection": "isbm",
+    "sources": [
+      "Complemento 109",
+      "Tarifas · Medicamentos"
+    ],
+    "aliases": [
+      "PRAMIPEXOLE TABLETA DE 1.5 MG CAJA X 30"
+    ],
+    "source_records": [
+      {
+        "source": "Complemento 109",
+        "number": 89,
+        "code": "34020103",
+        "description": "PRAMIPEXOLE  TABLETA DE 1.5 MG",
+        "presentation": "CAJA X 30 TABLETAS"
+      },
+      {
+        "source": "Tarifas · Medicamentos",
+        "row": 324,
+        "code_p2h": "34020103",
+        "code_tca": "34020103",
+        "barcode": "34020103",
+        "description": "PRAMIPEXOLE TABLETA DE 1.5 MG CAJA X 30",
+        "state": "Inactivo",
+        "phase": "FASE 3",
+        "agreement": "DRSV/ISBM",
+        "price_rollout_iva": null,
+        "price_pilot_iva": null
+      }
+    ],
+    "state": "Inactivo",
+    "treatment": "CRONICO",
+    "controlled": "No",
+    "injectable": "No",
+    "specialist": "Si",
+    "group": "FÁRMACOS ANTIPARKINSONIANOS",
+    "agreement": "DRSV/ISBM",
+    "price_rollout_iva": null,
+    "price_pilot_iva": null
+  },
+  {
+    "id": "24030301",
+    "number": 90,
+    "code": "24030301",
+    "name": "PREGABALINA CÁPSULA DE 150 MG",
+    "composition": "150 MG",
+    "presentation": "CAJA X 100 CÁPSULAS (10 BLÍSTER X 10)",
+    "type": "CÁPSULA",
+    "unit": "CÁPSULA",
+    "collection": "isbm",
+    "sources": [
+      "Complemento 109",
+      "Tarifas · Medicamentos"
+    ],
+    "aliases": [],
+    "source_records": [
+      {
+        "source": "Complemento 109",
+        "number": 90,
+        "code": "24030301",
+        "description": "PREGABALINA CÁPSULA DE 150 MG",
+        "presentation": "CAJA X 100 CÁPSULAS (10 BLÍSTER X 10)"
+      },
+      {
+        "source": "Tarifas · Medicamentos",
+        "row": 325,
+        "code_p2h": "24030301",
+        "code_tca": "24030301",
+        "barcode": "24030301",
+        "description": "PREGABALINA CÁPSULA DE 150 MG",
+        "state": "Inactivo",
+        "phase": "FASE 3",
+        "agreement": "DRSV/ISBM",
+        "price_rollout_iva": null,
+        "price_pilot_iva": null
+      }
+    ],
+    "state": "Inactivo",
+    "treatment": "CRONICO",
+    "controlled": "No",
+    "injectable": "No",
+    "specialist": "Si",
+    "group": "ANTIEPILÉPTICOS",
+    "agreement": "DRSV/ISBM",
+    "price_rollout_iva": null,
+    "price_pilot_iva": null
+  },
+  {
+    "id": "25020301",
+    "number": 91,
+    "code": "25020301",
+    "name": "PROPILTIOURACILO  TABLETA DE 50 MG",
+    "composition": "50 MG",
+    "presentation": "CAJA X 30 TABLETAS",
+    "type": "TABLETA",
+    "unit": "TABLETA",
+    "collection": "isbm",
+    "sources": [
+      "Complemento 109",
+      "Tarifas · Medicamentos"
+    ],
+    "aliases": [
+      "PROPILTIOURACILO TABLETA DE 50 MG"
+    ],
+    "source_records": [
+      {
+        "source": "Complemento 109",
+        "number": 91,
+        "code": "25020301",
+        "description": "PROPILTIOURACILO  TABLETA DE 50 MG",
+        "presentation": "CAJA X 30 TABLETAS"
+      },
+      {
+        "source": "Tarifas · Medicamentos",
+        "row": 326,
+        "code_p2h": "25020301",
+        "code_tca": "25020301",
+        "barcode": "25020301",
+        "description": "PROPILTIOURACILO TABLETA DE 50 MG",
+        "state": "Inactivo",
+        "phase": "FASE 3",
+        "agreement": "DRSV/ISBM",
+        "price_rollout_iva": null,
+        "price_pilot_iva": null
+      }
+    ],
+    "state": "Inactivo",
+    "treatment": "CRONICO",
+    "controlled": "No",
+    "injectable": "No",
+    "specialist": "Si",
+    "group": "TERAPIA TIROIDEA",
+    "agreement": "DRSV/ISBM",
+    "price_rollout_iva": null,
+    "price_pilot_iva": null
+  },
+  {
+    "id": "23030701",
+    "number": 92,
+    "code": "23030701",
+    "name": "PROPINOX + CLONIXINATO DE LISINA SOLUCIÓN INYECTABLE DE 15 MG + 100 MG",
+    "composition": "15 MG + 100 MG",
+    "presentation": "CAJA X 1 AMPOLLA X 2 ML (VIDRIO CRISTALINO) + 1 AMPOLLA X 2 ML (VIDRIO ÁMBAR) + JERINGA + TOALLITA CON ALCOHOL",
+    "type": "SOLUCIÓN INYECTABLE",
+    "unit": "KIT",
+    "collection": "isbm",
+    "sources": [
+      "Complemento 109",
+      "Tarifas · Medicamentos"
+    ],
+    "aliases": [],
+    "source_records": [
+      {
+        "source": "Complemento 109",
+        "number": 92,
+        "code": "23030701",
+        "description": "PROPINOX + CLONIXINATO DE LISINA SOLUCIÓN INYECTABLE DE 15 MG + 100 MG",
+        "presentation": "CAJA X 1 AMPOLLA X 2 ML (VIDRIO CRISTALINO) + 1 AMPOLLA X 2 ML (VIDRIO ÁMBAR) + JERINGA + TOALLITA CON ALCOHOL"
+      },
+      {
+        "source": "Tarifas · Medicamentos",
+        "row": 355,
+        "code_p2h": "23030701",
+        "code_tca": "23030701",
+        "barcode": "23030701",
+        "description": "PROPINOX + CLONIXINATO DE LISINA SOLUCIÓN INYECTABLE DE 15 MG + 100 MG",
+        "state": "Inactivo",
+        "phase": "FASE 3",
+        "agreement": "DRSV/ISBM",
+        "price_rollout_iva": null,
+        "price_pilot_iva": null
+      }
+    ],
+    "state": "Inactivo",
+    "treatment": "AGUDO",
+    "controlled": "No",
+    "injectable": "Si",
+    "specialist": "Si",
+    "group": "MEDICAMENTOS PARA TRASTORNOS GASTROINTES",
+    "agreement": "DRSV/ISBM",
+    "price_rollout_iva": null,
+    "price_pilot_iva": null
+  },
+  {
+    "id": "10000798",
+    "number": 93,
+    "code": "10000798",
+    "name": "PROPINOXATO GOTAS DE 5 MG/ML",
+    "composition": "5 MG/ML",
+    "presentation": "CAJA X 1 FRASCO GOTERO X 20 ML",
+    "type": "SOLUCIÓN ORAL (GOTAS)",
+    "unit": "FRASCO GOTERO",
+    "collection": "isbm",
+    "sources": [
+      "Complemento 109",
+      "Tarifas · Medicamentos"
+    ],
+    "aliases": [],
+    "source_records": [
+      {
+        "source": "Complemento 109",
+        "number": 93,
+        "code": "10000798",
+        "description": "PROPINOXATO GOTAS DE 5 MG/ML",
+        "presentation": "CAJA X 1 FRASCO GOTERO X 20 ML"
+      },
+      {
+        "source": "Tarifas · Medicamentos",
+        "row": 327,
+        "code_p2h": "10000798",
+        "code_tca": "10000798",
+        "barcode": "10000798",
+        "description": "PROPINOXATO GOTAS DE 5 MG/ML",
+        "state": "Inactivo",
+        "phase": "FASE 3",
+        "agreement": "DRSV/ISBM",
+        "price_rollout_iva": null,
+        "price_pilot_iva": null
+      }
+    ],
+    "state": "Inactivo",
+    "treatment": "AGUDO",
+    "controlled": "No",
+    "injectable": "No",
+    "specialist": "Si",
+    "group": "MEDICAMENTOS PARA TRASTORNOS GASTROINTES",
+    "agreement": "DRSV/ISBM",
+    "price_rollout_iva": null,
+    "price_pilot_iva": null
+  },
+  {
+    "id": "24020202",
+    "number": 94,
+    "code": "24020202",
+    "name": "QUETIAPINA TABLETA DE 200 MG",
+    "composition": "200 MG",
+    "presentation": "CAJA X 30 TABLETAS RECUBIERTAS (3 BLÍSTER OPA/AL/PVC-AL X 10)",
+    "type": "TABLETA RECUBIERTA",
+    "unit": "TABLETA",
+    "collection": "isbm",
+    "sources": [
+      "Complemento 109",
+      "Tarifas · Medicamentos"
+    ],
+    "aliases": [],
+    "source_records": [
+      {
+        "source": "Complemento 109",
+        "number": 94,
+        "code": "24020202",
+        "description": "QUETIAPINA TABLETA DE 200 MG",
+        "presentation": "CAJA X 30 TABLETAS RECUBIERTAS (3 BLÍSTER OPA/AL/PVC-AL X 10)"
+      },
+      {
+        "source": "Tarifas · Medicamentos",
+        "row": 329,
+        "code_p2h": "24020202",
+        "code_tca": "24020202",
+        "barcode": "24020202",
+        "description": "QUETIAPINA TABLETA DE 200 MG",
+        "state": "Inactivo",
+        "phase": "FASE 3",
+        "agreement": "DRSV/ISBM",
+        "price_rollout_iva": null,
+        "price_pilot_iva": null
+      }
+    ],
+    "state": "Inactivo",
+    "treatment": "CRONICO",
+    "controlled": "No",
+    "injectable": "No",
+    "specialist": "Si",
+    "group": "PSICOLÉPTICOS (ANTIPSICÓTICOS ANSIOLÍTI)",
+    "agreement": "DRSV/ISBM",
+    "price_rollout_iva": null,
+    "price_pilot_iva": null
+  },
+  {
+    "id": "24020106",
+    "number": 95,
+    "code": "24020106",
+    "name": "RISPERIDONA FRASCO DE 1 MG/1 ML",
+    "composition": "1 MG/ML",
+    "presentation": "CAJA X 1 FRASCO X 30 ML",
+    "type": "SOLUCIÓN ORAL",
+    "unit": "FRASCO",
+    "collection": "isbm",
+    "sources": [
+      "Complemento 109",
+      "Tarifas · Medicamentos"
+    ],
+    "aliases": [
+      "RISPERIDONA FRASCO DE 1 MG/1 ML FRASCO X 30ML"
+    ],
+    "source_records": [
+      {
+        "source": "Complemento 109",
+        "number": 95,
+        "code": "24020106",
+        "description": "RISPERIDONA FRASCO DE 1 MG/1 ML",
+        "presentation": "CAJA X 1 FRASCO X 30 ML"
+      },
+      {
+        "source": "Tarifas · Medicamentos",
+        "row": 330,
+        "code_p2h": "24020106",
+        "code_tca": "24020106",
+        "barcode": "24020106",
+        "description": "RISPERIDONA FRASCO DE 1 MG/1 ML FRASCO X 30ML",
+        "state": "Inactivo",
+        "phase": "FASE 3",
+        "agreement": "DRSV/ISBM",
+        "price_rollout_iva": null,
+        "price_pilot_iva": null
+      }
+    ],
+    "state": "Inactivo",
+    "treatment": "CRONICO",
+    "controlled": "No",
+    "injectable": "No",
+    "specialist": "Si",
+    "group": "PSICOLÉPTICOS (ANTIPSICÓTICOS ANSIOLÍTI)",
+    "agreement": "DRSV/ISBM",
+    "price_rollout_iva": null,
+    "price_pilot_iva": null
+  },
+  {
+    "id": "23050201",
+    "number": 96,
+    "code": "23050201",
+    "name": "SALES DE REHIDRATACION ORAL POLVO PARA SOLUCIÓN ORAL EN SOBRES DE GLUCOSA ANHIDRA13.5G; CLORURO DE SODIO 2.6 G; CLORURO DE POTASIO 1.5 G; CITRATO TRISÓDICO DIHIDRATADO 2.9; SOBRE 21 GRAMOS PARA DILUIR EN UN LITRO",
+    "composition": "GLUCOSA ANHIDRA 13.5 G + CLORURO DE SODIO 2.6 G + CLORURO DE POTASIO 1.5 G + CITRATO TRISÓDICO DIHIDRATADO 2.9 G (PARA 1 LITRO)",
+    "presentation": "SOBRE X 20 G",
+    "type": "POLVO PARA SOLUCIÓN ORAL",
+    "unit": "SOBRE",
+    "collection": "isbm",
+    "sources": [
+      "Complemento 109",
+      "Tarifas · Medicamentos"
+    ],
+    "aliases": [
+      "SALES DE REHIDRATACION ORAL POLVO PARA SOLUCIÓN ORAL EN SOBRES DE GLUCOSA ANHIDRA13.5G; CLORURO DE SODIO 2.6 G; CLORURO DE POTASIO 1.5 G; CITRATO TRISÓDICO DIHIDRATADO 2.9 SOBRE 21 GRAMOS PARA DILUIR EN UN LITRO"
+    ],
+    "source_records": [
+      {
+        "source": "Complemento 109",
+        "number": 96,
+        "code": "23050201",
+        "description": "SALES DE REHIDRATACION ORAL POLVO PARA SOLUCIÓN ORAL EN SOBRES DE GLUCOSA ANHIDRA13.5G; CLORURO DE SODIO 2.6 G; CLORURO DE POTASIO 1.5 G; CITRATO TRISÓDICO DIHIDRATADO 2.9; SOBRE 21 GRAMOS PARA DILUIR EN UN LITRO",
+        "presentation": "SOBRE X 20 G"
+      },
+      {
+        "source": "Tarifas · Medicamentos",
+        "row": 331,
+        "code_p2h": "23050201",
+        "code_tca": "23050201",
+        "barcode": "23050201",
+        "description": "SALES DE REHIDRATACION ORAL POLVO PARA SOLUCIÓN ORAL EN SOBRES DE GLUCOSA ANHIDRA13.5G; CLORURO DE SODIO 2.6 G; CLORURO DE POTASIO 1.5 G; CITRATO TRISÓDICO DIHIDRATADO 2.9 SOBRE 21 GRAMOS PARA DILUIR EN UN LITRO",
+        "state": "Inactivo",
+        "phase": "FASE 3",
+        "agreement": "DRSV/ISBM",
+        "price_rollout_iva": null,
+        "price_pilot_iva": null
+      }
+    ],
+    "state": "Inactivo",
+    "treatment": "AGUDO",
+    "controlled": "No",
+    "injectable": "No",
+    "specialist": "Si",
+    "group": "ANTIDIARREICOS Y ANTIINFLAMATORIOS/INTES",
+    "agreement": "DRSV/ISBM",
+    "price_rollout_iva": null,
+    "price_pilot_iva": null
+  },
+  {
+    "id": "22030102",
+    "number": 97,
+    "code": "22030102",
+    "name": "SALMETEROL + FLUTICAZONA INHALADOR 25 / 125 MCG POR DOSIS",
+    "composition": "25 MCG + 125 MCG / DOSIS",
+    "presentation": "CAJA X 1 INHALADOR DE ALUMINIO X 120 DOSIS",
+    "type": "SUSPENSIÓN PARA INHALACIÓN (AEROSOL)",
+    "unit": "INHALADOR",
+    "collection": "isbm",
+    "sources": [
+      "Complemento 109",
+      "Tarifas · Medicamentos"
+    ],
+    "aliases": [
+      "SALMETEROL + FLUTICASONA INHALADOR 25 / 125 MCG POR DOSIS"
+    ],
+    "source_records": [
+      {
+        "source": "Complemento 109",
+        "number": 97,
+        "code": "22030102",
+        "description": "SALMETEROL + FLUTICAZONA INHALADOR 25 / 125 MCG POR DOSIS",
+        "presentation": "CAJA X 1 INHALADOR DE ALUMINIO X 120 DOSIS"
+      },
+      {
+        "source": "Tarifas · Medicamentos",
+        "row": 332,
+        "code_p2h": "22030102",
+        "code_tca": "22030102",
+        "barcode": "22030102",
+        "description": "SALMETEROL + FLUTICASONA INHALADOR 25 / 125 MCG POR DOSIS",
+        "state": "Inactivo",
+        "phase": "FASE 3",
+        "agreement": "DRSV/ISBM",
+        "price_rollout_iva": null,
+        "price_pilot_iva": null
+      }
+    ],
+    "state": "Inactivo",
+    "treatment": "CRONICO",
+    "controlled": "No",
+    "injectable": "No",
+    "specialist": "Si",
+    "group": "FÁRMACOS PARA ENFERMEDADES OBSTRUCTIVAS",
+    "agreement": "DRSV/ISBM",
+    "price_rollout_iva": null,
+    "price_pilot_iva": null
+  },
+  {
+    "id": "15060101",
+    "number": 98,
+    "code": "15060101",
+    "name": "SILDENAFIL TABLETA DE 50 MG",
+    "composition": "50 MG",
+    "presentation": "CAJA X 30 TABLETAS RECUBIERTAS",
+    "type": "TABLETA RECUBIERTA",
+    "unit": "TABLETA",
+    "collection": "isbm",
+    "sources": [
+      "Complemento 109",
+      "Tarifas · Medicamentos"
+    ],
+    "aliases": [],
+    "source_records": [
+      {
+        "source": "Complemento 109",
+        "number": 98,
+        "code": "15060101",
+        "description": "SILDENAFIL TABLETA DE 50 MG",
+        "presentation": "CAJA X 30 TABLETAS RECUBIERTAS"
+      },
+      {
+        "source": "Tarifas · Medicamentos",
+        "row": 333,
+        "code_p2h": "15060101",
+        "code_tca": "15060101",
+        "barcode": "15060101",
+        "description": "SILDENAFIL TABLETA DE 50 MG",
+        "state": "Inactivo",
+        "phase": "FASE 3",
+        "agreement": "DRSV/ISBM",
+        "price_rollout_iva": null,
+        "price_pilot_iva": null
+      }
+    ],
+    "state": "Inactivo",
+    "treatment": "CRONICO",
+    "controlled": "No",
+    "injectable": "No",
+    "specialist": "Si",
+    "group": "UROLÓGICOS",
+    "agreement": "DRSV/ISBM",
+    "price_rollout_iva": null,
+    "price_pilot_iva": null
+  },
+  {
+    "id": "25010601",
+    "number": 99,
+    "code": "25010601",
+    "name": "SITAGLIPTINA TABLETA DE 100 MG",
+    "composition": "100 MG",
+    "presentation": "CAJA X 30 TABLETAS RECUBIERTAS",
+    "type": "TABLETA RECUBIERTA",
+    "unit": "TABLETA",
+    "collection": "isbm",
+    "sources": [
+      "Complemento 109",
+      "Tarifas · Medicamentos"
+    ],
+    "aliases": [],
+    "source_records": [
+      {
+        "source": "Complemento 109",
+        "number": 99,
+        "code": "25010601",
+        "description": "SITAGLIPTINA TABLETA DE 100 MG",
+        "presentation": "CAJA X 30 TABLETAS RECUBIERTAS"
+      },
+      {
+        "source": "Tarifas · Medicamentos",
+        "row": 334,
+        "code_p2h": "25010601",
+        "code_tca": "25010601",
+        "barcode": "25010601",
+        "description": "SITAGLIPTINA TABLETA DE 100 MG",
+        "state": "Inactivo",
+        "phase": "FASE 3",
+        "agreement": "DRSV/ISBM",
+        "price_rollout_iva": null,
+        "price_pilot_iva": null
+      }
+    ],
+    "state": "Inactivo",
+    "treatment": "CRONICO",
+    "controlled": "No",
+    "injectable": "No",
+    "specialist": "Si",
+    "group": "ANTIDIABÉTICOS",
+    "agreement": "DRSV/ISBM",
+    "price_rollout_iva": null,
+    "price_pilot_iva": null
+  },
+  {
+    "id": "15060102",
+    "number": 100,
+    "code": "15060102",
+    "name": "TADALAFILO TADALAFILO DE 5MG",
+    "composition": "5 MG",
+    "presentation": "CAJA X 30 TABLETAS",
+    "type": "TABLETA",
+    "unit": "TABLETA",
+    "collection": "isbm",
+    "sources": [
+      "Complemento 109",
+      "Tarifas · Medicamentos"
+    ],
+    "aliases": [
+      "TADALAFILO DE 5MG"
+    ],
+    "source_records": [
+      {
+        "source": "Complemento 109",
+        "number": 100,
+        "code": "15060102",
+        "description": "TADALAFILO TADALAFILO DE 5MG",
+        "presentation": "CAJA X 30 TABLETAS"
+      },
+      {
+        "source": "Tarifas · Medicamentos",
+        "row": 335,
+        "code_p2h": "15060102",
+        "code_tca": "15060102",
+        "barcode": "15060102",
+        "description": "TADALAFILO DE 5MG",
+        "state": "Inactivo",
+        "phase": "FASE 3",
+        "agreement": "DRSV/ISBM",
+        "price_rollout_iva": null,
+        "price_pilot_iva": null
+      }
+    ],
+    "state": "Inactivo",
+    "treatment": "CRONICO",
+    "controlled": "No",
+    "injectable": "No",
+    "specialist": "Si",
+    "group": "UROLÓGICOS",
+    "agreement": "DRSV/ISBM",
+    "price_rollout_iva": null,
+    "price_pilot_iva": null
+  },
+  {
+    "id": "25070101",
+    "number": 101,
+    "code": "25070101",
+    "name": "TAMOXIFENO CITRATO TABLETA DE 20 MG",
+    "composition": "20 MG",
+    "presentation": "CAJA X 100 TABLETAS (10 BLÍSTER X 10)",
+    "type": "TABLETA",
+    "unit": "TABLETA",
+    "collection": "isbm",
+    "sources": [
+      "Complemento 109",
+      "Tarifas · Medicamentos"
+    ],
+    "aliases": [],
+    "source_records": [
+      {
+        "source": "Complemento 109",
+        "number": 101,
+        "code": "25070101",
+        "description": "TAMOXIFENO CITRATO TABLETA DE 20 MG",
+        "presentation": "CAJA X 100 TABLETAS (10 BLÍSTER X 10)"
+      },
+      {
+        "source": "Tarifas · Medicamentos",
+        "row": 336,
+        "code_p2h": "25070101",
+        "code_tca": "25070101",
+        "barcode": "25070101",
+        "description": "TAMOXIFENO CITRATO TABLETA DE 20 MG",
+        "state": "Inactivo",
+        "phase": "FASE 3",
+        "agreement": "DRSV/ISBM",
+        "price_rollout_iva": null,
+        "price_pilot_iva": null
+      }
+    ],
+    "state": "Inactivo",
+    "treatment": "CRONICO",
+    "controlled": "No",
+    "injectable": "No",
+    "specialist": "Si",
+    "group": "TERAPIA ENDOCRINA PARA CÁNCER (HORMONAL)",
+    "agreement": "DRSV/ISBM",
+    "price_rollout_iva": null,
+    "price_pilot_iva": null
+  },
+  {
+    "id": "15040201",
+    "number": 102,
+    "code": "15040201",
+    "name": "TAMSULOSINA CLORHIDRATO + DUTASTERIDA  CÁPSULA DE 0.4 MG + 0.5 MG",
+    "composition": "0.4 MG + 0.5 MG",
+    "presentation": "CAJA X 30 CÁPSULAS (3 BLÍSTER X 10)",
+    "type": "CÁPSULA",
+    "unit": "CÁPSULA",
+    "collection": "isbm",
+    "sources": [
+      "Complemento 109",
+      "Tarifas · Medicamentos"
+    ],
+    "aliases": [
+      "TAMSULOSINA CLORHIDRATO + DUTASTERIDA CÁPSULA DE 0.4 MG + 0.5 MG"
+    ],
+    "source_records": [
+      {
+        "source": "Complemento 109",
+        "number": 102,
+        "code": "15040201",
+        "description": "TAMSULOSINA CLORHIDRATO + DUTASTERIDA  CÁPSULA DE 0.4 MG + 0.5 MG",
+        "presentation": "CAJA X 30 CÁPSULAS (3 BLÍSTER X 10)"
+      },
+      {
+        "source": "Tarifas · Medicamentos",
+        "row": 337,
+        "code_p2h": "15040201",
+        "code_tca": "15040201",
+        "barcode": "15040201",
+        "description": "TAMSULOSINA CLORHIDRATO + DUTASTERIDA CÁPSULA DE 0.4 MG + 0.5 MG",
+        "state": "Inactivo",
+        "phase": "FASE 3",
+        "agreement": "DRSV/ISBM",
+        "price_rollout_iva": null,
+        "price_pilot_iva": null
+      }
+    ],
+    "state": "Inactivo",
+    "treatment": "CRONICO",
+    "controlled": "No",
+    "injectable": "No",
+    "specialist": "Si",
+    "group": "UROLÓGICOS",
+    "agreement": "DRSV/ISBM",
+    "price_rollout_iva": null,
+    "price_pilot_iva": null
+  },
+  {
+    "id": "15040202",
+    "number": 103,
+    "code": "15040202",
+    "name": "TAMSULOSINA CLORHIDRATO TABLETA Ó CÁPSULA 0.4 MG",
+    "composition": "0.4 MG",
+    "presentation": "CAJA X 30 CÁPSULAS (3 BLÍSTER X 10)",
+    "type": "CÁPSULA",
+    "unit": "CÁPSULA",
+    "collection": "isbm",
+    "sources": [
+      "Complemento 109",
+      "Tarifas · Medicamentos"
+    ],
+    "aliases": [],
+    "source_records": [
+      {
+        "source": "Complemento 109",
+        "number": 103,
+        "code": "15040202",
+        "description": "TAMSULOSINA CLORHIDRATO TABLETA Ó CÁPSULA 0.4 MG",
+        "presentation": "CAJA X 30 CÁPSULAS (3 BLÍSTER X 10)"
+      },
+      {
+        "source": "Tarifas · Medicamentos",
+        "row": 339,
+        "code_p2h": "15040202",
+        "code_tca": "15040202",
+        "barcode": "15040202",
+        "description": "TAMSULOSINA CLORHIDRATO TABLETA Ó CÁPSULA 0.4 MG",
+        "state": "Inactivo",
+        "phase": "FASE 3",
+        "agreement": "DRSV/ISBM",
+        "price_rollout_iva": null,
+        "price_pilot_iva": null
+      }
+    ],
+    "state": "Inactivo",
+    "treatment": "CRONICO",
+    "controlled": "No",
+    "injectable": "No",
+    "specialist": "Si",
+    "group": "UROLÓGICOS",
+    "agreement": "DRSV/ISBM",
+    "price_rollout_iva": null,
+    "price_pilot_iva": null
+  },
+  {
+    "id": "28030301",
+    "number": 104,
+    "code": "28030301",
+    "name": "TIMOLOL MALEATO COLIRIO SOL. OFTÁLMICA AL 0.5%",
+    "composition": "0.5%",
+    "presentation": "CAJA X 1 FRASCO GOTERO X 5 ML",
+    "type": "SOLUCIÓN OFTÁLMICA (COLIRIO)",
+    "unit": "FRASCO GOTERO",
+    "collection": "isbm",
+    "sources": [
+      "Complemento 109",
+      "Tarifas · Medicamentos"
+    ],
+    "aliases": [],
+    "source_records": [
+      {
+        "source": "Complemento 109",
+        "number": 104,
+        "code": "28030301",
+        "description": "TIMOLOL MALEATO COLIRIO SOL. OFTÁLMICA AL 0.5%",
+        "presentation": "CAJA X 1 FRASCO GOTERO X 5 ML"
+      },
+      {
+        "source": "Tarifas · Medicamentos",
+        "row": 340,
+        "code_p2h": "28030301",
+        "code_tca": "28030301",
+        "barcode": "28030301",
+        "description": "TIMOLOL MALEATO COLIRIO SOL. OFTÁLMICA AL 0.5%",
+        "state": "Inactivo",
+        "phase": "FASE 3",
+        "agreement": "DRSV/ISBM",
+        "price_rollout_iva": null,
+        "price_pilot_iva": null
+      }
+    ],
+    "state": "Inactivo",
+    "treatment": "CRONICO",
+    "controlled": "No",
+    "injectable": "No",
+    "specialist": "Si",
+    "group": "OFTÁLMICOS",
+    "agreement": "DRSV/ISBM",
+    "price_rollout_iva": null,
+    "price_pilot_iva": null
+  },
+  {
+    "id": "10000918",
+    "number": 105,
+    "code": "10000918",
+    "name": "TOBRAMICINA + DEXAMETASONA  COLIRIO SUSP OFTÁLMICA DE 0.3%+0.1%",
+    "composition": "0.3 % + 0.1 %",
+    "presentation": "CAJA X 1 FRASCO GOTERO X 5 ML",
+    "type": "SUSPENSIÓN OFTÁLMICA (COLIRIO)",
+    "unit": "FRASCO GOTERO",
+    "collection": "isbm",
+    "sources": [
+      "Complemento 109",
+      "Tarifas · Medicamentos"
+    ],
+    "aliases": [
+      "TOBRAMICINA + DEXAMETASONA COLIRIO SUSP OFTÁLMICA DE 0.3%+0.1%"
+    ],
+    "source_records": [
+      {
+        "source": "Complemento 109",
+        "number": 105,
+        "code": "10000918",
+        "description": "TOBRAMICINA + DEXAMETASONA  COLIRIO SUSP OFTÁLMICA DE 0.3%+0.1%",
+        "presentation": "CAJA X 1 FRASCO GOTERO X 5 ML"
+      },
+      {
+        "source": "Tarifas · Medicamentos",
+        "row": 341,
+        "code_p2h": "10000918",
+        "code_tca": "10000918",
+        "barcode": "10000918",
+        "description": "TOBRAMICINA + DEXAMETASONA COLIRIO SUSP OFTÁLMICA DE 0.3%+0.1%",
+        "state": "Inactivo",
+        "phase": "FASE 3",
+        "agreement": "DRSV/ISBM",
+        "price_rollout_iva": null,
+        "price_pilot_iva": null
+      }
+    ],
+    "state": "Inactivo",
+    "treatment": "AGUDO",
+    "controlled": "No",
+    "injectable": "No",
+    "specialist": "Si",
+    "group": "OFTÁLMICOS",
+    "agreement": "DRSV/ISBM",
+    "price_rollout_iva": null,
+    "price_pilot_iva": null
+  },
+  {
+    "id": "34010501",
+    "number": 106,
+    "code": "34010501",
+    "name": "TOPIRAMATO TABLETA DE 100 MG",
+    "composition": "100 MG",
+    "presentation": "CAJA X 28 TABLETAS",
+    "type": "TABLETA",
+    "unit": "TABLETA",
+    "collection": "isbm",
+    "sources": [
+      "Complemento 109",
+      "Tarifas · Medicamentos"
+    ],
+    "aliases": [],
+    "source_records": [
+      {
+        "source": "Complemento 109",
+        "number": 106,
+        "code": "34010501",
+        "description": "TOPIRAMATO TABLETA DE 100 MG",
+        "presentation": "CAJA X 28 TABLETAS"
+      },
+      {
+        "source": "Tarifas · Medicamentos",
+        "row": 342,
+        "code_p2h": "34010501",
+        "code_tca": "34010501",
+        "barcode": "34010501",
+        "description": "TOPIRAMATO TABLETA DE 100 MG",
+        "state": "Inactivo",
+        "phase": "FASE 3",
+        "agreement": "DRSV/ISBM",
+        "price_rollout_iva": null,
+        "price_pilot_iva": null
+      }
+    ],
+    "state": "Inactivo",
+    "treatment": "CRONICO",
+    "controlled": "No",
+    "injectable": "No",
+    "specialist": "Si",
+    "group": "ANTIEPILÉPTICOS",
+    "agreement": "DRSV/ISBM",
+    "price_rollout_iva": null,
+    "price_pilot_iva": null
+  },
+  {
+    "id": "16020201",
+    "number": 107,
+    "code": "16020201",
+    "name": "VERAPAMILO CLORHIDRATO TABLETA DE 240 MG",
+    "composition": "240 MG",
+    "presentation": "CAJA X 20 TABLETAS",
+    "type": "TABLETA",
+    "unit": "TABLETA",
+    "collection": "isbm",
+    "sources": [
+      "Complemento 109",
+      "Tarifas · Medicamentos"
+    ],
+    "aliases": [],
+    "source_records": [
+      {
+        "source": "Complemento 109",
+        "number": 107,
+        "code": "16020201",
+        "description": "VERAPAMILO CLORHIDRATO TABLETA DE 240 MG",
+        "presentation": "CAJA X 20 TABLETAS"
+      },
+      {
+        "source": "Tarifas · Medicamentos",
+        "row": 343,
+        "code_p2h": "16020201",
+        "code_tca": "16020201",
+        "barcode": "16020201",
+        "description": "VERAPAMILO CLORHIDRATO TABLETA DE 240 MG",
+        "state": "Inactivo",
+        "phase": "FASE 3",
+        "agreement": "DRSV/ISBM",
+        "price_rollout_iva": null,
+        "price_pilot_iva": null
+      }
+    ],
+    "state": "Inactivo",
+    "treatment": "CRONICO",
+    "controlled": "No",
+    "injectable": "No",
+    "specialist": "Si",
+    "group": "BLOQUEADORES DE LOS CANALES DE CALCIO",
+    "agreement": "DRSV/ISBM",
+    "price_rollout_iva": null,
+    "price_pilot_iva": null
+  },
+  {
+    "id": "27010011",
+    "number": 108,
+    "code": "27010011",
+    "name": "VITAMINA E CÁPSULA DE GELATINA BLANDA 400UI",
+    "composition": "400 UI",
+    "presentation": "CAJA X 50 CÁPSULAS (5 BLÍSTER X 10)",
+    "type": "CÁPSULA DE GELATINA BLANDA",
+    "unit": "CÁPSULA",
+    "collection": "isbm",
+    "sources": [
+      "Complemento 109",
+      "Tarifas · Medicamentos"
+    ],
+    "aliases": [],
+    "source_records": [
+      {
+        "source": "Complemento 109",
+        "number": 108,
+        "code": "27010011",
+        "description": "VITAMINA E CÁPSULA DE GELATINA BLANDA 400UI",
+        "presentation": "CAJA X 50 CÁPSULAS (5 BLÍSTER X 10)"
+      },
+      {
+        "source": "Tarifas · Medicamentos",
+        "row": 344,
+        "code_p2h": "27010011",
+        "code_tca": "27010011",
+        "barcode": "27010011",
+        "description": "VITAMINA E CÁPSULA DE GELATINA BLANDA 400UI",
+        "state": "Inactivo",
+        "phase": "FASE 3",
+        "agreement": "DRSV/ISBM",
+        "price_rollout_iva": null,
+        "price_pilot_iva": null
+      }
+    ],
+    "state": "Inactivo",
+    "treatment": "CRONICO",
+    "controlled": "No",
+    "injectable": "No",
+    "specialist": "Si",
+    "group": "VITAMINAS",
+    "agreement": "DRSV/ISBM",
+    "price_rollout_iva": null,
+    "price_pilot_iva": null
+  },
+  {
+    "id": "18020104",
+    "number": 109,
+    "code": "18020104",
+    "name": "WARFARINA TABLETAS DE 5 MG",
+    "composition": "5 MG",
+    "presentation": "CAJA X 30 TABLETAS",
+    "type": "TABLETA",
+    "unit": "TABLETA",
+    "collection": "isbm",
+    "sources": [
+      "Complemento 109",
+      "Tarifas · Medicamentos"
+    ],
+    "aliases": [],
+    "source_records": [
+      {
+        "source": "Complemento 109",
+        "number": 109,
+        "code": "18020104",
+        "description": "WARFARINA TABLETAS DE 5 MG",
+        "presentation": "CAJA X 30 TABLETAS"
+      },
+      {
+        "source": "Tarifas · Medicamentos",
+        "row": 345,
+        "code_p2h": "18020104",
+        "code_tca": "18020104",
+        "barcode": "18020104",
+        "description": "WARFARINA TABLETAS DE 5 MG",
+        "state": "Inactivo",
+        "phase": "FASE 3",
+        "agreement": "DRSV/ISBM",
+        "price_rollout_iva": null,
+        "price_pilot_iva": null
+      }
+    ],
+    "state": "Inactivo",
+    "treatment": "CRONICO",
+    "controlled": "No",
+    "injectable": "No",
+    "specialist": "Si",
+    "group": "AGENTES ANTITROMBÓTICOS",
+    "agreement": "DRSV/ISBM",
+    "price_rollout_iva": null,
+    "price_pilot_iva": null
+  },
+  {
+    "id": "isbm:10000153:tarifa",
+    "code": "10000153",
+    "name": "CALCIPOTRIOL + BETAMETASONA 0.05 mg + 0.5 mg / 1.0 g. crema",
+    "composition": "No desglosada en tarifas",
+    "presentation": "Crema; envase no informado en tarifas",
+    "type": "CREMA",
+    "unit": "ENVASE (confirmar)",
+    "collection": "isbm",
+    "state": "Inactivo",
+    "treatment": "AGUDO",
+    "controlled": "No",
+    "injectable": "No",
+    "specialist": "Si",
+    "group": "ANTIPSORIÁSICOS",
+    "agreement": "DRSV/ISBM",
+    "price_rollout_iva": null,
+    "price_pilot_iva": null,
+    "sources": [
+      "Tarifas · Medicamentos"
+    ],
+    "aliases": [],
+    "source_records": [
+      {
+        "source": "Tarifas · Medicamentos",
+        "row": 255,
+        "code_p2h": "10000153",
+        "code_tca": "10000153",
+        "barcode": "10000153",
+        "description": "CALCIPOTRIOL + BETAMETASONA 0.05 mg + 0.5 mg / 1.0 g. crema",
+        "state": "Inactivo",
+        "phase": "FASE 3",
+        "agreement": "DRSV/ISBM",
+        "price_rollout_iva": null,
+        "price_pilot_iva": null
+      }
+    ],
+    "review_note": "Gel en el complemento; crema en tarifas. Se mantienen por separado para confirmar la forma."
+  },
+  {
+    "id": "isbm:16030002",
+    "code": "16030002",
+    "name": "CAPTOPRIL TABLETA DE 25 MG",
+    "composition": "No desglosada en tarifas",
+    "presentation": "Confirmar presentación comercial según descripción",
+    "type": "No desglosado en tarifas",
+    "unit": "UNIDAD (confirmar en consulta)",
+    "collection": "isbm",
+    "state": "Inactivo",
+    "treatment": "CRONICO",
+    "controlled": "No",
+    "injectable": "No",
+    "specialist": "Si",
+    "group": "AGENTES QUE ACTÚAN SOBRE EL SISTEMA RENI",
+    "agreement": "DRSV/ISBM",
+    "price_rollout_iva": null,
+    "price_pilot_iva": null,
+    "sources": [
+      "Tarifas · Medicamentos"
+    ],
+    "aliases": [],
+    "source_records": [
+      {
+        "source": "Tarifas · Medicamentos",
+        "row": 256,
+        "code_p2h": "16030002",
+        "code_tca": "16030002",
+        "barcode": "16030002",
+        "description": "CAPTOPRIL TABLETA DE 25 MG",
+        "state": "Inactivo",
+        "phase": "FASE 3",
+        "agreement": "DRSV/ISBM",
+        "price_rollout_iva": null,
+        "price_pilot_iva": null
+      }
+    ]
+  },
+  {
+    "id": "isbm:22050201",
+    "code": "22050201",
+    "name": "DEXTROMETORFANO HBr + BROMURO DE CETILPIRIDINIO + TERPINA MONOHIDRATADA + GOMENOL + EUCALIPTOL + BENZOCAÍNA +ESENCIA DE MENTA +MENTOL CARAMELO DE 1 MG + 0.5 MG+ 0.1 G + 0.012 G + 0.012 G + 2 MG + 6.5 MG + 1 MG",
+    "composition": "No desglosada en tarifas",
+    "presentation": "Confirmar presentación comercial según descripción",
+    "type": "No desglosado en tarifas",
+    "unit": "UNIDAD (confirmar en consulta)",
+    "collection": "isbm",
+    "state": "Inactivo",
+    "treatment": "AGUDO",
+    "controlled": "No",
+    "injectable": "No",
+    "specialist": "Si",
+    "group": "PREPARADOS PARA LA GARGANTA",
+    "agreement": "DRSV/ISBM",
+    "price_rollout_iva": null,
+    "price_pilot_iva": null,
+    "sources": [
+      "Tarifas · Medicamentos"
+    ],
+    "aliases": [],
+    "source_records": [
+      {
+        "source": "Tarifas · Medicamentos",
+        "row": 269,
+        "code_p2h": "22050201",
+        "code_tca": "22050201",
+        "barcode": "22050201",
+        "description": "DEXTROMETORFANO HBr + BROMURO DE CETILPIRIDINIO + TERPINA MONOHIDRATADA + GOMENOL + EUCALIPTOL + BENZOCAÍNA +ESENCIA DE MENTA +MENTOL CARAMELO DE 1 MG + 0.5 MG+ 0.1 G + 0.012 G + 0.012 G + 2 MG + 6.5 MG + 1 MG",
+        "state": "Inactivo",
+        "phase": "FASE 3",
+        "agreement": "DRSV/ISBM",
+        "price_rollout_iva": null,
+        "price_pilot_iva": null
+      }
+    ]
+  },
+  {
+    "id": "isbm:10000331:tarifa",
+    "code": "10000331",
+    "name": "DOMPERIDONA Inyectable 1 mg/1 ml",
+    "composition": "No desglosada en tarifas",
+    "presentation": "Inyectable 1 mg/ml; envase no informado en tarifas",
+    "type": "INYECTABLE (según tarifas; confirmar)",
+    "unit": "ENVASE (confirmar)",
+    "collection": "isbm",
+    "state": "Inactivo",
+    "treatment": "AGUDO",
+    "controlled": "No",
+    "injectable": "Si",
+    "specialist": "Si",
+    "group": "MEDICAMENTOS PARA TRASTORNOS GASTROINTES",
+    "agreement": "DRSV/ISBM",
+    "price_rollout_iva": null,
+    "price_pilot_iva": null,
+    "sources": [
+      "Tarifas · Medicamentos"
+    ],
+    "aliases": [],
+    "source_records": [
+      {
+        "source": "Tarifas · Medicamentos",
+        "row": 273,
+        "code_p2h": "10000331",
+        "code_tca": "10000331",
+        "barcode": "10000331",
+        "description": "DOMPERIDONA Inyectable 1 mg/1 ml",
+        "state": "Inactivo",
+        "phase": "FASE 3",
+        "agreement": "DRSV/ISBM",
+        "price_rollout_iva": null,
+        "price_pilot_iva": null
+      }
+    ],
+    "review_note": "Suspensión oral en el complemento; inyectable en tarifas. Se mantienen por separado para confirmar la vía."
+  },
+  {
+    "id": "isbm:18020103",
+    "code": "18020103",
+    "name": "ENOXAPARINA SODICA DE 40MG",
+    "composition": "No desglosada en tarifas",
+    "presentation": "Confirmar presentación comercial según descripción",
+    "type": "No desglosado en tarifas",
+    "unit": "UNIDAD (confirmar en consulta)",
+    "collection": "isbm",
+    "state": "Inactivo",
+    "treatment": "AGUDO",
+    "controlled": "No",
+    "injectable": "Si",
+    "specialist": "Si",
+    "group": "AGENTES ANTITROMBÓTICOS",
+    "agreement": "DRSV/ISBM",
+    "price_rollout_iva": null,
+    "price_pilot_iva": null,
+    "sources": [
+      "Tarifas · Medicamentos"
+    ],
+    "aliases": [],
+    "source_records": [
+      {
+        "source": "Tarifas · Medicamentos",
+        "row": 276,
+        "code_p2h": "18020103",
+        "code_tca": "18020103",
+        "barcode": "18020103",
+        "description": "ENOXAPARINA SODICA DE 40MG",
+        "state": "Inactivo",
+        "phase": "FASE 3",
+        "agreement": "DRSV/ISBM",
+        "price_rollout_iva": null,
+        "price_pilot_iva": null
+      }
+    ]
+  },
+  {
+    "id": "isbm:23040101",
+    "code": "23040101",
+    "name": "FOSFATO DISODICO + FOSFATO MONOSODICO SOLUCIÓN ORAL 10.8G-24.4G",
+    "composition": "No desglosada en tarifas",
+    "presentation": "Confirmar presentación comercial según descripción",
+    "type": "No desglosado en tarifas",
+    "unit": "UNIDAD (confirmar en consulta)",
+    "collection": "isbm",
+    "state": "Inactivo",
+    "treatment": "AGUDO",
+    "controlled": "No",
+    "injectable": "No",
+    "specialist": "Si",
+    "group": "LAXANTES",
+    "agreement": "DRSV/ISBM",
+    "price_rollout_iva": null,
+    "price_pilot_iva": null,
+    "sources": [
+      "Tarifas · Medicamentos"
+    ],
+    "aliases": [],
+    "source_records": [
+      {
+        "source": "Tarifas · Medicamentos",
+        "row": 285,
+        "code_p2h": "23040101",
+        "code_tca": "23040101",
+        "barcode": "23040101",
+        "description": "FOSFATO DISODICO + FOSFATO MONOSODICO SOLUCIÓN ORAL 10.8G-24.4G",
+        "state": "Inactivo",
+        "phase": "FASE 3",
+        "agreement": "DRSV/ISBM",
+        "price_rollout_iva": null,
+        "price_pilot_iva": null
+      }
+    ]
+  },
+  {
+    "id": "isbm:16050102",
+    "code": "16050102",
+    "name": "FUROSEMIDA 10MG/ML AMPOLLA",
+    "composition": "No desglosada en tarifas",
+    "presentation": "Confirmar presentación comercial según descripción",
+    "type": "No desglosado en tarifas",
+    "unit": "UNIDAD (confirmar en consulta)",
+    "collection": "isbm",
+    "state": "Inactivo",
+    "treatment": "CRONICO",
+    "controlled": "No",
+    "injectable": "Si",
+    "specialist": "Si",
+    "group": "DIURÉTICOS",
+    "agreement": "DRSV/ISBM",
+    "price_rollout_iva": null,
+    "price_pilot_iva": null,
+    "sources": [
+      "Tarifas · Medicamentos"
+    ],
+    "aliases": [],
+    "source_records": [
+      {
+        "source": "Tarifas · Medicamentos",
+        "row": 286,
+        "code_p2h": "16050102",
+        "code_tca": "16050102",
+        "barcode": "16050102",
+        "description": "FUROSEMIDA 10MG/ML AMPOLLA",
+        "state": "Inactivo",
+        "phase": "FASE 3",
+        "agreement": "DRSV/ISBM",
+        "price_rollout_iva": null,
+        "price_pilot_iva": null
+      }
+    ]
+  },
+  {
+    "id": "isbm:10000464",
+    "code": "10000464",
+    "name": "GENTAMICINA SULFATO inyectable 80 mg/2ml",
+    "composition": "No desglosada en tarifas",
+    "presentation": "Confirmar presentación comercial según descripción",
+    "type": "No desglosado en tarifas",
+    "unit": "UNIDAD (confirmar en consulta)",
+    "collection": "isbm",
+    "state": "Inactivo",
+    "treatment": "AGUDO",
+    "controlled": "No",
+    "injectable": "Si",
+    "specialist": "Si",
+    "group": "ANTIBACTERIANOS PARA USO SISTÉMICO",
+    "agreement": "DRSV/ISBM",
+    "price_rollout_iva": null,
+    "price_pilot_iva": null,
+    "sources": [
+      "Tarifas · Medicamentos"
+    ],
+    "aliases": [],
+    "source_records": [
+      {
+        "source": "Tarifas · Medicamentos",
+        "row": 287,
+        "code_p2h": "10000464",
+        "code_tca": "10000464",
+        "barcode": "10000464",
+        "description": "GENTAMICINA SULFATO inyectable 80 mg/2ml",
+        "state": "Inactivo",
+        "phase": "FASE 3",
+        "agreement": "DRSV/ISBM",
+        "price_rollout_iva": null,
+        "price_pilot_iva": null
+      }
+    ]
+  },
+  {
+    "id": "isbm:31010201",
+    "code": "31010201",
+    "name": "HIDROXICINA CLORHIDRATO JARABE DE 10 MG/5 ML",
+    "composition": "No desglosada en tarifas",
+    "presentation": "Confirmar presentación comercial según descripción",
+    "type": "No desglosado en tarifas",
+    "unit": "UNIDAD (confirmar en consulta)",
+    "collection": "isbm",
+    "state": "Inactivo",
+    "treatment": "AGUDO",
+    "controlled": "No",
+    "injectable": "No",
+    "specialist": "Si",
+    "group": "ANTIHISTAMÍNICOS PARA USO SISTÉMICO",
+    "agreement": "DRSV/ISBM",
+    "price_rollout_iva": null,
+    "price_pilot_iva": null,
+    "sources": [
+      "Tarifas · Medicamentos"
+    ],
+    "aliases": [],
+    "source_records": [
+      {
+        "source": "Tarifas · Medicamentos",
+        "row": 289,
+        "code_p2h": "31010201",
+        "code_tca": "31010201",
+        "barcode": "31010201",
+        "description": "HIDROXICINA CLORHIDRATO JARABE DE 10 MG/5 ML",
+        "state": "Inactivo",
+        "phase": "FASE 3",
+        "agreement": "DRSV/ISBM",
+        "price_rollout_iva": null,
+        "price_pilot_iva": null
+      }
+    ]
+  },
+  {
+    "id": "isbm:25010405:tarifa",
+    "code": "25010405",
+    "name": "INSULINA CRISTALINA (HUMANA R) PEN X 3ML (300UI)",
+    "composition": "No desglosada en tarifas",
+    "presentation": "PLUMA X 3 ML (300 UI)",
+    "type": "SOLUCIÓN INYECTABLE EN PLUMA",
+    "unit": "PLUMA",
+    "collection": "isbm",
+    "state": "Inactivo",
+    "treatment": "CRONICO",
+    "controlled": "No",
+    "injectable": "Si",
+    "specialist": "Si",
+    "group": "MEDICAMENTOS BIOLOGICOS",
+    "agreement": "DRSV/ISBM",
+    "price_rollout_iva": null,
+    "price_pilot_iva": null,
+    "sources": [
+      "Tarifas · Medicamentos"
+    ],
+    "aliases": [],
+    "source_records": [
+      {
+        "source": "Tarifas · Medicamentos",
+        "row": 296,
+        "code_p2h": "25010405",
+        "code_tca": "25010405",
+        "barcode": "25010405",
+        "description": "INSULINA CRISTALINA (HUMANA R) PEN X 3ML (300UI)",
+        "state": "Inactivo",
+        "phase": "FASE 3",
+        "agreement": "DRSV/ISBM",
+        "price_rollout_iva": null,
+        "price_pilot_iva": null
+      }
+    ],
+    "review_note": "Frasco-ampolla de 10 ml en el complemento; pluma de 3 ml en tarifas. Se mantienen por separado para confirmar la presentación."
+  },
+  {
+    "id": "isbm:29110101",
+    "code": "29110101",
+    "name": "ISOTRETINOINA TABLETA O CÁPSULA DE 20 MG",
+    "composition": "No desglosada en tarifas",
+    "presentation": "Confirmar presentación comercial según descripción",
+    "type": "No desglosado en tarifas",
+    "unit": "UNIDAD (confirmar en consulta)",
+    "collection": "isbm",
+    "state": "Inactivo",
+    "treatment": "CRONICO",
+    "controlled": "No",
+    "injectable": "No",
+    "specialist": "Si",
+    "group": "PREPARADOS ANTIACNÉ",
+    "agreement": "DRSV/ISBM",
+    "price_rollout_iva": null,
+    "price_pilot_iva": null,
+    "sources": [
+      "Tarifas · Medicamentos"
+    ],
+    "aliases": [],
+    "source_records": [
+      {
+        "source": "Tarifas · Medicamentos",
+        "row": 298,
+        "code_p2h": "29110101",
+        "code_tca": "29110101",
+        "barcode": "29110101",
+        "description": "ISOTRETINOINA TABLETA O CÁPSULA DE 20 MG",
+        "state": "Inactivo",
+        "phase": "FASE 3",
+        "agreement": "DRSV/ISBM",
+        "price_rollout_iva": null,
+        "price_pilot_iva": null
+      }
+    ]
+  },
+  {
+    "id": "isbm:24020201",
+    "code": "24020201",
+    "name": "QUETIAPINA 300 MG TABLETA",
+    "composition": "No desglosada en tarifas",
+    "presentation": "Confirmar presentación comercial según descripción",
+    "type": "No desglosado en tarifas",
+    "unit": "UNIDAD (confirmar en consulta)",
+    "collection": "isbm",
+    "state": "Inactivo",
+    "treatment": "CRONICO",
+    "controlled": "No",
+    "injectable": "No",
+    "specialist": "Si",
+    "group": "PSICOLÉPTICOS (ANTIPSICÓTICOS ANSIOLÍTI)",
+    "agreement": "DRSV/ISBM",
+    "price_rollout_iva": null,
+    "price_pilot_iva": null,
+    "sources": [
+      "Tarifas · Medicamentos"
+    ],
+    "aliases": [],
+    "source_records": [
+      {
+        "source": "Tarifas · Medicamentos",
+        "row": 328,
+        "code_p2h": "24020201",
+        "code_tca": "24020201",
+        "barcode": "24020201",
+        "description": "QUETIAPINA 300 MG TABLETA",
+        "state": "Inactivo",
+        "phase": "FASE 3",
+        "agreement": "DRSV/ISBM",
+        "price_rollout_iva": null,
+        "price_pilot_iva": null
+      }
+    ]
+  },
+  {
+    "id": "isbm:13030101",
+    "code": "13030101",
+    "name": "TERBINAFINA TABLETA O CÁPSULA DE 250 MG",
+    "composition": "No desglosada en tarifas",
+    "presentation": "Confirmar presentación comercial según descripción",
+    "type": "No desglosado en tarifas",
+    "unit": "UNIDAD (confirmar en consulta)",
+    "collection": "isbm",
+    "state": "Inactivo",
+    "treatment": "CRONICO",
+    "controlled": "No",
+    "injectable": "No",
+    "specialist": "Si",
+    "group": "ANTIFÚNGICOS PARA USO DERMATOLÓGICO",
+    "agreement": "DRSV/ISBM",
+    "price_rollout_iva": null,
+    "price_pilot_iva": null,
+    "sources": [
+      "Tarifas · Medicamentos"
+    ],
+    "aliases": [],
+    "source_records": [
+      {
+        "source": "Tarifas · Medicamentos",
+        "row": 338,
+        "code_p2h": "13030101",
+        "code_tca": "13030101",
+        "barcode": "13030101",
+        "description": "TERBINAFINA TABLETA O CÁPSULA DE 250 MG",
+        "state": "Inactivo",
+        "phase": "FASE 3",
+        "agreement": "DRSV/ISBM",
+        "price_rollout_iva": null,
+        "price_pilot_iva": null
+      }
+    ]
+  },
+  {
+    "id": "isbm:13010103",
+    "code": "13010103",
+    "name": "FLUCONAZOL CÁPSULA DE 150 MG",
+    "composition": "No desglosada en tarifas",
+    "presentation": "Confirmar presentación comercial según descripción",
+    "type": "No desglosado en tarifas",
+    "unit": "UNIDAD (confirmar en consulta)",
+    "collection": "isbm",
+    "state": "Inactivo",
+    "treatment": "AGUDO",
+    "controlled": "No",
+    "injectable": "No",
+    "specialist": "Si",
+    "group": "ANTIMICÓTICOS PARA USO SISTÉMICO",
+    "agreement": "DRSV/ISBM",
+    "price_rollout_iva": null,
+    "price_pilot_iva": null,
+    "sources": [
+      "Tarifas · Medicamentos"
+    ],
+    "aliases": [],
+    "source_records": [
+      {
+        "source": "Tarifas · Medicamentos",
+        "row": 351,
+        "code_p2h": "13010103",
+        "code_tca": "13010103",
+        "barcode": "13010103",
+        "description": "FLUCONAZOL CÁPSULA DE 150 MG",
+        "state": "Inactivo",
+        "phase": "FASE 3",
+        "agreement": "DRSV/ISBM",
+        "price_rollout_iva": null,
+        "price_pilot_iva": null
+      }
+    ]
+  },
+  {
+    "id": "isbm:10000841",
+    "code": "10000841",
+    "name": "SECNIDAZOL tableta 500 mg",
+    "composition": "No desglosada en tarifas",
+    "presentation": "Confirmar presentación comercial según descripción",
+    "type": "No desglosado en tarifas",
+    "unit": "UNIDAD (confirmar en consulta)",
+    "collection": "isbm",
+    "state": "Inactivo",
+    "treatment": "AGUDO",
+    "controlled": "No",
+    "injectable": "No",
+    "specialist": "Si",
+    "group": "ANTIPROTOZOARIOS",
+    "agreement": "DRSV/ISBM",
+    "price_rollout_iva": null,
+    "price_pilot_iva": null,
+    "sources": [
+      "Tarifas · Medicamentos"
+    ],
+    "aliases": [],
+    "source_records": [
+      {
+        "source": "Tarifas · Medicamentos",
+        "row": 360,
+        "code_p2h": "10000841",
+        "code_tca": "10000841",
+        "barcode": "10000841",
+        "description": "SECNIDAZOL tableta 500 mg",
+        "state": "Inactivo",
+        "phase": "FASE 3",
+        "agreement": "DRSV/ISBM",
+        "price_rollout_iva": null,
+        "price_pilot_iva": null
+      }
+    ]
+  }
+]

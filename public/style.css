@@ -5,3 +5,5 @@
 @media(max-width:600px){.filters select{flex:1 1 calc(50% - 8px);width:calc(50% - 8px);min-width:0}.filters .rowbtn{flex:1 1 100%}}
 
 .toptools{display:flex;gap:15px;align-items:center}.catalogtabs{display:flex;gap:8px;margin:0 0 20px;flex-wrap:wrap}.catalogtabs span{font-size:10px;margin-left:5px;opacity:.7}@media(max-width:600px){nav button{font-size:6.5px;min-width:40px}.toptools{gap:5px}.toptools .rowbtn{font-size:8px;padding:5px}.toptools>span{font-size:7px}}
+
+.isbm-access{max-width:530px;margin:35px auto;padding:32px}.accessicon{width:46px;height:46px;border-radius:12px;background:#edf3e5;display:grid;place-items:center;font-size:25px;color:#729458;margin-bottom:18px}.isbm-access h2{font-size:23px;margin:10px 0}.isbm-access>p{color:#819173;font-size:12px;margin-bottom:23px}.passwordrow{display:flex;gap:8px}.passwordrow input{flex:1}.passwordrow .rowbtn{flex-shrink:0}.isbm-access .hint{margin:22px 0 0}.variantnote{background:#fcf1da;padding:7px;border-radius:4px;color:#9b772e!important;line-height:1.6}

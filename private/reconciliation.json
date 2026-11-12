@@ -1,0 +1,2772 @@
+{
+  "sources": {
+    "tariff": "TARIFAS MEDICAMENTOS-IMAGENES -LABORATORIOS ROLL OUT 12112025 v2.xlsx",
+    "sheet": "Medicamentos",
+    "complement": "109 Medicamentos ISBM.xlsx"
+  },
+  "tariff_rows": {
+    "FASE 1": 162,
+    "FASE 2": 78,
+    "FASE 3": 119
+  },
+  "complement_rows": 109,
+  "merged_same_code": 104,
+  "leading_zero_matches": 2,
+  "separate_variants": [
+    {
+      "code": "10000153",
+      "excel_id": "10000153",
+      "tariff_id": "isbm:10000153:tarifa",
+      "note": "Gel en el complemento; crema en tarifas. Se mantienen por separado para confirmar la forma."
+    },
+    {
+      "code": "10000331",
+      "excel_id": "10000331",
+      "tariff_id": "isbm:10000331:tarifa",
+      "note": "Suspensión oral en el complemento; inyectable en tarifas. Se mantienen por separado para confirmar la vía."
+    },
+    {
+      "code": "25010405",
+      "excel_id": "25010405",
+      "tariff_id": "isbm:25010405:tarifa",
+      "note": "Frasco-ampolla de 10 ml en el complemento; pluma de 3 ml en tarifas. Se mantienen por separado para confirmar la presentación."
+    }
+  ],
+  "isbm_records": 124,
+  "isbm_unique_codes": 121,
+  "matches": [
+    {
+      "code": "37010101",
+      "id": "37010101",
+      "tariff_row": 242,
+      "excel_number": 1,
+      "description_tariff": "ACETAMINOFÉN + FENILEFRINA + CLORFENIRAMINA + DEXTROMETORFANO TABLETA DE 325/10/2/10 MG",
+      "description_excel": "ACETAMINOFÉN + FENILEFRINA + CLORFENIRAMINA + DEXTROMETORFANO TABLETA DE 325/10/2/10 MG",
+      "leading_zero_variant": false
+    },
+    {
+      "code": "28030101",
+      "id": "28030101",
+      "tariff_row": 243,
+      "excel_number": 3,
+      "description_tariff": "ACETAZOLAMIDA TABLETA RANURADA DE 250 MG",
+      "description_excel": "ACETAZOLAMIDA TABLETA RANURADA DE 250 MG",
+      "leading_zero_variant": false
+    },
+    {
+      "code": "28020002",
+      "id": "28020002",
+      "tariff_row": 244,
+      "excel_number": 4,
+      "description_tariff": "ACIDO POLIACRILICO GEL ESTERIL, TUBO 10G 0.2%",
+      "description_excel": "ACIDO POLIACRÍLICO GEL ESTÉRIL PARA LA APLICACIÓN EN GOTAS, 0.2%",
+      "leading_zero_variant": false
+    },
+    {
+      "code": "29060101",
+      "id": "29060101",
+      "tariff_row": 245,
+      "excel_number": 5,
+      "description_tariff": "ACIDO RETINÓICO GEL 0.05/100G TUBO 15G",
+      "description_excel": "ACIDO RETINÓICO GEL 0.05/100 G",
+      "leading_zero_variant": false
+    },
+    {
+      "code": "38010101",
+      "id": "38010101",
+      "tariff_row": 246,
+      "excel_number": 6,
+      "description_tariff": "ACIDO ZOLEDRONICO FRASCO VIAL DE 4 MG/5 ML",
+      "description_excel": "ACIDO ZOLEDRONICO FRASCO VIAL DE  4 MG",
+      "leading_zero_variant": false
+    },
+    {
+      "code": "29080101",
+      "id": "29080101",
+      "tariff_row": 247,
+      "excel_number": 7,
+      "description_tariff": "ALQUITRÁN EQUIVALENTE AL 0.5% DE ALQUITRÁN DE HULLA (2.9% SOLUBILIZADO) COMPLEJO DE ALQUITRANES",
+      "description_excel": "ALQUITRÁN EQUIVALENTE AL 0.5% DE ALQUITRÁN DE HULLA (2.9% SOLUBILIZADO) COMPLEJO DE ALQUITRANES, ALQUITRÁN EQUIVALENTE AL  0.5% DE ALQUITRÁN DE HULLA (2.9% SOLUBILIZADO)",
+      "leading_zero_variant": false
+    },
+    {
+      "code": "34020100",
+      "id": "34020100",
+      "tariff_row": 248,
+      "excel_number": 8,
+      "description_tariff": "AMANTADINA DE 100MG capsula",
+      "description_excel": "AMANTADINA AMANTADINA DE 100MG",
+      "leading_zero_variant": false
+    },
+    {
+      "code": "23030601",
+      "id": "23030601",
+      "tariff_row": 249,
+      "excel_number": 10,
+      "description_tariff": "ASPARTATO DE ARGININA AMPOLLA BEBIBLE DE 5 G / 10 ML",
+      "description_excel": "ASPARTATO DE ARGININA AMPOLLA BEBIBLE DE 5 G / 10 ML",
+      "leading_zero_variant": false
+    },
+    {
+      "code": "25030104",
+      "id": "25030104",
+      "tariff_row": 250,
+      "excel_number": 12,
+      "description_tariff": "ATORVASTATINA TABLETA DE 20 MG",
+      "description_excel": "ATORVASTATINA TABLETA DE 20 MG",
+      "leading_zero_variant": false
+    },
+    {
+      "code": "35010102",
+      "id": "35010102",
+      "tariff_row": 251,
+      "excel_number": 13,
+      "description_tariff": "AZATIOPRINA TABLETA DE 50 MG",
+      "description_excel": "AZATIOPRINA TABLETA DE 50 MG",
+      "leading_zero_variant": false
+    },
+    {
+      "code": "34030101",
+      "id": "34030101",
+      "tariff_row": 252,
+      "excel_number": 14,
+      "description_tariff": "BETAHISTINA TABLETA O COMPRIMIDO DE 16 MG",
+      "description_excel": "BETAHISTINA  TABLETA O COMPRIMIDO DE 16 MG",
+      "leading_zero_variant": false
+    },
+    {
+      "code": "10000118",
+      "id": "10000118",
+      "tariff_row": 253,
+      "excel_number": 15,
+      "description_tariff": "BETAMETASONA + ACIDO SALICÍLICO loción/crema 0.05% + 2%",
+      "description_excel": "BETAMETASONA + ACIDO SALICÍLICO LOCIÓN 0.05 GR + 2 G EN 100 ML",
+      "leading_zero_variant": false
+    },
+    {
+      "code": "35020101",
+      "id": "35020101",
+      "tariff_row": 254,
+      "excel_number": 16,
+      "description_tariff": "BICALUTAMIDA TABLETA DE 50 MG",
+      "description_excel": "BICALUTAMIDA TABLETA DE 50 MG",
+      "leading_zero_variant": false
+    },
+    {
+      "code": "11010406",
+      "id": "11010406",
+      "tariff_row": 257,
+      "excel_number": 18,
+      "description_tariff": "CEFTRIAXONA SÓDICA FRASCO-AMPOLLA DE 1 G",
+      "description_excel": "CEFTRIAXONA SÓDICA FRASCO-AMPOLLA DE 1 G",
+      "leading_zero_variant": false
+    },
+    {
+      "code": "24010105",
+      "id": "24010105",
+      "tariff_row": 258,
+      "excel_number": 19,
+      "description_tariff": "CITALOPRAM COMPRIMIDO DE 20 MG",
+      "description_excel": "CITALOPRAM  COMPRIMIDO DE 20 MG",
+      "leading_zero_variant": false
+    },
+    {
+      "code": "15030101",
+      "id": "15030101",
+      "tariff_row": 259,
+      "excel_number": 20,
+      "description_tariff": "CITRATO DE POTASIO CITRATO DE POTASIO DE 10 MEQ",
+      "description_excel": "CITRATO DE POTASIO CITRATO DE POTASIO DE 10 MEQ",
+      "leading_zero_variant": false
+    },
+    {
+      "code": "21020101",
+      "id": "21020101",
+      "tariff_row": 260,
+      "excel_number": 21,
+      "description_tariff": "CLONIXINATO DE LISINA + PROPINOXATO TABLETA 125 MG/10 MG",
+      "description_excel": "CLONIXINATO DE LISINA + PROPINOXATO TABLETA 125 MG/10 MG",
+      "leading_zero_variant": false
+    },
+    {
+      "code": "31010008",
+      "id": "31010008",
+      "tariff_row": 261,
+      "excel_number": 23,
+      "description_tariff": "CLORFENIRAMINA MALEATO AMPOLLA DE 10 MG/ML",
+      "description_excel": "CLORFENIRAMINA MALEATO  AMPOLLA DE 10 MG/ML",
+      "leading_zero_variant": false
+    },
+    {
+      "code": "30010102",
+      "id": "30010102",
+      "tariff_row": 262,
+      "excel_number": 25,
+      "description_tariff": "CLOTRIMAZOL + METRONIDAZOL CREMA VAGINAL 2% + 500 MG",
+      "description_excel": "CLOTRIMAZOL + METRONIDAZOL  CREMA VAGINAL 2% + 500 MG",
+      "leading_zero_variant": false
+    },
+    {
+      "code": "10000262",
+      "id": "10000262",
+      "tariff_row": 263,
+      "excel_number": 28,
+      "description_tariff": "DEXAMETASONA + CLORANFENICOL + NAFAZOLINA COLIRIO DEXAMETASONA 0.1% + CLORANFENICOL 0.5% + NAFAZOLINA 0.025% COLIRIO",
+      "description_excel": "DEXAMETASONA + CLORANFENICOL + NAFAZOLINA COLIRIO DEXAMETASONA 0.1% + CLORANFENICOL 0.5% + NAFAZOLINA 0.025% COLIRIO",
+      "leading_zero_variant": false
+    },
+    {
+      "code": "30010103",
+      "id": "30010103",
+      "tariff_row": 264,
+      "excel_number": 26,
+      "description_tariff": "CLOTRIMAZOL + SULFIZOXAZOL + ALANTOINA CREMA VAGINAL 1 GR/10 GR/2GR EN 100 GR",
+      "description_excel": "CLOTRIMAZOL + SULFIZOXAZOL + ALANTOINA  CREMA VAGINAL 1 GR/10 GR/2GR EN 100 GR",
+      "leading_zero_variant": false
+    },
+    {
+      "code": "29090101",
+      "id": "29090101",
+      "tariff_row": 265,
+      "excel_number": 27,
+      "description_tariff": "CLOTRIMAZOL+GENTAMICINA+BETAMETASONA 50MG + 1 G DE CLOTRIMAZOL + 0.1 G DE GENTAMICINA EN 100 G",
+      "description_excel": "CLOTRIMAZOL-GENTAMICINA-BETAMETASONA 50MG DE BETAMETASONA + 1 G DE CLOTRIMAZOL + 0.1 G DE GENTAMICINA EN 100 G",
+      "leading_zero_variant": false
+    },
+    {
+      "code": "26020101",
+      "id": "26020101",
+      "tariff_row": 266,
+      "excel_number": 29,
+      "description_tariff": "DEXAMETASONA FOSFATO (SODICO) FRASCO VIAL DE 5 ML",
+      "description_excel": "DEXAMETASONA FOSFATO (SODICO) FRASCO VIAL DE 5 ML, I.M.-I.V. 4 MG/ML",
+      "leading_zero_variant": false
+    },
+    {
+      "code": "10000269",
+      "id": "10000269",
+      "tariff_row": 267,
+      "excel_number": 30,
+      "description_tariff": "DEXTROMETORFAN BROMHIDRATO + CARBOXIMETILCISTEINA +CLORFENIR 5 mg+ 150 mg +2.5 mg jarabe",
+      "description_excel": "DEXTROMETORFAN BROMHIDRATO + CARBOXIMETILCISTEINA +CLORFENIRAMINA MALEATO JARABE DE 5 MG+ 150 MG +2.5 MG",
+      "leading_zero_variant": false
+    },
+    {
+      "code": "10000270",
+      "id": "10000270",
+      "tariff_row": 268,
+      "excel_number": 31,
+      "description_tariff": "DEXTROMETORFANO JARABE (15 MG/ 5 ML) FRASCO DE 120ML",
+      "description_excel": "DEXTROMETORFANO BROMHIDRATO JARABE DE 15 MG/ 5 ML",
+      "leading_zero_variant": false
+    },
+    {
+      "code": "10000295",
+      "id": "10000295",
+      "tariff_row": 270,
+      "excel_number": 32,
+      "description_tariff": "DICLOFENACO, SÓDICO 0.001 gotas oftalmicas",
+      "description_excel": "DICLOFENACO SÓDICO COLIRIO SOL. OFTÁLMICA AL 0.1%",
+      "leading_zero_variant": false
+    },
+    {
+      "code": "31010101",
+      "id": "31010101",
+      "tariff_row": 271,
+      "excel_number": 33,
+      "description_tariff": "DIMENHIDRINATO AMPOLLA DE 50 MG/2 ML",
+      "description_excel": "DIMENHIDRINATO AMPOLLA DE 50 MG/2 ML",
+      "leading_zero_variant": false
+    },
+    {
+      "code": "16080101",
+      "id": "16080101",
+      "tariff_row": 272,
+      "excel_number": 34,
+      "description_tariff": "DIOSMINA + HESPERIDINA TABLETAS, TABLETAS RECUBIERTAS, CÁPSULAS O COMPRIMIDOS DE 450 MG +50 MG",
+      "description_excel": "DIOSMINA + HESPERIDINA TABLETAS, TABLETAS RECUBIERTAS, CÁPSULAS O COMPRIMIDOS DE 450 MG +50 MG",
+      "leading_zero_variant": false
+    },
+    {
+      "code": "28030102",
+      "id": "28030102",
+      "tariff_row": 274,
+      "excel_number": 36,
+      "description_tariff": "DORZOLAMIDA CLORHIDRATO COLIRIO SOL. OFTÁLMICA AL 2%",
+      "description_excel": "DORZOLAMIDA CLORHIDRATO COLIRIO SOL. OFTÁLMICA AL 2%",
+      "leading_zero_variant": false
+    },
+    {
+      "code": "15040101",
+      "id": "15040101",
+      "tariff_row": 275,
+      "excel_number": 38,
+      "description_tariff": "DUTASTERIDE TABLETAS O CÁPSULAS DE 0.5 MG",
+      "description_excel": "DUTASTERIDE TABLETAS O CÁPSULAS DE 0.5 MG",
+      "leading_zero_variant": false
+    },
+    {
+      "code": "25060101",
+      "id": "25060101",
+      "tariff_row": 277,
+      "excel_number": 40,
+      "description_tariff": "ERITROPOYETINA ALFA DE ORIGEN ADN RECOMBINANTE HUMANA SOLUCIÓN INYECTABLE I.V.-S.C. DE 4000 UI /ML",
+      "description_excel": "ERITROPOYETINA ALFA DE ORIGEN ADN RECOMBINANTE HUMANA POLVO LIOFILIZADO PARA SOLUCIÓN O SOLUCIÓN INYECTABLE I.V.-S.C. DE 4000 UI /ML",
+      "leading_zero_variant": false
+    },
+    {
+      "code": "23020205",
+      "id": "23020205",
+      "tariff_row": 278,
+      "excel_number": 41,
+      "description_tariff": "ESOMEPRAZOL TABLETA O CÁPSULA DE 40 MG",
+      "description_excel": "ESOMEPRAZOL TABLETA O CÁPSULA DE 40 MG",
+      "leading_zero_variant": false
+    },
+    {
+      "code": "16050202",
+      "id": "16050202",
+      "tariff_row": 279,
+      "excel_number": 42,
+      "description_tariff": "ESPIRONOLACTONA TABLETA DE 25 MG",
+      "description_excel": "ESPIRONOLACTONA  TABLETA DE 25 MG",
+      "leading_zero_variant": false
+    },
+    {
+      "code": "30040201",
+      "id": "30040201",
+      "tariff_row": 280,
+      "excel_number": 43,
+      "description_tariff": "ETINIL ESTRADIOL + CIPROTERONA TABLETA O COMPRIMIDO DE 2 MG + 0.035 MG",
+      "description_excel": "ETINIL ESTRADIOL + CIPROTERONA TABLETA O COMPRIMIDO DE 2 MG + 0.035 MG",
+      "leading_zero_variant": false
+    },
+    {
+      "code": "33010103",
+      "id": "33010103",
+      "tariff_row": 281,
+      "excel_number": 44,
+      "description_tariff": "FEBUXOSTAT 80 MG TABLETA RECUBIERTA",
+      "description_excel": "FEBUXOSTAT FEBUXOSTAT DE 80 MG",
+      "leading_zero_variant": false
+    },
+    {
+      "code": "29100101",
+      "id": "29100101",
+      "tariff_row": 282,
+      "excel_number": 46,
+      "description_tariff": "FILTRO SOLAR PROTECCIÓN SOLAR 30 O MAYOR, CREMA",
+      "description_excel": "FILTRO SOLAR PROTECCIÓN SOLAR 30 O MAYOR, CREMA",
+      "leading_zero_variant": false
+    },
+    {
+      "code": "18030101",
+      "id": "18030101",
+      "tariff_row": 283,
+      "excel_number": 47,
+      "description_tariff": "FITOMENADIONA (VITAMINA K1) AMPOLLA DE 10 MG/ML",
+      "description_excel": "FITOMENADIONA (VITAMINA K1) AMPOLLA DE 10 MG/ML",
+      "leading_zero_variant": false
+    },
+    {
+      "code": "34040101",
+      "id": "34040101",
+      "tariff_row": 284,
+      "excel_number": 48,
+      "description_tariff": "FLUNARIZINA DICLORHIDRATO TABLETA O CÁPSULA DE 10 MG",
+      "description_excel": "FLUNARICINA DICLORHIDRATO TABLETA O CÁPSULA DE 10 MG",
+      "leading_zero_variant": false
+    },
+    {
+      "code": "38020101",
+      "id": "38020101",
+      "tariff_row": 288,
+      "excel_number": 49,
+      "description_tariff": "GLUCOSAMINA SÓLIDO ORAL DE 1.5 G SOBRES",
+      "description_excel": "GLUCOSAMINA SÓLIDO ORAL DE 1.5 G",
+      "leading_zero_variant": false
+    },
+    {
+      "code": "10030103",
+      "id": "10030103",
+      "tariff_row": 290,
+      "excel_number": 51,
+      "description_tariff": "HIDROXICLOROQUINA TABLETA DE 400 MG",
+      "description_excel": "HIDROXICLOROQUINA TABLETA DE 400 MG",
+      "leading_zero_variant": false
+    },
+    {
+      "code": "28020003",
+      "id": "28020003",
+      "tariff_row": 291,
+      "excel_number": 52,
+      "description_tariff": "HIDROXIPROPILMETILCELULOSA+DEXTRAN 70 3 MG/ 1MG SOLUCIÓN OFTÁLMICA FRASCO 10 ML",
+      "description_excel": "HIDROXIPROPILMETILCELULOSA + DEXTRAN 70 COLIRIO SOLUCIÓN OFTÁLMICA DE 3 MG/ 1MG EN 1ML",
+      "leading_zero_variant": false
+    },
+    {
+      "code": "35010301",
+      "id": "35010301",
+      "tariff_row": 292,
+      "excel_number": 53,
+      "description_tariff": "HIDROXIUREA CÁPSULA 500 MG",
+      "description_excel": "HIDROXIUREA CÁPSULA 500 MG",
+      "leading_zero_variant": false
+    },
+    {
+      "code": "25060201",
+      "id": "25060201",
+      "tariff_row": 293,
+      "excel_number": 54,
+      "description_tariff": "HIERRO AMINOQUELADO SUSPENSIÓN DE 8.55MG/ML frasco 30ml",
+      "description_excel": "HIERRO AMINOQUELADO  SUSPENSIÓN DE 8.55MG/ML",
+      "leading_zero_variant": false
+    },
+    {
+      "code": "25060202",
+      "id": "25060202",
+      "tariff_row": 294,
+      "excel_number": 55,
+      "description_tariff": "HIERRO SACAROSA AMPOLLA 20 MG/1 ML",
+      "description_excel": "HIERRO SACAROSA AMPOLLA 20 MG/1 ML",
+      "leading_zero_variant": false
+    },
+    {
+      "code": "24010201",
+      "id": "24010201",
+      "tariff_row": 295,
+      "excel_number": 56,
+      "description_tariff": "IMIPRAMINA COMPRIMIDOS O TABLETAS DE25 MG",
+      "description_excel": "IMIPRAMINA  COMPRIMIDOS O TABLETAS DE25 MG",
+      "leading_zero_variant": false
+    },
+    {
+      "code": "16060102",
+      "id": "16060102",
+      "tariff_row": 297,
+      "excel_number": 58,
+      "description_tariff": "ISOSORBIDE MONONITRATO TABLETA DE 20 MG",
+      "description_excel": "ISOSORBIDE MONONITRATO TABLETA DE 20 MG",
+      "leading_zero_variant": false
+    },
+    {
+      "code": "13010201",
+      "id": "13010201",
+      "tariff_row": 299,
+      "excel_number": 59,
+      "description_tariff": "KETOCONAZOL TABLETA DE 200 MG",
+      "description_excel": "KETOCONAZOL  TABLETA DE 200 MG",
+      "leading_zero_variant": false
+    },
+    {
+      "code": "10000558",
+      "id": "10000558",
+      "tariff_row": 300,
+      "excel_number": 60,
+      "description_tariff": "KETOROLACO TABLETA O COMPRIMIDO DE 10 MG",
+      "description_excel": "KETOROLACO TABLETA O COMPRIMIDO DE 10 MG",
+      "leading_zero_variant": false
+    },
+    {
+      "code": "28060101",
+      "id": "28060101",
+      "tariff_row": 301,
+      "excel_number": 61,
+      "description_tariff": "KETOTIFENO COLIRIO 0.25 MG/ML FRASCO X 5ML",
+      "description_excel": "KETOTIFENO COLIRIO 0.25 MG/ML",
+      "leading_zero_variant": false
+    },
+    {
+      "code": "24030201",
+      "id": "24030201",
+      "tariff_row": 302,
+      "excel_number": 62,
+      "description_tariff": "LACOSAMIDA TABLETA DE 100 MG",
+      "description_excel": "LACOSAMIDA TABLETA DE 100 MG",
+      "leading_zero_variant": false
+    },
+    {
+      "code": "28030201",
+      "id": "28030201",
+      "tariff_row": 303,
+      "excel_number": 63,
+      "description_tariff": "LATANOPROST COLIRIO 0.005% frasco x 3ml",
+      "description_excel": "LATANOPROST  COLIRIO 0.005%",
+      "leading_zero_variant": false
+    },
+    {
+      "code": "16040004",
+      "id": "16040004",
+      "tariff_row": 304,
+      "excel_number": 66,
+      "description_tariff": "LOSARTAN TABLETA DE 50 MG",
+      "description_excel": "LOSARTAN  TABLETA DE 50 MG",
+      "leading_zero_variant": false
+    },
+    {
+      "code": "24050101",
+      "id": "24050101",
+      "tariff_row": 305,
+      "excel_number": 67,
+      "description_tariff": "MEMANTINA CLORHIDRATO TABLETA DE 10 MG",
+      "description_excel": "MEMANTINA CLORHIDRATO TABLETA DE 10 MG",
+      "leading_zero_variant": false
+    },
+    {
+      "code": "23050101",
+      "id": "23050101",
+      "tariff_row": 306,
+      "excel_number": 68,
+      "description_tariff": "MESALAZINA TABLETA DE 500 MG",
+      "description_excel": "MESALAZINA  TABLETA DE 500 MG",
+      "leading_zero_variant": false
+    },
+    {
+      "code": "10000949",
+      "id": "10000949",
+      "tariff_row": 307,
+      "excel_number": 69,
+      "description_tariff": "METILDOPA 500MG/TABLETA",
+      "description_excel": "METILDOPA TABLETA DE 500 MG",
+      "leading_zero_variant": false
+    },
+    {
+      "code": "29080301",
+      "id": "29080301",
+      "tariff_row": 308,
+      "excel_number": 70,
+      "description_tariff": "METOXALENO (AMMOIDIN) TABLETA DE 10 MG",
+      "description_excel": "METOXALENO (AMMOIDIN)  TABLETA DE 10 MG",
+      "leading_zero_variant": false
+    },
+    {
+      "code": "29080302",
+      "id": "29080302",
+      "tariff_row": 309,
+      "excel_number": 71,
+      "description_tariff": "METOXALENO (AMMOIDIN) UNGÜENTO 0.4% tubo x 30g",
+      "description_excel": "METOXALENO (AMMOIDIN) UNGÜENTO 0.4%",
+      "leading_zero_variant": false
+    },
+    {
+      "code": "35010202",
+      "id": "35010202",
+      "tariff_row": 310,
+      "excel_number": 72,
+      "description_tariff": "MICOFENOLATO DE MOFETIL CÁPSULA 250 MG",
+      "description_excel": "MICOFENOLATO DE MOFETIL CÁPSULA 250 MG",
+      "leading_zero_variant": false
+    },
+    {
+      "code": "22060101",
+      "id": "22060101",
+      "tariff_row": 311,
+      "excel_number": 73,
+      "description_tariff": "MONTELUKAST TABLETA DE 10 MG",
+      "description_excel": "MONTELUKAST TABLETA DE 10 MG",
+      "leading_zero_variant": false
+    },
+    {
+      "code": "22060102",
+      "id": "22060102",
+      "tariff_row": 312,
+      "excel_number": 74,
+      "description_tariff": "MONTELUKAST TABLETA MASTICABLE DE 4 MG",
+      "description_excel": "MONTELUKAST TABLETA MASTICABLE DE 4 MG",
+      "leading_zero_variant": false
+    },
+    {
+      "code": "27010010",
+      "id": "27010010",
+      "tariff_row": 313,
+      "excel_number": 76,
+      "description_tariff": "MULTIVITAMINAS: A+D+C+ FLUORURO SUSPENSIÓN 1500UI /400UI /35 MG/ 0.25 MG FCO X 50ML",
+      "description_excel": "MULTIVITAMINAS: A + D +C+ FLUORURO SUSPENSIÓN 1500UI /400UI /35 MG/ 0.25 MG EN 1 ML",
+      "leading_zero_variant": false
+    },
+    {
+      "code": "16020104",
+      "id": "16020104",
+      "tariff_row": 314,
+      "excel_number": 78,
+      "description_tariff": "NIFEDIPINO DE LIBERACION PROLONGADA TABLETA DE 30 MG",
+      "description_excel": "NIFEDIPINA DE LIBERACION PROLONGADA TABLETA DE 30 MG",
+      "leading_zero_variant": false
+    },
+    {
+      "code": "16020105",
+      "id": "16020105",
+      "tariff_row": 315,
+      "excel_number": 79,
+      "description_tariff": "NIMODIPINA TABLETA DE 30 MG",
+      "description_excel": "NIMODIPINA  TABLETA DE 30 MG",
+      "leading_zero_variant": false
+    },
+    {
+      "code": "30010201",
+      "id": "30010201",
+      "tariff_row": 316,
+      "excel_number": 80,
+      "description_tariff": "NISTATINA + METRONIDAZOL NISTATINA 100",
+      "description_excel": "NISTATINA + METRONIDAZOL NISTATINA 100,000UI+METRONIDAZOL 500MG",
+      "leading_zero_variant": false
+    },
+    {
+      "code": "34010601",
+      "id": "34010601",
+      "tariff_row": 317,
+      "excel_number": 81,
+      "description_tariff": "OXCARBAZEPINA TABLETA DE 300 MG",
+      "description_excel": "OXCARBAZEPINA TABLETA DE 300 MG",
+      "leading_zero_variant": false
+    },
+    {
+      "code": "15050101",
+      "id": "15050101",
+      "tariff_row": 318,
+      "excel_number": 82,
+      "description_tariff": "OXIBUTININA TABLETA DE 5 MG",
+      "description_excel": "OXIBUTININA  TABLETA DE 5 MG",
+      "leading_zero_variant": false
+    },
+    {
+      "code": "24010106",
+      "id": "24010106",
+      "tariff_row": 319,
+      "excel_number": 83,
+      "description_tariff": "PAROXETINA CLORHIDRATO TABLETA DE 20 MG",
+      "description_excel": "PAROXETINA CLORHIDRATO TABLETA DE 20 MG",
+      "leading_zero_variant": false
+    },
+    {
+      "code": "10000757",
+      "id": "10000757",
+      "tariff_row": 320,
+      "excel_number": 84,
+      "description_tariff": "PENICILINA G BENZATINICA FRASCO-AMPOLLA DE 1.2 MILLONES DE UI",
+      "description_excel": "PENICILINA G BENZATINICA  FRASCO-AMPOLLA DE 1.2 MILLONES DE UI",
+      "leading_zero_variant": false
+    },
+    {
+      "code": "16100101",
+      "id": "16100101",
+      "tariff_row": 321,
+      "excel_number": 86,
+      "description_tariff": "PENTOXIFILINA GRAGEAS O TABLETAS DE 400 MG",
+      "description_excel": "PENTOXIFILINA  GRAGEAS O TABLETAS DE 400 MG",
+      "leading_zero_variant": false
+    },
+    {
+      "code": "23040201",
+      "id": "23040201",
+      "tariff_row": 322,
+      "excel_number": 87,
+      "description_tariff": "PICOSULFATO DE SODIO SOLUCIÓN DE 7.5MG/ML FRASCO X 20ML",
+      "description_excel": "PICOSULFATO DE SODIO SOLUCIÓN DE 7.5MG/ML",
+      "leading_zero_variant": false
+    },
+    {
+      "code": "24060101",
+      "id": "24060101",
+      "tariff_row": 323,
+      "excel_number": 88,
+      "description_tariff": "PIRIDOSTIGMINA TABLETA DE 60 MG",
+      "description_excel": "PIRIDOSTIGMINA TABLETA DE 60 MG",
+      "leading_zero_variant": false
+    },
+    {
+      "code": "34020103",
+      "id": "34020103",
+      "tariff_row": 324,
+      "excel_number": 89,
+      "description_tariff": "PRAMIPEXOLE TABLETA DE 1.5 MG CAJA X 30",
+      "description_excel": "PRAMIPEXOLE  TABLETA DE 1.5 MG",
+      "leading_zero_variant": false
+    },
+    {
+      "code": "24030301",
+      "id": "24030301",
+      "tariff_row": 325,
+      "excel_number": 90,
+      "description_tariff": "PREGABALINA CÁPSULA DE 150 MG",
+      "description_excel": "PREGABALINA CÁPSULA DE 150 MG",
+      "leading_zero_variant": false
+    },
+    {
+      "code": "25020301",
+      "id": "25020301",
+      "tariff_row": 326,
+      "excel_number": 91,
+      "description_tariff": "PROPILTIOURACILO TABLETA DE 50 MG",
+      "description_excel": "PROPILTIOURACILO  TABLETA DE 50 MG",
+      "leading_zero_variant": false
+    },
+    {
+      "code": "10000798",
+      "id": "10000798",
+      "tariff_row": 327,
+      "excel_number": 93,
+      "description_tariff": "PROPINOXATO GOTAS DE 5 MG/ML",
+      "description_excel": "PROPINOXATO GOTAS DE 5 MG/ML",
+      "leading_zero_variant": false
+    },
+    {
+      "code": "24020202",
+      "id": "24020202",
+      "tariff_row": 329,
+      "excel_number": 94,
+      "description_tariff": "QUETIAPINA TABLETA DE 200 MG",
+      "description_excel": "QUETIAPINA TABLETA DE 200 MG",
+      "leading_zero_variant": false
+    },
+    {
+      "code": "24020106",
+      "id": "24020106",
+      "tariff_row": 330,
+      "excel_number": 95,
+      "description_tariff": "RISPERIDONA FRASCO DE 1 MG/1 ML FRASCO X 30ML",
+      "description_excel": "RISPERIDONA FRASCO DE 1 MG/1 ML",
+      "leading_zero_variant": false
+    },
+    {
+      "code": "23050201",
+      "id": "23050201",
+      "tariff_row": 331,
+      "excel_number": 96,
+      "description_tariff": "SALES DE REHIDRATACION ORAL POLVO PARA SOLUCIÓN ORAL EN SOBRES DE GLUCOSA ANHIDRA13.5G; CLORURO DE SODIO 2.6 G; CLORURO DE POTASIO 1.5 G; CITRATO TRISÓDICO DIHIDRATADO 2.9 SOBRE 21 GRAMOS PARA DILUIR EN UN LITRO",
+      "description_excel": "SALES DE REHIDRATACION ORAL POLVO PARA SOLUCIÓN ORAL EN SOBRES DE GLUCOSA ANHIDRA13.5G; CLORURO DE SODIO 2.6 G; CLORURO DE POTASIO 1.5 G; CITRATO TRISÓDICO DIHIDRATADO 2.9; SOBRE 21 GRAMOS PARA DILUIR EN UN LITRO",
+      "leading_zero_variant": false
+    },
+    {
+      "code": "22030102",
+      "id": "22030102",
+      "tariff_row": 332,
+      "excel_number": 97,
+      "description_tariff": "SALMETEROL + FLUTICASONA INHALADOR 25 / 125 MCG POR DOSIS",
+      "description_excel": "SALMETEROL + FLUTICAZONA INHALADOR 25 / 125 MCG POR DOSIS",
+      "leading_zero_variant": false
+    },
+    {
+      "code": "15060101",
+      "id": "15060101",
+      "tariff_row": 333,
+      "excel_number": 98,
+      "description_tariff": "SILDENAFIL TABLETA DE 50 MG",
+      "description_excel": "SILDENAFIL TABLETA DE 50 MG",
+      "leading_zero_variant": false
+    },
+    {
+      "code": "25010601",
+      "id": "25010601",
+      "tariff_row": 334,
+      "excel_number": 99,
+      "description_tariff": "SITAGLIPTINA TABLETA DE 100 MG",
+      "description_excel": "SITAGLIPTINA TABLETA DE 100 MG",
+      "leading_zero_variant": false
+    },
+    {
+      "code": "15060102",
+      "id": "15060102",
+      "tariff_row": 335,
+      "excel_number": 100,
+      "description_tariff": "TADALAFILO DE 5MG",
+      "description_excel": "TADALAFILO TADALAFILO DE 5MG",
+      "leading_zero_variant": false
+    },
+    {
+      "code": "25070101",
+      "id": "25070101",
+      "tariff_row": 336,
+      "excel_number": 101,
+      "description_tariff": "TAMOXIFENO CITRATO TABLETA DE 20 MG",
+      "description_excel": "TAMOXIFENO CITRATO TABLETA DE 20 MG",
+      "leading_zero_variant": false
+    },
+    {
+      "code": "15040201",
+      "id": "15040201",
+      "tariff_row": 337,
+      "excel_number": 102,
+      "description_tariff": "TAMSULOSINA CLORHIDRATO + DUTASTERIDA CÁPSULA DE 0.4 MG + 0.5 MG",
+      "description_excel": "TAMSULOSINA CLORHIDRATO + DUTASTERIDA  CÁPSULA DE 0.4 MG + 0.5 MG",
+      "leading_zero_variant": false
+    },
+    {
+      "code": "15040202",
+      "id": "15040202",
+      "tariff_row": 339,
+      "excel_number": 103,
+      "description_tariff": "TAMSULOSINA CLORHIDRATO TABLETA Ó CÁPSULA 0.4 MG",
+      "description_excel": "TAMSULOSINA CLORHIDRATO TABLETA Ó CÁPSULA 0.4 MG",
+      "leading_zero_variant": false
+    },
+    {
+      "code": "28030301",
+      "id": "28030301",
+      "tariff_row": 340,
+      "excel_number": 104,
+      "description_tariff": "TIMOLOL MALEATO COLIRIO SOL. OFTÁLMICA AL 0.5%",
+      "description_excel": "TIMOLOL MALEATO COLIRIO SOL. OFTÁLMICA AL 0.5%",
+      "leading_zero_variant": false
+    },
+    {
+      "code": "10000918",
+      "id": "10000918",
+      "tariff_row": 341,
+      "excel_number": 105,
+      "description_tariff": "TOBRAMICINA + DEXAMETASONA COLIRIO SUSP OFTÁLMICA DE 0.3%+0.1%",
+      "description_excel": "TOBRAMICINA + DEXAMETASONA  COLIRIO SUSP OFTÁLMICA DE 0.3%+0.1%",
+      "leading_zero_variant": false
+    },
+    {
+      "code": "34010501",
+      "id": "34010501",
+      "tariff_row": 342,
+      "excel_number": 106,
+      "description_tariff": "TOPIRAMATO TABLETA DE 100 MG",
+      "description_excel": "TOPIRAMATO TABLETA DE 100 MG",
+      "leading_zero_variant": false
+    },
+    {
+      "code": "16020201",
+      "id": "16020201",
+      "tariff_row": 343,
+      "excel_number": 107,
+      "description_tariff": "VERAPAMILO CLORHIDRATO TABLETA DE 240 MG",
+      "description_excel": "VERAPAMILO CLORHIDRATO TABLETA DE 240 MG",
+      "leading_zero_variant": false
+    },
+    {
+      "code": "27010011",
+      "id": "27010011",
+      "tariff_row": 344,
+      "excel_number": 108,
+      "description_tariff": "VITAMINA E CÁPSULA DE GELATINA BLANDA 400UI",
+      "description_excel": "VITAMINA E CÁPSULA DE GELATINA BLANDA 400UI",
+      "leading_zero_variant": false
+    },
+    {
+      "code": "18020104",
+      "id": "18020104",
+      "tariff_row": 345,
+      "excel_number": 109,
+      "description_tariff": "WARFARINA TABLETAS DE 5 MG",
+      "description_excel": "WARFARINA TABLETAS DE 5 MG",
+      "leading_zero_variant": false
+    },
+    {
+      "code": "10000760",
+      "id": "10000760",
+      "tariff_row": 346,
+      "excel_number": 85,
+      "description_tariff": "PENTOSANO POLISULFATO DE SODIO + TRIAMCINOLONA ACETONIDO + L 1gr + 0.01gr + 2gr crema",
+      "description_excel": "PENTOSANO POLISULFATO DE SODIO+TRIAMCINOLONA ACETONIDO+LIDOCAINA HIDROCLORURO CREMA 1 G + 0.01 G + 2 G EN 100 G",
+      "leading_zero_variant": false
+    },
+    {
+      "code": "169",
+      "id": "169",
+      "tariff_row": 347,
+      "excel_number": 37,
+      "description_tariff": "DOXAZOCINA Tableta 2 mg",
+      "description_excel": "DOXAZOCINA TABLETA DE 2 MG",
+      "leading_zero_variant": true
+    },
+    {
+      "code": "174",
+      "id": "174",
+      "tariff_row": 348,
+      "excel_number": 45,
+      "description_tariff": "FENITOINA 125 mg/5 ml Jarabe o Suspensión",
+      "description_excel": "FENITOINA JARABE O SUSPENSIÓN DE 125 MG/5 ML",
+      "leading_zero_variant": true
+    },
+    {
+      "code": "16010102",
+      "id": "16010102",
+      "tariff_row": 349,
+      "excel_number": 11,
+      "description_tariff": "ATENOLOL TABLETA DE 100 MG",
+      "description_excel": "ATENOLOL  TABLETA DE 100 MG",
+      "leading_zero_variant": false
+    },
+    {
+      "code": "34040102",
+      "id": "34040102",
+      "tariff_row": 350,
+      "excel_number": 39,
+      "description_tariff": "ERGOTAMINA TARTRATO+CAFEINA+PARACETAMOL GRAGEA DE 1 MG/40 MG/450 MG",
+      "description_excel": "ERGOTAMINA TARTRATO+CAFEINA+PARACETAMOL GRAGEA DE 1 MG/40 MG/450 MG",
+      "leading_zero_variant": false
+    },
+    {
+      "code": "24030401",
+      "id": "24030401",
+      "tariff_row": 352,
+      "excel_number": 65,
+      "description_tariff": "LEVETIRACETAN TABLETA DE 500 MG",
+      "description_excel": "LEVETIRACETAN TABLETA DE 500 MG",
+      "leading_zero_variant": false
+    },
+    {
+      "code": "23010301",
+      "id": "23010301",
+      "tariff_row": 353,
+      "excel_number": 75,
+      "description_tariff": "MOSAPRIDA CITRATO TABLETA 5 MG",
+      "description_excel": "MOSAPRIDE CITRATO TABLETA 5 MG",
+      "leading_zero_variant": false
+    },
+    {
+      "code": "28070101",
+      "id": "28070101",
+      "tariff_row": 354,
+      "excel_number": 77,
+      "description_tariff": "NAFAZOLINA CLORHIDRATO SOLUCIÓN OFTÁLMICA DE 1 MG FRASCO X 15ML",
+      "description_excel": "NAFAZOLINA CLORHIDRATO SOLUCIÓN OFTÁLMICA DE 1 MG",
+      "leading_zero_variant": false
+    },
+    {
+      "code": "23030701",
+      "id": "23030701",
+      "tariff_row": 355,
+      "excel_number": 92,
+      "description_tariff": "PROPINOX + CLONIXINATO DE LISINA SOLUCIÓN INYECTABLE DE 15 MG + 100 MG",
+      "description_excel": "PROPINOX + CLONIXINATO DE LISINA SOLUCIÓN INYECTABLE DE 15 MG + 100 MG",
+      "leading_zero_variant": false
+    },
+    {
+      "code": "10000494",
+      "id": "10000494",
+      "tariff_row": 356,
+      "excel_number": 50,
+      "description_tariff": "HIDROXICINA CLORHIDRATO 10 mg tableta",
+      "description_excel": "HIDROXICINA CLORHIDRATO  TABLETA DE 10 MG",
+      "leading_zero_variant": false
+    },
+    {
+      "code": "27020002",
+      "id": "27020002",
+      "tariff_row": 357,
+      "excel_number": 2,
+      "description_tariff": "ACETATO DE CALCIO COMPRIMIDOS 475 MG",
+      "description_excel": "ACETATO DE CALCIO COMPRIMIDO DE 475 MG",
+      "leading_zero_variant": false
+    },
+    {
+      "code": "28050201",
+      "id": "28050201",
+      "tariff_row": 358,
+      "excel_number": 22,
+      "description_tariff": "CLORANFENICOL+DEXAMETASONA SOLUCION OFTALMICA 5MG+1MG/ML",
+      "description_excel": "CLORANFENICOL+ DEXAMETASONA COLIRIO SOL. OFTÁLMICA DE 5 MG+1 MG/ML",
+      "leading_zero_variant": false
+    },
+    {
+      "code": "29120101",
+      "id": "29120101",
+      "tariff_row": 359,
+      "excel_number": 24,
+      "description_tariff": "CLOSTRIDIOPEPTIDASA+CLORANFENICOL UNGUENTO 60U/1 GR",
+      "description_excel": "CLOSTRIDIOPEPTIDASA + CLORANFENICOL UNGÜENTO DE 60U/1 GR",
+      "leading_zero_variant": false
+    }
+  ],
+  "tariff_coverage": [
+    {
+      "row": 2,
+      "code": "23030203",
+      "collection": "phase1"
+    },
+    {
+      "row": 3,
+      "code": "19010202",
+      "collection": "phase1"
+    },
+    {
+      "row": 4,
+      "code": "19010201",
+      "collection": "phase1"
+    },
+    {
+      "row": 5,
+      "code": "14010102",
+      "collection": "phase1"
+    },
+    {
+      "row": 6,
+      "code": "14010101",
+      "collection": "phase1"
+    },
+    {
+      "row": 7,
+      "code": "14010103",
+      "collection": "phase1"
+    },
+    {
+      "row": 8,
+      "code": "18010101",
+      "collection": "phase1"
+    },
+    {
+      "row": 9,
+      "code": "27010004",
+      "collection": "phase1"
+    },
+    {
+      "row": 10,
+      "code": "27010006",
+      "collection": "phase1"
+    },
+    {
+      "row": 11,
+      "code": "29020301",
+      "collection": "phase1"
+    },
+    {
+      "row": 12,
+      "code": "34010301",
+      "collection": "phase1"
+    },
+    {
+      "row": 13,
+      "code": "10010101",
+      "collection": "phase1"
+    },
+    {
+      "row": 14,
+      "code": "30050201",
+      "collection": "phase1"
+    },
+    {
+      "row": 15,
+      "code": "33010101",
+      "collection": "phase1"
+    },
+    {
+      "row": 16,
+      "code": "22040101",
+      "collection": "phase1"
+    },
+    {
+      "row": 17,
+      "code": "10020301",
+      "collection": "phase1"
+    },
+    {
+      "row": 18,
+      "code": "24010101",
+      "collection": "phase1"
+    },
+    {
+      "row": 19,
+      "code": "16020102",
+      "collection": "phase1"
+    },
+    {
+      "row": 20,
+      "code": "16020101",
+      "collection": "phase1"
+    },
+    {
+      "row": 21,
+      "code": "11010301",
+      "collection": "phase1"
+    },
+    {
+      "row": 22,
+      "code": "11010302",
+      "collection": "phase1"
+    },
+    {
+      "row": 23,
+      "code": "11010101",
+      "collection": "phase1"
+    },
+    {
+      "row": 24,
+      "code": "11010102",
+      "collection": "phase1"
+    },
+    {
+      "row": 25,
+      "code": "30040102",
+      "collection": "phase1"
+    },
+    {
+      "row": 26,
+      "code": "25030101",
+      "collection": "phase1"
+    },
+    {
+      "row": 27,
+      "code": "25030102",
+      "collection": "phase1"
+    },
+    {
+      "row": 28,
+      "code": "11030003",
+      "collection": "phase1"
+    },
+    {
+      "row": 29,
+      "code": "11030004",
+      "collection": "phase1"
+    },
+    {
+      "row": 30,
+      "code": "22020001",
+      "collection": "phase1"
+    },
+    {
+      "row": 31,
+      "code": "22020002",
+      "collection": "phase1"
+    },
+    {
+      "row": 32,
+      "code": "29030001",
+      "collection": "phase1"
+    },
+    {
+      "row": 33,
+      "code": "22030101",
+      "collection": "phase1"
+    },
+    {
+      "row": 34,
+      "code": "25050101",
+      "collection": "phase1"
+    },
+    {
+      "row": 35,
+      "code": "34010101",
+      "collection": "phase1"
+    },
+    {
+      "row": 36,
+      "code": "16010302",
+      "collection": "phase1"
+    },
+    {
+      "row": 37,
+      "code": "16010301",
+      "collection": "phase1"
+    },
+    {
+      "row": 38,
+      "code": "11010401",
+      "collection": "phase1"
+    },
+    {
+      "row": 39,
+      "code": "11010402",
+      "collection": "phase1"
+    },
+    {
+      "row": 40,
+      "code": "11010404",
+      "collection": "phase1"
+    },
+    {
+      "row": 41,
+      "code": "11010403",
+      "collection": "phase1"
+    },
+    {
+      "row": 42,
+      "code": "31010005",
+      "collection": "phase1"
+    },
+    {
+      "row": 43,
+      "code": "27030003",
+      "collection": "phase1"
+    },
+    {
+      "row": 44,
+      "code": "25040101",
+      "collection": "phase1"
+    },
+    {
+      "row": 45,
+      "code": "11040101",
+      "collection": "phase1"
+    },
+    {
+      "row": 46,
+      "code": "32020101",
+      "collection": "phase1"
+    },
+    {
+      "row": 47,
+      "code": "11030001",
+      "collection": "phase1"
+    },
+    {
+      "row": 48,
+      "code": "11030002",
+      "collection": "phase1"
+    },
+    {
+      "row": 49,
+      "code": "30020101",
+      "collection": "phase1"
+    },
+    {
+      "row": 50,
+      "code": "30020102",
+      "collection": "phase1"
+    },
+    {
+      "row": 51,
+      "code": "11020101",
+      "collection": "phase1"
+    },
+    {
+      "row": 52,
+      "code": "24040101",
+      "collection": "phase1"
+    },
+    {
+      "row": 53,
+      "code": "18010201",
+      "collection": "phase1"
+    },
+    {
+      "row": 54,
+      "code": "28010101",
+      "collection": "phase1"
+    },
+    {
+      "row": 55,
+      "code": "31010003",
+      "collection": "phase1"
+    },
+    {
+      "row": 56,
+      "code": "31010004",
+      "collection": "phase1"
+    },
+    {
+      "row": 57,
+      "code": "24020103",
+      "collection": "phase1"
+    },
+    {
+      "row": 58,
+      "code": "27040001",
+      "collection": "phase1"
+    },
+    {
+      "row": 59,
+      "code": "30010101",
+      "collection": "phase1"
+    },
+    {
+      "row": 60,
+      "code": "29010102",
+      "collection": "phase1"
+    },
+    {
+      "row": 61,
+      "code": "29040101",
+      "collection": "phase1"
+    },
+    {
+      "row": 62,
+      "code": "19010107",
+      "collection": "phase1"
+    },
+    {
+      "row": 63,
+      "code": "19010108",
+      "collection": "phase1"
+    },
+    {
+      "row": 64,
+      "code": "19010101",
+      "collection": "phase1"
+    },
+    {
+      "row": 65,
+      "code": "17030101",
+      "collection": "phase1"
+    },
+    {
+      "row": 66,
+      "code": "10020201",
+      "collection": "phase1"
+    },
+    {
+      "row": 67,
+      "code": "23010202",
+      "collection": "phase1"
+    },
+    {
+      "row": 68,
+      "code": "23010201",
+      "collection": "phase1"
+    },
+    {
+      "row": 69,
+      "code": "11060101",
+      "collection": "phase1"
+    },
+    {
+      "row": 70,
+      "code": "16030001",
+      "collection": "phase1"
+    },
+    {
+      "row": 71,
+      "code": "19010301",
+      "collection": "phase1"
+    },
+    {
+      "row": 72,
+      "code": "24010103",
+      "collection": "phase1"
+    },
+    {
+      "row": 73,
+      "code": "16050201",
+      "collection": "phase1"
+    },
+    {
+      "row": 74,
+      "code": "30050101",
+      "collection": "phase1"
+    },
+    {
+      "row": 75,
+      "code": "30040101",
+      "collection": "phase1"
+    },
+    {
+      "row": 76,
+      "code": "23020101",
+      "collection": "phase1"
+    },
+    {
+      "row": 77,
+      "code": "15010001",
+      "collection": "phase1"
+    },
+    {
+      "row": 78,
+      "code": "34010201",
+      "collection": "phase1"
+    },
+    {
+      "row": 79,
+      "code": "24030101",
+      "collection": "phase1"
+    },
+    {
+      "row": 80,
+      "code": "13010101",
+      "collection": "phase1"
+    },
+    {
+      "row": 81,
+      "code": "24010104",
+      "collection": "phase1"
+    },
+    {
+      "row": 82,
+      "code": "32010103",
+      "collection": "phase1"
+    },
+    {
+      "row": 83,
+      "code": "32010102",
+      "collection": "phase1"
+    },
+    {
+      "row": 84,
+      "code": "16050101",
+      "collection": "phase1"
+    },
+    {
+      "row": 85,
+      "code": "34010401",
+      "collection": "phase1"
+    },
+    {
+      "row": 86,
+      "code": "32020201",
+      "collection": "phase1"
+    },
+    {
+      "row": 87,
+      "code": "25010202",
+      "collection": "phase1"
+    },
+    {
+      "row": 88,
+      "code": "24020105",
+      "collection": "phase1"
+    },
+    {
+      "row": 89,
+      "code": "24020102",
+      "collection": "phase1"
+    },
+    {
+      "row": 90,
+      "code": "16050301",
+      "collection": "phase1"
+    },
+    {
+      "row": 91,
+      "code": "29030002",
+      "collection": "phase1"
+    },
+    {
+      "row": 92,
+      "code": "28020001",
+      "collection": "phase1"
+    },
+    {
+      "row": 93,
+      "code": "21010101",
+      "collection": "phase1"
+    },
+    {
+      "row": 94,
+      "code": "21010104",
+      "collection": "phase1"
+    },
+    {
+      "row": 95,
+      "code": "19010103",
+      "collection": "phase1"
+    },
+    {
+      "row": 96,
+      "code": "19010104",
+      "collection": "phase1"
+    },
+    {
+      "row": 97,
+      "code": "19010106",
+      "collection": "phase1"
+    },
+    {
+      "row": 98,
+      "code": "16040001",
+      "collection": "phase1"
+    },
+    {
+      "row": 99,
+      "code": "16040002",
+      "collection": "phase1"
+    },
+    {
+      "row": 100,
+      "code": "29010101",
+      "collection": "phase1"
+    },
+    {
+      "row": 101,
+      "code": "19010109",
+      "collection": "phase1"
+    },
+    {
+      "row": 102,
+      "code": "23030204",
+      "collection": "phase1"
+    },
+    {
+      "row": 103,
+      "code": "23020202",
+      "collection": "phase1"
+    },
+    {
+      "row": 104,
+      "code": "11040102",
+      "collection": "phase1"
+    },
+    {
+      "row": 105,
+      "code": "25020101",
+      "collection": "phase1"
+    },
+    {
+      "row": 106,
+      "code": "23030501",
+      "collection": "phase1"
+    },
+    {
+      "row": 107,
+      "code": "31010001",
+      "collection": "phase1"
+    },
+    {
+      "row": 108,
+      "code": "31010002",
+      "collection": "phase1"
+    },
+    {
+      "row": 109,
+      "code": "10010104",
+      "collection": "phase1"
+    },
+    {
+      "row": 110,
+      "code": "25010101",
+      "collection": "phase1"
+    },
+    {
+      "row": 111,
+      "code": "25010301",
+      "collection": "phase1"
+    },
+    {
+      "row": 112,
+      "code": "25020201",
+      "collection": "phase1"
+    },
+    {
+      "row": 113,
+      "code": "20010001",
+      "collection": "phase1"
+    },
+    {
+      "row": 114,
+      "code": "23010101",
+      "collection": "phase1"
+    },
+    {
+      "row": 115,
+      "code": "30030101",
+      "collection": "phase1"
+    },
+    {
+      "row": 116,
+      "code": "10020402",
+      "collection": "phase1"
+    },
+    {
+      "row": 117,
+      "code": "10020401",
+      "collection": "phase1"
+    },
+    {
+      "row": 118,
+      "code": "32010101",
+      "collection": "phase1"
+    },
+    {
+      "row": 119,
+      "code": "16060101",
+      "collection": "phase1"
+    },
+    {
+      "row": 120,
+      "code": "27010001",
+      "collection": "phase1"
+    },
+    {
+      "row": 121,
+      "code": "29020101",
+      "collection": "phase1"
+    },
+    {
+      "row": 122,
+      "code": "13020001",
+      "collection": "phase1"
+    },
+    {
+      "row": 123,
+      "code": "15020101",
+      "collection": "phase1"
+    },
+    {
+      "row": 124,
+      "code": "16070101",
+      "collection": "phase1"
+    },
+    {
+      "row": 125,
+      "code": "23020201",
+      "collection": "phase1"
+    },
+    {
+      "row": 126,
+      "code": "20010004",
+      "collection": "phase1"
+    },
+    {
+      "row": 127,
+      "code": "29040301",
+      "collection": "phase1"
+    },
+    {
+      "row": 128,
+      "code": "29050101",
+      "collection": "phase1"
+    },
+    {
+      "row": 129,
+      "code": "26010103",
+      "collection": "phase1"
+    },
+    {
+      "row": 130,
+      "code": "26010102",
+      "collection": "phase1"
+    },
+    {
+      "row": 131,
+      "code": "26010101",
+      "collection": "phase1"
+    },
+    {
+      "row": 132,
+      "code": "34010501",
+      "collection": "phase1"
+    },
+    {
+      "row": 133,
+      "code": "16010101",
+      "collection": "phase1"
+    },
+    {
+      "row": 134,
+      "code": "23030201",
+      "collection": "phase1"
+    },
+    {
+      "row": 135,
+      "code": "24020104",
+      "collection": "phase1"
+    },
+    {
+      "row": 136,
+      "code": "24020101",
+      "collection": "phase1"
+    },
+    {
+      "row": 137,
+      "code": "22010301",
+      "collection": "phase1"
+    },
+    {
+      "row": 138,
+      "code": "23030101",
+      "collection": "phase1"
+    },
+    {
+      "row": 139,
+      "code": "29040201",
+      "collection": "phase1"
+    },
+    {
+      "row": 140,
+      "code": "24010102",
+      "collection": "phase1"
+    },
+    {
+      "row": 141,
+      "code": "23030301",
+      "collection": "phase1"
+    },
+    {
+      "row": 142,
+      "code": "23030302",
+      "collection": "phase1"
+    },
+    {
+      "row": 143,
+      "code": "32010001",
+      "collection": "phase1"
+    },
+    {
+      "row": 144,
+      "code": "23020301",
+      "collection": "phase1"
+    },
+    {
+      "row": 145,
+      "code": "29020201",
+      "collection": "phase1"
+    },
+    {
+      "row": 146,
+      "code": "27020001",
+      "collection": "phase1"
+    },
+    {
+      "row": 147,
+      "code": "27030002",
+      "collection": "phase1"
+    },
+    {
+      "row": 148,
+      "code": "27030001",
+      "collection": "phase1"
+    },
+    {
+      "row": 149,
+      "code": "16010201",
+      "collection": "phase1"
+    },
+    {
+      "row": 150,
+      "code": "27010003",
+      "collection": "phase1"
+    },
+    {
+      "row": 151,
+      "code": "20020001",
+      "collection": "phase1"
+    },
+    {
+      "row": 152,
+      "code": "28010201",
+      "collection": "phase1"
+    },
+    {
+      "row": 153,
+      "code": "19020102",
+      "collection": "phase1"
+    },
+    {
+      "row": 154,
+      "code": "19020101",
+      "collection": "phase1"
+    },
+    {
+      "row": 155,
+      "code": "11050101",
+      "collection": "phase1"
+    },
+    {
+      "row": 156,
+      "code": "11050102",
+      "collection": "phase1"
+    },
+    {
+      "row": 157,
+      "code": "27010007",
+      "collection": "phase1"
+    },
+    {
+      "row": 158,
+      "code": "27010002",
+      "collection": "phase1"
+    },
+    {
+      "row": 159,
+      "code": "23030401",
+      "collection": "phase1"
+    },
+    {
+      "row": 160,
+      "code": "22010101",
+      "collection": "phase1"
+    },
+    {
+      "row": 161,
+      "code": "27010009",
+      "collection": "phase1"
+    },
+    {
+      "row": 162,
+      "code": "31020002",
+      "collection": "phase1"
+    },
+    {
+      "row": 163,
+      "code": "19010110",
+      "collection": "phase1"
+    },
+    {
+      "row": 164,
+      "code": "25010404",
+      "collection": "phase2"
+    },
+    {
+      "row": 165,
+      "code": "187",
+      "collection": "phase2"
+    },
+    {
+      "row": 166,
+      "code": "16010303",
+      "collection": "phase2"
+    },
+    {
+      "row": 167,
+      "code": "16010304",
+      "collection": "phase2"
+    },
+    {
+      "row": 168,
+      "code": "16040003",
+      "collection": "phase2"
+    },
+    {
+      "row": 169,
+      "code": "16070102",
+      "collection": "phase2"
+    },
+    {
+      "row": 170,
+      "code": "16070103",
+      "collection": "phase2"
+    },
+    {
+      "row": 171,
+      "code": "16070104",
+      "collection": "phase2"
+    },
+    {
+      "row": 172,
+      "code": "16070105",
+      "collection": "phase2"
+    },
+    {
+      "row": 173,
+      "code": "17010101",
+      "collection": "phase2"
+    },
+    {
+      "row": 174,
+      "code": "17020101",
+      "collection": "phase2"
+    },
+    {
+      "row": 175,
+      "code": "18020101",
+      "collection": "phase2"
+    },
+    {
+      "row": 176,
+      "code": "18020102",
+      "collection": "phase2"
+    },
+    {
+      "row": 177,
+      "code": "22010201",
+      "collection": "phase2"
+    },
+    {
+      "row": 178,
+      "code": "22010401",
+      "collection": "phase2"
+    },
+    {
+      "row": 179,
+      "code": "22020003",
+      "collection": "phase2"
+    },
+    {
+      "row": 180,
+      "code": "22020004",
+      "collection": "phase2"
+    },
+    {
+      "row": 181,
+      "code": "24020107",
+      "collection": "phase2"
+    },
+    {
+      "row": 182,
+      "code": "24020108",
+      "collection": "phase2"
+    },
+    {
+      "row": 183,
+      "code": "24040102",
+      "collection": "phase2"
+    },
+    {
+      "row": 184,
+      "code": "25010501",
+      "collection": "phase2"
+    },
+    {
+      "row": 185,
+      "code": "25010212",
+      "collection": "phase2"
+    },
+    {
+      "row": 186,
+      "code": "25010213",
+      "collection": "phase2"
+    },
+    {
+      "row": 187,
+      "code": "25010214",
+      "collection": "phase2"
+    },
+    {
+      "row": 188,
+      "code": "25010302",
+      "collection": "phase2"
+    },
+    {
+      "row": 189,
+      "code": "25010303",
+      "collection": "phase2"
+    },
+    {
+      "row": 190,
+      "code": "25010304",
+      "collection": "phase2"
+    },
+    {
+      "row": 191,
+      "code": "25020102",
+      "collection": "phase2"
+    },
+    {
+      "row": 192,
+      "code": "25020103",
+      "collection": "phase2"
+    },
+    {
+      "row": 193,
+      "code": "25020104",
+      "collection": "phase2"
+    },
+    {
+      "row": 194,
+      "code": "25030103",
+      "collection": "phase2"
+    },
+    {
+      "row": 195,
+      "code": "27010005",
+      "collection": "phase2"
+    },
+    {
+      "row": 196,
+      "code": "30040104",
+      "collection": "phase2"
+    },
+    {
+      "row": 197,
+      "code": "30040105",
+      "collection": "phase2"
+    },
+    {
+      "row": 198,
+      "code": "30040106",
+      "collection": "phase2"
+    },
+    {
+      "row": 199,
+      "code": "30040107",
+      "collection": "phase2"
+    },
+    {
+      "row": 200,
+      "code": "30060001",
+      "collection": "phase2"
+    },
+    {
+      "row": 201,
+      "code": "33010102",
+      "collection": "phase2"
+    },
+    {
+      "row": 202,
+      "code": "34010502",
+      "collection": "phase2"
+    },
+    {
+      "row": 203,
+      "code": "34010503",
+      "collection": "phase2"
+    },
+    {
+      "row": 204,
+      "code": "34020101",
+      "collection": "phase2"
+    },
+    {
+      "row": 205,
+      "code": "34020102",
+      "collection": "phase2"
+    },
+    {
+      "row": 206,
+      "code": "35010101",
+      "collection": "phase2"
+    },
+    {
+      "row": 207,
+      "code": "35010201",
+      "collection": "phase2"
+    },
+    {
+      "row": 208,
+      "code": "10010105",
+      "collection": "phase2"
+    },
+    {
+      "row": 209,
+      "code": "10020202",
+      "collection": "phase2"
+    },
+    {
+      "row": 210,
+      "code": "10020302",
+      "collection": "phase2"
+    },
+    {
+      "row": 211,
+      "code": "10030101",
+      "collection": "phase2"
+    },
+    {
+      "row": 212,
+      "code": "10030102",
+      "collection": "phase2"
+    },
+    {
+      "row": 213,
+      "code": "10040101",
+      "collection": "phase2"
+    },
+    {
+      "row": 214,
+      "code": "11010501",
+      "collection": "phase2"
+    },
+    {
+      "row": 215,
+      "code": "11010502",
+      "collection": "phase2"
+    },
+    {
+      "row": 216,
+      "code": "30020103",
+      "collection": "phase2"
+    },
+    {
+      "row": 217,
+      "code": "11070101",
+      "collection": "phase2"
+    },
+    {
+      "row": 218,
+      "code": "11070102",
+      "collection": "phase2"
+    },
+    {
+      "row": 219,
+      "code": "11070103",
+      "collection": "phase2"
+    },
+    {
+      "row": 220,
+      "code": "13010102",
+      "collection": "phase2"
+    },
+    {
+      "row": 221,
+      "code": "18030001",
+      "collection": "phase2"
+    },
+    {
+      "row": 222,
+      "code": "19030101",
+      "collection": "phase2"
+    },
+    {
+      "row": 223,
+      "code": "19020108",
+      "collection": "phase2"
+    },
+    {
+      "row": 224,
+      "code": "19030103",
+      "collection": "phase2"
+    },
+    {
+      "row": 225,
+      "code": "20010002",
+      "collection": "phase2"
+    },
+    {
+      "row": 226,
+      "code": "22040202",
+      "collection": "phase2"
+    },
+    {
+      "row": 227,
+      "code": "23020203",
+      "collection": "phase2"
+    },
+    {
+      "row": 228,
+      "code": "23020204",
+      "collection": "phase2"
+    },
+    {
+      "row": 229,
+      "code": "23030601",
+      "collection": "phase2"
+    },
+    {
+      "row": 230,
+      "code": "23030602",
+      "collection": "phase2"
+    },
+    {
+      "row": 231,
+      "code": "29050102",
+      "collection": "phase2"
+    },
+    {
+      "row": 232,
+      "code": "150",
+      "collection": "phase2"
+    },
+    {
+      "row": 233,
+      "code": "29070101",
+      "collection": "phase2"
+    },
+    {
+      "row": 234,
+      "code": "30070001",
+      "collection": "phase2"
+    },
+    {
+      "row": 235,
+      "code": "30070002",
+      "collection": "phase2"
+    },
+    {
+      "row": 236,
+      "code": "31010006",
+      "collection": "phase2"
+    },
+    {
+      "row": 237,
+      "code": "31010007",
+      "collection": "phase2"
+    },
+    {
+      "row": 238,
+      "code": "31020004",
+      "collection": "phase2"
+    },
+    {
+      "row": 239,
+      "code": "31020003",
+      "collection": "phase2"
+    },
+    {
+      "row": 240,
+      "code": "36010101",
+      "collection": "phase2"
+    },
+    {
+      "row": 241,
+      "code": "36010102",
+      "collection": "phase2"
+    },
+    {
+      "row": 242,
+      "code": "37010101",
+      "collection": "isbm"
+    },
+    {
+      "row": 243,
+      "code": "28030101",
+      "collection": "isbm"
+    },
+    {
+      "row": 244,
+      "code": "28020002",
+      "collection": "isbm"
+    },
+    {
+      "row": 245,
+      "code": "29060101",
+      "collection": "isbm"
+    },
+    {
+      "row": 246,
+      "code": "38010101",
+      "collection": "isbm"
+    },
+    {
+      "row": 247,
+      "code": "29080101",
+      "collection": "isbm"
+    },
+    {
+      "row": 248,
+      "code": "34020100",
+      "collection": "isbm"
+    },
+    {
+      "row": 249,
+      "code": "23030601",
+      "collection": "isbm"
+    },
+    {
+      "row": 250,
+      "code": "25030104",
+      "collection": "isbm"
+    },
+    {
+      "row": 251,
+      "code": "35010102",
+      "collection": "isbm"
+    },
+    {
+      "row": 252,
+      "code": "34030101",
+      "collection": "isbm"
+    },
+    {
+      "row": 253,
+      "code": "10000118",
+      "collection": "isbm"
+    },
+    {
+      "row": 254,
+      "code": "35020101",
+      "collection": "isbm"
+    },
+    {
+      "row": 255,
+      "code": "10000153",
+      "collection": "isbm"
+    },
+    {
+      "row": 256,
+      "code": "16030002",
+      "collection": "isbm"
+    },
+    {
+      "row": 257,
+      "code": "11010406",
+      "collection": "isbm"
+    },
+    {
+      "row": 258,
+      "code": "24010105",
+      "collection": "isbm"
+    },
+    {
+      "row": 259,
+      "code": "15030101",
+      "collection": "isbm"
+    },
+    {
+      "row": 260,
+      "code": "21020101",
+      "collection": "isbm"
+    },
+    {
+      "row": 261,
+      "code": "31010008",
+      "collection": "isbm"
+    },
+    {
+      "row": 262,
+      "code": "30010102",
+      "collection": "isbm"
+    },
+    {
+      "row": 263,
+      "code": "10000262",
+      "collection": "isbm"
+    },
+    {
+      "row": 264,
+      "code": "30010103",
+      "collection": "isbm"
+    },
+    {
+      "row": 265,
+      "code": "29090101",
+      "collection": "isbm"
+    },
+    {
+      "row": 266,
+      "code": "26020101",
+      "collection": "isbm"
+    },
+    {
+      "row": 267,
+      "code": "10000269",
+      "collection": "isbm"
+    },
+    {
+      "row": 268,
+      "code": "10000270",
+      "collection": "isbm"
+    },
+    {
+      "row": 269,
+      "code": "22050201",
+      "collection": "isbm"
+    },
+    {
+      "row": 270,
+      "code": "10000295",
+      "collection": "isbm"
+    },
+    {
+      "row": 271,
+      "code": "31010101",
+      "collection": "isbm"
+    },
+    {
+      "row": 272,
+      "code": "16080101",
+      "collection": "isbm"
+    },
+    {
+      "row": 273,
+      "code": "10000331",
+      "collection": "isbm"
+    },
+    {
+      "row": 274,
+      "code": "28030102",
+      "collection": "isbm"
+    },
+    {
+      "row": 275,
+      "code": "15040101",
+      "collection": "isbm"
+    },
+    {
+      "row": 276,
+      "code": "18020103",
+      "collection": "isbm"
+    },
+    {
+      "row": 277,
+      "code": "25060101",
+      "collection": "isbm"
+    },
+    {
+      "row": 278,
+      "code": "23020205",
+      "collection": "isbm"
+    },
+    {
+      "row": 279,
+      "code": "16050202",
+      "collection": "isbm"
+    },
+    {
+      "row": 280,
+      "code": "30040201",
+      "collection": "isbm"
+    },
+    {
+      "row": 281,
+      "code": "33010103",
+      "collection": "isbm"
+    },
+    {
+      "row": 282,
+      "code": "29100101",
+      "collection": "isbm"
+    },
+    {
+      "row": 283,
+      "code": "18030101",
+      "collection": "isbm"
+    },
+    {
+      "row": 284,
+      "code": "34040101",
+      "collection": "isbm"
+    },
+    {
+      "row": 285,
+      "code": "23040101",
+      "collection": "isbm"
+    },
+    {
+      "row": 286,
+      "code": "16050102",
+      "collection": "isbm"
+    },
+    {
+      "row": 287,
+      "code": "10000464",
+      "collection": "isbm"
+    },
+    {
+      "row": 288,
+      "code": "38020101",
+      "collection": "isbm"
+    },
+    {
+      "row": 289,
+      "code": "31010201",
+      "collection": "isbm"
+    },
+    {
+      "row": 290,
+      "code": "10030103",
+      "collection": "isbm"
+    },
+    {
+      "row": 291,
+      "code": "28020003",
+      "collection": "isbm"
+    },
+    {
+      "row": 292,
+      "code": "35010301",
+      "collection": "isbm"
+    },
+    {
+      "row": 293,
+      "code": "25060201",
+      "collection": "isbm"
+    },
+    {
+      "row": 294,
+      "code": "25060202",
+      "collection": "isbm"
+    },
+    {
+      "row": 295,
+      "code": "24010201",
+      "collection": "isbm"
+    },
+    {
+      "row": 296,
+      "code": "25010405",
+      "collection": "isbm"
+    },
+    {
+      "row": 297,
+      "code": "16060102",
+      "collection": "isbm"
+    },
+    {
+      "row": 298,
+      "code": "29110101",
+      "collection": "isbm"
+    },
+    {
+      "row": 299,
+      "code": "13010201",
+      "collection": "isbm"
+    },
+    {
+      "row": 300,
+      "code": "10000558",
+      "collection": "isbm"
+    },
+    {
+      "row": 301,
+      "code": "28060101",
+      "collection": "isbm"
+    },
+    {
+      "row": 302,
+      "code": "24030201",
+      "collection": "isbm"
+    },
+    {
+      "row": 303,
+      "code": "28030201",
+      "collection": "isbm"
+    },
+    {
+      "row": 304,
+      "code": "16040004",
+      "collection": "isbm"
+    },
+    {
+      "row": 305,
+      "code": "24050101",
+      "collection": "isbm"
+    },
+    {
+      "row": 306,
+      "code": "23050101",
+      "collection": "isbm"
+    },
+    {
+      "row": 307,
+      "code": "10000949",
+      "collection": "isbm"
+    },
+    {
+      "row": 308,
+      "code": "29080301",
+      "collection": "isbm"
+    },
+    {
+      "row": 309,
+      "code": "29080302",
+      "collection": "isbm"
+    },
+    {
+      "row": 310,
+      "code": "35010202",
+      "collection": "isbm"
+    },
+    {
+      "row": 311,
+      "code": "22060101",
+      "collection": "isbm"
+    },
+    {
+      "row": 312,
+      "code": "22060102",
+      "collection": "isbm"
+    },
+    {
+      "row": 313,
+      "code": "27010010",
+      "collection": "isbm"
+    },
+    {
+      "row": 314,
+      "code": "16020104",
+      "collection": "isbm"
+    },
+    {
+      "row": 315,
+      "code": "16020105",
+      "collection": "isbm"
+    },
+    {
+      "row": 316,
+      "code": "30010201",
+      "collection": "isbm"
+    },
+    {
+      "row": 317,
+      "code": "34010601",
+      "collection": "isbm"
+    },
+    {
+      "row": 318,
+      "code": "15050101",
+      "collection": "isbm"
+    },
+    {
+      "row": 319,
+      "code": "24010106",
+      "collection": "isbm"
+    },
+    {
+      "row": 320,
+      "code": "10000757",
+      "collection": "isbm"
+    },
+    {
+      "row": 321,
+      "code": "16100101",
+      "collection": "isbm"
+    },
+    {
+      "row": 322,
+      "code": "23040201",
+      "collection": "isbm"
+    },
+    {
+      "row": 323,
+      "code": "24060101",
+      "collection": "isbm"
+    },
+    {
+      "row": 324,
+      "code": "34020103",
+      "collection": "isbm"
+    },
+    {
+      "row": 325,
+      "code": "24030301",
+      "collection": "isbm"
+    },
+    {
+      "row": 326,
+      "code": "25020301",
+      "collection": "isbm"
+    },
+    {
+      "row": 327,
+      "code": "10000798",
+      "collection": "isbm"
+    },
+    {
+      "row": 328,
+      "code": "24020201",
+      "collection": "isbm"
+    },
+    {
+      "row": 329,
+      "code": "24020202",
+      "collection": "isbm"
+    },
+    {
+      "row": 330,
+      "code": "24020106",
+      "collection": "isbm"
+    },
+    {
+      "row": 331,
+      "code": "23050201",
+      "collection": "isbm"
+    },
+    {
+      "row": 332,
+      "code": "22030102",
+      "collection": "isbm"
+    },
+    {
+      "row": 333,
+      "code": "15060101",
+      "collection": "isbm"
+    },
+    {
+      "row": 334,
+      "code": "25010601",
+      "collection": "isbm"
+    },
+    {
+      "row": 335,
+      "code": "15060102",
+      "collection": "isbm"
+    },
+    {
+      "row": 336,
+      "code": "25070101",
+      "collection": "isbm"
+    },
+    {
+      "row": 337,
+      "code": "15040201",
+      "collection": "isbm"
+    },
+    {
+      "row": 338,
+      "code": "13030101",
+      "collection": "isbm"
+    },
+    {
+      "row": 339,
+      "code": "15040202",
+      "collection": "isbm"
+    },
+    {
+      "row": 340,
+      "code": "28030301",
+      "collection": "isbm"
+    },
+    {
+      "row": 341,
+      "code": "10000918",
+      "collection": "isbm"
+    },
+    {
+      "row": 342,
+      "code": "34010501",
+      "collection": "isbm"
+    },
+    {
+      "row": 343,
+      "code": "16020201",
+      "collection": "isbm"
+    },
+    {
+      "row": 344,
+      "code": "27010011",
+      "collection": "isbm"
+    },
+    {
+      "row": 345,
+      "code": "18020104",
+      "collection": "isbm"
+    },
+    {
+      "row": 346,
+      "code": "10000760",
+      "collection": "isbm"
+    },
+    {
+      "row": 347,
+      "code": "00000169",
+      "collection": "isbm"
+    },
+    {
+      "row": 348,
+      "code": "00000174",
+      "collection": "isbm"
+    },
+    {
+      "row": 349,
+      "code": "16010102",
+      "collection": "isbm"
+    },
+    {
+      "row": 350,
+      "code": "34040102",
+      "collection": "isbm"
+    },
+    {
+      "row": 351,
+      "code": "13010103",
+      "collection": "isbm"
+    },
+    {
+      "row": 352,
+      "code": "24030401",
+      "collection": "isbm"
+    },
+    {
+      "row": 353,
+      "code": "23010301",
+      "collection": "isbm"
+    },
+    {
+      "row": 354,
+      "code": "28070101",
+      "collection": "isbm"
+    },
+    {
+      "row": 355,
+      "code": "23030701",
+      "collection": "isbm"
+    },
+    {
+      "row": 356,
+      "code": "10000494",
+      "collection": "isbm"
+    },
+    {
+      "row": 357,
+      "code": "27020002",
+      "collection": "isbm"
+    },
+    {
+      "row": 358,
+      "code": "28050201",
+      "collection": "isbm"
+    },
+    {
+      "row": 359,
+      "code": "29120101",
+      "collection": "isbm"
+    },
+    {
+      "row": 360,
+      "code": "10000841",
+      "collection": "isbm"
+    }
+  ]
+}

@@ -1,46 +1,54 @@
 # FarmaNexo SV
 
-Dashboard en español con mapa, directorio, catálogo ISBM, consultas, historial, semáforo configurable y respaldos. Desplegado en GitHub Pages.
+Dashboard de farmacias con mapa, verificaciones de existencias, historial, semáforo configurable y catálogos separados. [Abrir en GitHub Pages](https://loshtpaht.github.io/FarmaNexo-SV/).
 
-## Datos incluidos
+## Acceso
 
-- 446 sucursales únicas; 343 activas. Los filtros permiten consultar todos los estados.
-- 109 medicamentos ISBM con 109 códigos únicos y secuencia completa del 1 al 109, revisados contra el archivo proporcionado.
-- Nombre genérico, composición, presentación del catálogo, tipo y unidad de medida conservados. La marca y presentación comercial se registra por consulta, por separado.
-- No se incluyen existencias ficticias. Aparecer en el mapa no confirma disponibilidad.
+**El dashboard no solicita contraseña. Solo el apartado Medicamentos ISBM está protegido.** Las sucursales, las fases 1 y 2 y el resto de la navegación permanecen disponibles. La contraseña anterior se conserva para ISBM. No se guarda en el repositorio ni en el navegador. Al recargar o pulsar Bloquear ISBM se cierra únicamente su acceso.
 
-Directorio importado el 12 de noviembre de 2026 desde [la hoja compartida](https://docs.google.com/spreadsheets/d/10Ko3nX_pYL2DHlkLcBniA7ugsgY9HCOv/edit). Catálogo: archivo `109 Medicamentos ISBM.xlsx`, correspondiente a [esta hoja](https://docs.google.com/spreadsheets/d/1GEHZB4FjPyt4lmneUyrbJ9RuHJRrSqc7/edit). Son instantáneas sin sincronización automática con Google Sheets o DoctorSV. Inspiración territorial: [Atlas](https://triggerspar07.github.io/Division-Territorial-de-Farmacias/).
+El catálogo ISBM se publica como un paquete AES-256-GCM, con PBKDF2-SHA256 de 600000 iteraciones y una sal aleatoria de 32 bytes. Las opciones ISBM para consultas se habilitan al desbloquear ese apartado. Los registros anteriores se conservan al recargar; mientras ISBM está bloqueado se muestra un nombre genérico para esos medicamentos.
 
-## Uso
+Esta protección no convierte GitHub Pages en un servidor con autenticación. El repositorio público y su historial contienen los datos fuente; los registros locales y sus respaldos no se cifran. Para permisos multiusuario o información confidencial compartida se necesita un backend.
 
-1. Busca una sucursal y registra una verificación.
-2. Selecciona medicamento, disponibilidad y cantidad en la unidad del catálogo; agrega presentación comercial, canal (Llamada, WhatsApp, NERD u Otro), fecha y persona que verificó.
-3. Revisa el semáforo y la sección Por revisar.
-4. Exporta un respaldo JSON frecuentemente. Importarlo en otro navegador combina los historiales. CSV permite consultar los registros en una hoja de cálculo.
+## Fuentes y conciliación
 
-### Reglas iniciales, configurables
+- Directorio: 446 sucursales únicas, 343 activas, importadas de [la hoja compartida](https://docs.google.com/spreadsheets/d/10Ko3nX_pYL2DHlkLcBniA7ugsgY9HCOv/edit) el 12 de noviembre de 2026.
+- Tarifas: archivo adjunto `TARIFAS MEDICAMENTOS-IMAGENES -LABORATORIOS ROLL OUT 12112025 v2.xlsx`, únicamente su hoja **Medicamentos**: 162 filas de primera fase, 78 de segunda y 119 destinadas a ISBM según la clasificación original.
+- Complemento: los 109 registros de `109 Medicamentos ISBM.xlsx` pertenecen a ISBM, como indicó el usuario. Se conservan su número, código, composición, presentación y unidad.
+
+| Apartado | Registros |
+|---|---:|
+| Primera fase | 162 |
+| Segunda fase | 78 |
+| ISBM | 124 presentaciones, correspondientes a 121 códigos |
+
+ISBM: 119 filas de tarifas + 109 del complemento − 104 coincidencias consolidadas = 124 registros. Se normalizan ceros iniciales para comparar códigos; DOXAZOCINA (169/00000169) y FENITOINA (174/00000174) se concilian sin cambiar los identificadores antiguos. Las descripciones alternativas y las referencias a filas fuente se conservan para búsqueda y auditoría.
+
+Se mantienen tres pares separados para confirmar diferencias de forma o envase: CALCIPOTRIOL + BETAMETASONA (gel/crema), DOMPERIDONA (suspensión oral/inyectable según la fuente), e INSULINA CRISTALINA (frasco 10 ml/pluma 3 ml). La discrepancia se señala; no se presupone equivalencia clínica. BETAMETASONA + ÁCIDO SALICÍLICO conserva una nota adicional porque tarifas dice loción/crema y el complemento especifica loción.
+
+AMIODARONA y LETROZOL aparecen en segunda fase en tarifas y en el complemento ISBM. Se conservan en sus apartados independientes con identificadores distintos, sin reclasificar las filas originales. Los 109 identificadores existentes se mantienen para preservar las verificaciones guardadas.
+
+El estado Activo/Inactivo se conserva tal como está en el archivo; no indica existencias en una sucursal. Las tarifas rollout con IVA se muestran cuando son numéricas; un dato ausente no se convierte a cero. Se conserva también el valor piloto en la procedencia. Las otras hojas del libro (imágenes, laboratorios, atenciones y auxiliares) no se agregan al catálogo de medicamentos.
+
+Los datos son instantáneas; no hay sincronización automática con Google Sheets o DoctorSV. La presentación comercial y disponibilidad se registran por consulta, sin inventar existencias. Inspiración territorial: [Atlas](https://triggerspar07.github.io/Division-Territorial-de-Farmacias/).
+
+## Seguimiento
 
 | Existencias reportadas | Amarillo | Rojo |
 |---|---|---|
-| Pocas: 1 a 5 unidades | Inmediatamente | Al día siguiente |
-| Normales: 6 a 19 o cantidad no informada | A los 2 días | A los 3 días |
+| Pocas: 1 a 5 | Inmediatamente | Al día siguiente |
+| Normales: 6 a 19, o cantidad no informada | A los 2 días | A los 3 días |
 | Altas: 20 o más | A los 3 días | A los 4 días |
 | Sin existencias | Al día siguiente | A los 2 días |
 | No confirmado | Inmediatamente | A los 3 días |
 
-Se usa la fecha de calendario de El Salvador. La consulta nueva conserva el historial y reemplaza la anterior para el seguimiento del par sucursal y medicamento. El estado se recalcula al abrir la página y cada minuto mientras está abierta. Los plazos son recordatorios, no estimaciones de consumo ni garantía de disponibilidad.
+Reglas configurables en fechas de El Salvador. Los plazos son recordatorios de consulta, no predicciones de consumo ni garantía de disponibilidad. La última consulta de cada par sucursal/medicamento define el seguimiento, conservando el historial. Las variantes tienen identificadores separados.
 
-## Almacenamiento
-
-GitHub Pages aloja archivos estáticos. Las verificaciones, medicamentos adicionales y reglas se guardan en localStorage del navegador y origen actuales. No existe sincronización entre usuarios o dispositivos, base de datos remota ni notificaciones con la página cerrada. Borrar los datos del navegador puede eliminar los registros. Cambiar de dominio, equipo, perfil o modo privado usa otro almacenamiento.
-
-El repositorio contiene el directorio y catálogo iniciales; las consultas no se envían a GitHub. Los respaldos exportados sí contienen los nombres y notas que registres. Se necesita un backend para compartir cambios entre personas o dispositivos.
-
-Mapa: Leaflet 1.9.4, OpenStreetMap con atribuciones. Fuentes: Google Fonts. Los enlaces de llamada y WhatsApp se habilitan para teléfonos de ocho dígitos; no se presupone que admitan WhatsApp.
+Los registros, medicamentos adicionales y reglas se guardan en localStorage del navegador y origen actuales. No hay sincronización entre usuarios/dispositivos ni avisos con la página cerrada. Exporta respaldos JSON frecuentemente; importarlos combina historiales. CSV permite revisar las consultas en hojas de cálculo. Borrar los datos del navegador puede eliminar los registros.
 
 ## Desarrollo
 
-Sin dependencias npm.
+El sitio y sus pruebas Node no requieren dependencias npm. GitHub Actions prueba y publica dist al cambiar main.
 
 ```sh
 npm test
@@ -48,26 +56,17 @@ npm run build
 python -m http.server 8000 --directory dist
 ```
 
-GitHub Actions ejecuta las pruebas y publica únicamente los archivos cifrados en `sealed/` con cada cambio a main.
+`public/` contiene la interfaz abierta y los catálogos de primera/segunda fase. `private/` contiene las fuentes normalizadas ISBM y el informe de conciliación; es una separación del empaquetado, no una restricción de lectura del repositorio público. `sealed/isbm.json` es el único paquete ISBM que se publica en Pages.
 
-## Apartado exclusivo ISBM
-
-Los 109 medicamentos complementarios del Excel están marcados con `collection: isbm` y se muestran solo en Medicamentos ISBM. Primera y segunda fase tienen listas independientes, inicialmente vacías porque no se han proporcionado sus catálogos. Los medicamentos adicionales antiguos se conservan como Sin clasificar; no se asignan automáticamente a ISBM. Las consultas y filtros agrupan las opciones por apartado.
-
-La hoja de Google compartida devuelve acceso requerido al revisarla en esta actualización. Se ha comprobado el Excel adjunto completo. Según la aclaración del usuario, este archivo complementa el listado principal y puede tener coincidencias con nombres diferentes. La integración del listado principal y su conciliación quedan pendientes de recibir una copia legible; no se afirma haber comparado la versión actual de esa hoja. No se deben unir medicamentos solo por parecido del nombre: revisar código, principio activo, concentración, forma y presentación.
-
-## Acceso con contraseña
-
-La página publicada solicita una contraseña antes de descifrar y abrir el dashboard. AES-256-GCM protege el paquete publicado y PBKDF2-SHA256 deriva la clave con 600000 iteraciones y una sal aleatoria de 32 bytes. La contraseña no se guarda en el repositorio, el código ni el navegador. Al recargar o pulsar Bloquear vuelve a solicitarse.
-
-GitHub Pages continúa siendo alojamiento estático: esto no es autenticación de servidor ni convierte el repositorio público en privado. El código fuente, el catálogo inicial y el historial anterior del repositorio siguen siendo públicos. Los registros personales locales y sus respaldos no se cifran con este acceso y conservan el funcionamiento anterior. Para permisos multiusuario o datos confidenciales compartidos hace falta un backend con autenticación.
-
-Para cambiar código dentro del dashboard, vuelve a cifrar antes de publicar:
+Para regenerar los catálogos con Python y openpyxl:
 
 ```sh
+python scripts/import-catalogs.py /ruta/al/archivo-de-tarifas.xlsx
 node scripts/seal.mjs
 npm test
 npm run build
 ```
 
-`seal.mjs` recibe por stdin una línea JSON con el campo `password`, de al menos 24 caracteres. Usa una terminal con eco deshabilitado o una herramienta de secretos. El paquete cifrado se guarda en `sealed/dashboard.json`, sin contraseña. `build.mjs` comprueba que el paquete corresponde exactamente al código actual y publica solo la pantalla de acceso y el paquete cifrado. Nunca se debe copiar `public/` directamente a Pages.
+`seal.mjs` recibe por stdin una línea JSON con el campo password, mínimo 24 caracteres. Usa una terminal con eco deshabilitado o una herramienta de secretos. El script cifra solo los datos ISBM. El build verifica que el paquete corresponde a las fuentes ISBM actuales y no publica la carpeta private.
+
+Mapa: Leaflet 1.9.4 y OpenStreetMap con atribuciones. Tipografías: Google Fonts. Los enlaces a WhatsApp no confirman que el teléfono admita ese canal.
