@@ -4,7 +4,7 @@ begin;
 
 create table public.farmanexo_team_access (
   email text primary key check (email = lower(email) and email <> ''),
-  role text not null check (role in ('viewer','editor','admin')),
+  role text not null check (role in ('viewer','editor','admin','blocked')),
   created_at timestamptz not null default now()
 );
 alter table public.farmanexo_team_access enable row level security;
@@ -15,6 +15,7 @@ language sql stable security definer set search_path = '' as $$
   select role from public.farmanexo_team_access
   where email = lower(coalesce(auth.jwt()->>'email',''))
     and auth.role() = 'authenticated'
+    and exists (select 1 from auth.users u where u.id = auth.uid() and u.email_confirmed_at is not null)
 $$;
 revoke all on function public.farmanexo_role() from public;
 grant execute on function public.farmanexo_role() to authenticated;
@@ -27,7 +28,10 @@ create table public.farmanexo_medications (
   received_at timestamptz not null default now(),
   check (custom_data is null or (jsonb_typeof(custom_data) = 'object'
     and coalesce(length(trim(custom_data->>'name')),0) between 1 and 500
-    and coalesce(length(trim(custom_data->>'presentation')),0) between 1 and 2000))
+    and coalesce(length(trim(custom_data->>'presentation')),0) between 1 and 2000
+    and coalesce(length(trim(custom_data->>'composition')),0) between 1 and 2000
+    and coalesce(length(trim(custom_data->>'type')),0) between 1 and 2000
+    and coalesce(length(trim(custom_data->>'unit')),0) between 1 and 2000))
 );
 insert into public.farmanexo_medications (id,collection) values
 ('phase1:23030203', 'phase1'),
@@ -869,6 +873,7 @@ create table public.farmanexo_verifications (
   notes text not null default '' check (length(notes) <= 3000),
   created_at timestamptz not null,
   created_by uuid not null default auth.uid() references auth.users(id),
+  author_email text not null default lower(auth.jwt()->>'email'),
   received_at timestamptz not null default now(),
   check ((availability = 'out' and quantity = 0)
     or (availability = 'unknown' and quantity is null)
@@ -879,10 +884,85 @@ alter table public.farmanexo_verifications enable row level security;
 create policy verifications_read_team on public.farmanexo_verifications for select to authenticated
   using (public.farmanexo_role() in ('viewer','editor','admin'));
 create policy verifications_add_team on public.farmanexo_verifications for insert to authenticated
-  with check (public.farmanexo_role() in ('editor','admin') and created_by = auth.uid());
+  with check (public.farmanexo_role() in ('editor','admin') and created_by = auth.uid() and author_email = lower(auth.jwt()->>'email'));
 -- No se conceden políticas UPDATE/DELETE: las consultas se conservan en el historial.
 
 grant select, insert on public.farmanexo_medications, public.farmanexo_verifications to authenticated;
 revoke all on public.farmanexo_medications, public.farmanexo_verifications from anon;
+
+-- Alta inicial de los dos administradores autorizados: requiere correo confirmado.
+create function public.farmanexo_claim_admin() returns text
+language plpgsql security definer set search_path = '' as $$
+declare e text; r text;
+begin
+  select lower(email) into e from auth.users where id = auth.uid() and email_confirmed_at is not null;
+  if e is null then raise exception 'Confirma tu correo para entrar al equipo'; end if;
+  select role into r from public.farmanexo_team_access where email = e;
+  if r is not null then return r; end if;
+  if encode(sha256(convert_to(e,'UTF8')),'hex') in ('a48e61ad492f9755b3b81365a93511e67ab01fdf3ce68456db1d2c1dee3389b1','74e78afd47e67e5347fa40cb1c1d09c6e8167ddb6d4c511e54bb4dfdae90a5bc') then
+    insert into public.farmanexo_team_access(email,role) values(e,'admin') on conflict do nothing;
+  end if;
+  return public.farmanexo_role();
+end $$;
+revoke all on function public.farmanexo_claim_admin() from public;
+grant execute on function public.farmanexo_claim_admin() to authenticated;
+
+create function public.farmanexo_manage_member(p_email text,p_role text) returns void
+language plpgsql security definer set search_path = '' as $$
+begin
+  if public.farmanexo_role() <> 'admin' or public.farmanexo_role() is null then raise exception 'Solo administradores'; end if;
+  if p_role not in ('viewer','editor','admin','blocked') or p_email is null or p_email !~ '^[^@[:space:]]+@[^@[:space:]]+\.[^@[:space:]]+$' then raise exception 'Correo o rol no válido'; end if;
+  lock table public.farmanexo_team_access in exclusive mode;
+  if p_role <> 'admin' and exists(select 1 from public.farmanexo_team_access where email=lower(trim(p_email)) and role='admin') and (select count(*) from public.farmanexo_team_access where role='admin') <= 1 then raise exception 'Debe conservarse al menos un administrador'; end if;
+  insert into public.farmanexo_team_access(email,role) values(lower(trim(p_email)),p_role) on conflict(email) do update set role=excluded.role;
+end $$;
+revoke all on function public.farmanexo_manage_member(text,text) from public;
+grant execute on function public.farmanexo_manage_member(text,text) to authenticated;
+
+create function public.farmanexo_members() returns table(email text,role text)
+language plpgsql stable security definer set search_path = '' as $$
+begin
+  if public.farmanexo_role() <> 'admin' or public.farmanexo_role() is null then raise exception 'Solo administradores'; end if;
+  return query select a.email,a.role from public.farmanexo_team_access a order by a.email;
+end $$;
+revoke all on function public.farmanexo_members() from public;
+grant execute on function public.farmanexo_members() to authenticated;
+
+create function public.farmanexo_rules_valid(r jsonb) returns boolean
+language plpgsql immutable set search_path = '' as $$
+declare k text; n numeric;
+begin
+  if r is null or jsonb_typeof(r) <> 'object' then return false; end if;
+  foreach k in array array['low','high','normalWarn','normalDue','highWarn','highDue','lowDue','outWarn','outDue'] loop
+    if not (r ? k) or jsonb_typeof(r->k) <> 'number' then return false; end if;
+    n := (r->>k)::numeric;
+    if n < 1 or n > 365 or trunc(n) <> n then return false; end if;
+  end loop;
+  return (r->>'high')::numeric > (r->>'low')::numeric and (r->>'normalDue')::numeric > (r->>'normalWarn')::numeric and (r->>'highDue')::numeric > (r->>'highWarn')::numeric and (r->>'outDue')::numeric > (r->>'outWarn')::numeric;
+exception when others then return false;
+end $$;
+
+create table public.farmanexo_settings(
+  id integer primary key check(id=1),
+  rules jsonb not null check(public.farmanexo_rules_valid(rules)),
+  revision bigint not null default 1,
+  updated_by uuid references auth.users(id),
+  updated_at timestamptz not null default now()
+);
+insert into public.farmanexo_settings(id,rules) values(1,'{"low":5,"high":20,"normalWarn":2,"normalDue":3,"highWarn":3,"highDue":4,"lowDue":1,"outWarn":1,"outDue":2}');
+alter table public.farmanexo_settings enable row level security;
+create policy settings_read_team on public.farmanexo_settings for select to authenticated using(public.farmanexo_role() in ('viewer','editor','admin'));
+create policy settings_update_admin on public.farmanexo_settings for update to authenticated using(public.farmanexo_role()='admin') with check(public.farmanexo_role()='admin' and updated_by=auth.uid());
+grant select,update on public.farmanexo_settings to authenticated;
+revoke all on public.farmanexo_settings from anon;
+create function public.farmanexo_settings_revision() returns trigger language plpgsql set search_path='' as $$
+begin
+  if new.revision <> old.revision+1 then raise exception 'Conflicto de versión de reglas'; end if;
+  new.updated_at := now(); new.updated_by := auth.uid(); return new;
+end $$;
+create trigger farmanexo_settings_revision before update on public.farmanexo_settings for each row execute function public.farmanexo_settings_revision();
+
+-- Realtime: se conserva además una comprobación periódica del cliente.
+alter publication supabase_realtime add table public.farmanexo_verifications,public.farmanexo_medications,public.farmanexo_settings,public.farmanexo_team_access;
 
 commit;
