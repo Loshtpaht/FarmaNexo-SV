@@ -78,3 +78,19 @@ npm run build
 `seal.mjs` recibe por stdin una línea JSON con el campo password, mínimo 24 caracteres. Usa una terminal con eco deshabilitado o una herramienta de secretos. El script cifra solo los datos ISBM. El build verifica que el paquete corresponde a las fuentes ISBM actuales y no publica la carpeta private.
 
 Mapa: Leaflet 1.9.4 y OpenStreetMap con atribuciones. Tipografías: Google Fonts. Los enlaces a WhatsApp no confirman que el teléfono admita ese canal.
+
+## Existencias ERP
+
+La vista **Existencias ERP** consulta directamente el corte publicado en Supabase: **96.192 saldos, 461 centros y 232 artículos**. Fuente: [reporte de existencias compartido](https://docs.google.com/spreadsheets/d/1XS-kz-zTfH9U8Bcu9HdQvXJbwuBo6jpeTMn9Yu7CuUo/edit?gid=859034083). La pestaña `ReporteExistencias_I20_20261117` indica corte del **17 de noviembre de 2026**, sin hora; la importación se realizó el 18 de noviembre UTC (17 en El Salvador). Esto es una instantánea del archivo; las verificaciones posteriores del equipo sí se comparten en tiempo real.
+
+Los 232 artículos coinciden por código exacto o alias P2H, normalizando ceros iniciales, con los catálogos existentes. Se conservan las clasificaciones ISBM/fases; un artículo con dos referencias de catálogo no se suma dos veces. Cada par centro/artículo tiene un solo saldo en el archivo. Las unidades se explican junto al empaque original: TAB tabletas, INH inhaladores, FRA frascos, TUB tubos, AMP ampollas, VIA viales, SOB sobres, TAR tarros, TTO tratamientos y PZA piezas. Si solo aparece `/ 1`, se muestra «unidad no especificada en el ERP». No se deducen cantidades por caja.
+
+Se importaron **95.344 positivos, 301 ceros y 547 negativos**. Los negativos mantienen su signo y requieren revisión. La suma de control (65.468.867) se utiliza exclusivamente para comprobar integridad; no se presenta como un total de unidades entre medicamentos y empaques distintos.
+
+Hay **374 centros vinculados** al directorio (250 nombres normalizados exactos y 124 prefijos únicos truncados por la fuente, siempre dentro de la misma cadena y con correspondencia uno a uno). Los **87 pendientes** incluyen centros logísticos, sucursales nuevas y nombres ambiguos. Todos sus saldos siguen visibles; no se inventan ubicaciones ni vínculos. La conciliación está en [docs/erp-centers-20261117.csv](docs/erp-centers-20261117.csv) y las cifras de control en [docs/erp-import-20261117.json](docs/erp-import-20261117.json).
+
+La vista incluye búsqueda, filtros, paginación en servidor, unidades completas, tarjetas en móvil y exportación CSV de la página consultada. Las fichas de sucursal muestran un acceso a sus saldos. Al seleccionar un medicamento en el directorio/mapa se usa su saldo ERP como referencia, salvo que haya una consulta del mismo día o posterior. La falta de una fila no se interpreta como saldo cero.
+
+**Actualizar** conserva el reporte original y registra una verificación nueva mediante el flujo público existente. La cantidad ERP se muestra como referencia; quien consulta debe confirmar la cantidad y la unidad antes de guardar. El historial conserva las consultas antiguas. La contraseña ISBM continúa protegiendo su apartado.
+
+Para preparar una futura importación, descarga el XLSX y ejecuta `python scripts/prepare-erp.py /ruta/reporte.xlsx /ruta/salida` con openpyxl instalado. El script valida columnas, unicidad, cantidades enteras y correspondencias de artículos. La carga privilegiada debe crear un corte en estado `staging`, insertar centros/artículos/saldos, comparar todas las filas y controles, y publicar atómicamente solo después de verificar. El SQL inicial está en `supabase/erp-inventory.sql`; ya está aplicado y no debe repetirse en producción. El importador temporal utilizado para esta carga quedó cerrado y no se publica ninguna credencial administrativa.

@@ -1,0 +1,25 @@
+{
+  "source_hash": "ebaa27556d59f4853dd8291414cd3df52492f27b41f8bb3f0e0ba4a5489b4c2b",
+  "sheet_name": "ReporteExistencias_I20_20261117",
+  "row_count": 96192,
+  "center_count": 461,
+  "article_count": 232,
+  "positive_count": 95344,
+  "zero_count": 301,
+  "negative_count": 547,
+  "linked_center_count": 374,
+  "quantity_sum": 65468867,
+  "quantity_min": -4465,
+  "quantity_max": 2991600,
+  "mapping_methods": {
+    "exact": 250,
+    "unmatched": 25,
+    "unique_prefix": 124,
+    "ambiguous": 62
+  },
+  "report_date": "2026-11-17",
+  "date_basis": "Worksheet name; source has no time of day",
+  "import_date_utc": "2026-11-18",
+  "source_url": "https://docs.google.com/spreadsheets/d/1XS-kz-zTfH9U8Bcu9HdQvXJbwuBo6jpeTMn9Yu7CuUo/edit?gid=859034083",
+  "rows_digest_md5": "56f81c02eaabc7280a8e82046a97078a"
+}

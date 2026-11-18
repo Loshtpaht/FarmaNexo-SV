@@ -38,3 +38,11 @@ El esquema inicial está en shared-database.sql. La ampliación de edición púb
 También se comprobó el flujo real de Supabase desde navegadores independientes: escritura por API, distribución Realtime, enlaces personales de un uso y separación de ISBM. Las cuentas y los recuentos temporales de prueba se retiran antes de la entrega.
 
 Los índices nuevos pueden aparecer temporalmente como [índices sin uso](https://supabase.com/docs/guides/database/database-linter?lint=0005_unused_index) mientras la base comienza a utilizarse. El proveedor recomienda [protección frente a contraseñas filtradas](https://supabase.com/docs/guides/auth/password-security#password-strength-and-leaked-password-protection); la aplicación utiliza enlaces de acceso y no contraseñas de cuentas.
+
+## Corte ERP
+
+`erp-inventory.sql` añade cuatro tablas con RLS: importaciones, centros, artículos y saldos. Los visitantes únicamente pueden leer un corte publicado; no pueden cambiar ni eliminar sus filas. Los registros en preparación permanecen ocultos. Las verificaciones públicas siguen siendo editables mediante nuevas entradas en su tabla original.
+
+Tres RPC `SECURITY INVOKER` entregan metadatos, consultas paginadas y saldos por medicamento. Los índices cubren claves foráneas, centro/artículo y referencias de catálogo. Realtime notifica la publicación de nuevos cortes; las verificaciones posteriores siguen usando el canal compartido existente. No se envían los 96.192 saldos al navegador al abrir el sitio.
+
+La importación del 18 de noviembre UTC fue verificada comparando un digest de las 96.192 filas ordenadas (fila fuente, centro, artículo y cantidad), conteos, rangos y suma de control. Se conservaron las cuatro verificaciones reales anteriores. Las pruebas temporales de edición y Realtime se retiraron después de comprobar el flujo entre navegadores independientes.
